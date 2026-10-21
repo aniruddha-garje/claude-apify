@@ -1,6 +1,8 @@
 # Project guide: three Apify Actors
 
-Author: Aniruddha Garje. This guide explains what each part of this repository does. It is written for two readers: a person who wants to understand or extend the code, and an AI assistant such as Claude that is handed this repository and needs to make sense of it quickly. If you are an assistant, read sections 1 to 4 first, then section 7 before you change anything.
+Author: Aniruddha Garje. Code: https://github.com/aniruddha-garje/claude-apify
+
+This guide explains what each part of this repository does. It is written for two readers: a person who wants to understand or extend the code, and an AI assistant such as Claude that is handed this repository and needs to make sense of it quickly. If you are an assistant, read sections 1 to 4 first, then section 7 before you change anything.
 
 ## 1. What this repository is
 
