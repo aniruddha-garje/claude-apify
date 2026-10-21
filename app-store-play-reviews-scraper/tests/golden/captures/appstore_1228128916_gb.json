@@ -1,0 +1,80 @@
+{
+ "store": "appStore",
+ "appId": "1228128916",
+ "country": "gb",
+ "method": "Playwright Chromium, apps.apple.com Ratings & Reviews page (DOM); oldest 10 of the reviews shown",
+ "capturedAt": "2026-10-11T06:57:25Z",
+ "url": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+ "items": [
+  {
+   "reviewId": "7375550613",
+   "rating": 5,
+   "dateTime": "2021-05-22T20:19:07.000Z",
+   "title": "Simply does what you want",
+   "text": "I have tried the majority of the Havit Apps on the app store.I used to use Habit but it's owner sold out and now there's a pay well.I fully recommend this app, as there is:No gimmicks.No faffing around with endless feature and complicated settings No limit on habitsColours are customisable.There's a widget.However there is a couple of bugs then I have found:1. When reordering habits sometimes one disappears... It comes back if you reopen the app, it's not bee a problem for me cos I rarely reorder. But I am sure it could be seen to.2. The notifications come thru in multiples... And I noticed they grew exponentially, from about 5 duplicates for one habit, adding one more a day... In the end I just turned them off. I personally don't use the notifications but I could see how this would make the app redundant for some who would rely on them.I sincerely hope that the creator of this app does not sell out in a few years by adding showy features like social/silly graphics/excessive graphs/etc or subscriptions or limit the number of habits. I respect people need to make a living/pay to keep apps going and working with updates, but by keeping this as simple and effective as possible, they could add a suggested one-off donation or just keep proving something that all the other habit apps lost sight of and you’ll always have grateful users."
+  },
+  {
+   "reviewId": "8896455029",
+   "rating": 5,
+   "dateTime": "2022-07-21T11:33:04.000Z",
+   "title": "Simple and effective",
+   "text": "I’ve tried a few different habit trackers, including habit features built into apps I already use, but they all frustrated me in some may. Either too complicated or poor visual display. Thankfully Habitty solves all of those problems by being simple to set up, easy to use and having a clean but effective interface. Daily use provides pop up reminders, super quick check off system and a view of the last few days achievements, which is exactly the level of motivation I need. No digging into menus to see this info or having to generate a chart. Great work I love it."
+  },
+  {
+   "reviewId": "9467573341",
+   "rating": 3,
+   "dateTime": "2023-01-03T20:11:59.000Z",
+   "title": "Good but could be better",
+   "text": "I really like this app, it’s simple and easy to set up and tick off. However, I think there’s one flaw. If you set a habit to be done, say, just 2 times a week, ticking that habit twice in one week should complete the ring. But it doesn’t!  This is a bit unsatisfying and, at a glance, you can’t see that you have fulfilled your quota for that habit. Is there any way this could be modified?"
+  },
+  {
+   "reviewId": "9982048803",
+   "rating": 4,
+   "dateTime": "2023-05-30T21:37:33.000Z",
+   "title": "Notifications",
+   "text": "Its nice and simple. Its also great that theres no ads like the rest of the other apps. But just to point out a bug, when you have notifications set it sometimes sends multiple notifications through for a single habit. But so far this is a big recommendation from me.Also would be cool if there was a dark mode and also functional widgets for the new ios platorm"
+  },
+  {
+   "reviewId": "10191574636",
+   "rating": 4,
+   "dateTime": "2023-07-28T13:17:33.000Z",
+   "title": "Fantastic app but wish I could see a whole week",
+   "text": "I’ve been looking for a habit tracker. Something without gimmicks and just promotes positive reinforcement. What I love is I can list all the things I tend to forget. Get them out of my head and use this app to keep accountable instead. You can set up daily habits and for once a week which is great. My only wish is that you could see a whole week but it only shows past five days. Which makes weekly tracking not as easy."
+  },
+  {
+   "reviewId": "10634277441",
+   "rating": 2,
+   "dateTime": "2023-11-28T10:38:30.000Z",
+   "title": "Would’ve been great",
+   "text": "It would’ve been amazing if only it didn’t remove some of the the habits you’ve ticked making it look like u didn’t do them. It’s too much to try to always keep track of them it defeats the purpose of recording ur habits Second thing is there is no choice for custom setup such as Every 3 days only daily per week or specific days If these two things changed along with a whole calendar overview it would be 5stars"
+  },
+  {
+   "reviewId": "13759641155",
+   "rating": 5,
+   "dateTime": "2026-02-17T17:06:40.000Z",
+   "title": "Erased all my past habit data and now has a paywall for habits",
+   "text": "This app was 5 stars as it had all the simple features of a habit tracker app with no limits and no subscription forcing to get more, unfortunately it has gone down that route like all 20 other habit trackers app that are the same."
+  },
+  {
+   "reviewId": "13772454197",
+   "rating": 3,
+   "dateTime": "2026-02-21T08:19:54.000Z",
+   "title": "Erased all my data with the new update",
+   "text": "I’m not sure how to get in touch with the developers of the app, so I decided to leave a review here. I’ve been using the app for a while and loved it. It was simple and free, but recently the new update was released that requires you to make a payment for further use. That’s understandable. The issue is all the habits I had in the app have disappeared, which is frustrating. As obviously, I was relying on the app and storing the information there. Is there any way to get back to my profile?"
+  },
+  {
+   "reviewId": "13772748864",
+   "rating": 1,
+   "dateTime": "2026-02-21T10:35:01.000Z",
+   "title": "Ruined it and screwed over legacy users with one update",
+   "text": "Used to be a 5 star app hands down. This app was great. It did what it said on the box: track habits, graph goes up as you tick habits as you completed them every day. Great. I am pretty sure I even paid the one off fee for unlimited habits, colouring etc.. I had my qualms with it, like how when you maxed out a habit it was basically impossible for it to go down even if you never practiced it, or on the other extreme how hard it was to get a habit past 20%. But now, an update and I am welcome with a questionnaire about my personal details I'd rather not share, and then I have to pay a subscription of minimum £2 a month for what is essentially a tickbox linked to graph app you could replace with a well built Excel sheet. Also it just erased three years worth of habit data I had built so far. It unfortunately feels like nothing in this update was made accommodate legacy users or even make them feel seen. I feel completely screwed over. It's an uninstall and bye-bye from me. Shame because the app was nice."
+  },
+  {
+   "reviewId": "14529670030",
+   "rating": 1,
+   "dateTime": "2026-09-09T15:48:41.000Z",
+   "title": "I used this app but then uninstalled it.",
+   "text": "I have a very negative experience with this app. I bought it with the one-time purchase option available at that time, thinking it would stay forever with me. One day, I discovered that all my tracking data was completely gone since the owner of the app decided to make more money with a new subscription model. I understand the purpose (we all need to buy food and pay bills, right?), however, they should have ensured that old users could keep the simple app model they paid for and definitely wouldn’t lose their progress. I have another app I bought in 2016. The owner also switched it to a subscription model with many new features in 2020, but he was much cleverer than the Habitty app owner. He kept that old interface app for old users who bought lifetime access. I still use that app from time to time and recommend it to others. I definitely don't recommend Habitty since it's a very unreliable app 😐"
+  }
+ ]
+}

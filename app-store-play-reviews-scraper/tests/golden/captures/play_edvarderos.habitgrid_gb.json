@@ -1,0 +1,17 @@
+{
+ "store": "googlePlay",
+ "appId": "edvarderos.habitgrid",
+ "country": "gb",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 1 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:58:14Z",
+ "url": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=gb",
+ "items": [
+  {
+   "reviewId": "e83c1c81-5f69-4169-8ca4-65008897cec2",
+   "rating": 5,
+   "dateText": "January 28, 2026",
+   "text": "Please add the sound of rewarding when I click complete"
+  }
+ ]
+}

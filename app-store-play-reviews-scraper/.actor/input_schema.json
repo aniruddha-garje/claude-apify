@@ -1,0 +1,195 @@
+{
+    "title": "App Store & Google Play Reviews Scraper input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "apps": {
+            "title": "Apps (paste the store links)",
+            "type": "array",
+            "description": "Paste each app's App Store or Google Play link, copied from the address bar, for example https://apps.apple.com/us/app/whatsapp-messenger/id310633997 or https://play.google.com/store/apps/details?id=com.whatsapp. You do not need to look up an ID. Optional: if you already have them, App Store IDs (310633997) and Google Play package names (com.whatsapp) work too. Mix both stores in one list.",
+            "editor": "stringList",
+            "prefill": [
+                "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+                "https://play.google.com/store/apps/details?id=com.whatsapp"
+            ],
+            "example": [
+                "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+                "https://play.google.com/store/apps/details?id=com.whatsapp"
+            ]
+        },
+        "stores": {
+            "title": "Stores",
+            "type": "array",
+            "description": "Which stores to read. Apps from a store that is not selected are skipped.",
+            "editor": "select",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "appStore",
+                    "googlePlay"
+                ],
+                "enumTitles": [
+                    "Apple App Store",
+                    "Google Play"
+                ]
+            },
+            "default": [
+                "appStore",
+                "googlePlay"
+            ],
+            "example": [
+                "appStore",
+                "googlePlay"
+            ]
+        },
+        "countries": {
+            "title": "Countries",
+            "type": "array",
+            "description": "Two-letter ISO 3166 country codes, for example us or gb. Every row carries the country it came from. Apple's feed gives up to 500 reviews per country and sort order, so more countries means more App Store reviews.",
+            "editor": "stringList",
+            "prefill": [
+                "us"
+            ],
+            "default": [
+                "us"
+            ],
+            "example": [
+                "us",
+                "gb"
+            ]
+        },
+        "languages": {
+            "title": "Languages (Google Play)",
+            "type": "array",
+            "description": "Google Play language codes such as en, de or pt-BR. Apple's feed has no language filter; it follows the country.",
+            "editor": "stringList",
+            "default": [
+                "en"
+            ],
+            "example": [
+                "en"
+            ]
+        },
+        "sort": {
+            "title": "Sort order",
+            "type": "string",
+            "description": "newest, mostHelpful or rating. Apple's feed has no rating sort, so App Store apps fall back to newest when rating is chosen.",
+            "editor": "select",
+            "enum": [
+                "newest",
+                "mostHelpful",
+                "rating"
+            ],
+            "enumTitles": [
+                "Newest",
+                "Most helpful",
+                "Rating"
+            ],
+            "default": "newest",
+            "example": "newest"
+        },
+        "appStoreSource": {
+            "title": "App Store source",
+            "type": "string",
+            "description": "auto: Apple's public review feed (with app version and vote counts), switching to the App Store website for an app and country when the feed serves no reviews. website: always the App Store website, which goes past the feed's 500 reviews per country and sort order but has no app version or vote counts.",
+            "editor": "select",
+            "enum": [
+                "auto",
+                "website"
+            ],
+            "enumTitles": [
+                "Auto: feed, then website when the feed is down",
+                "App Store website (more than 500 reviews)"
+            ],
+            "default": "auto",
+            "example": "website"
+        },
+        "maxReviewsPerApp": {
+            "title": "Max reviews per app, store and country",
+            "type": "integer",
+            "description": "Honoured exactly for each app, store, country (and language on Google Play). Set 0 for no limit. If a store runs out first, the log and the RUN_SUMMARY record say why.",
+            "minimum": 0,
+            "prefill": 20,
+            "default": 500,
+            "example": 200
+        },
+        "since": {
+            "title": "Only reviews since",
+            "type": "string",
+            "description": "ISO date or date-time, for example 2026-09-01. Only reviews on or after it are returned, which suits scheduled runs. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/collect-only-new-app-reviews-each-week.html\" target=\"_blank\">Read an example</a>.",
+            "editor": "datepicker",
+            "example": "2026-09-01"
+        },
+        "ratings": {
+            "title": "Star ratings",
+            "type": "array",
+            "description": "Keep only these star ratings, for example 1 and 2 for complaints. Leave empty for all. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/star-ratings-in-4608-app-reviews.html\" target=\"_blank\">Read an example</a>.",
+            "editor": "select",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            "default": [],
+            "example": [
+                "1",
+                "2"
+            ]
+        },
+        "includeDeveloperReplies": {
+            "title": "Include developer replies",
+            "type": "boolean",
+            "description": "Adds the developer's reply text and date (Google Play). Apple's public feed does not include replies. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/developer-replies-in-google-play-reviews.html\" target=\"_blank\">Read an example</a>.",
+            "default": true,
+            "example": true
+        },
+        "includeReviewerInfo": {
+            "title": "Include reviewer names and profile links",
+            "type": "boolean",
+            "description": "Off by default for privacy. When on, rows add userName, userUrl (App Store) and userImage (Google Play).",
+            "default": false,
+            "example": false
+        },
+        "continueOnError": {
+            "title": "Continue on error",
+            "type": "boolean",
+            "description": "Skip an app or page that keeps failing and report it in RUN_SUMMARY, instead of stopping the run.",
+            "default": true,
+            "example": true
+        },
+        "canary": {
+            "title": "Drift canary (advanced)",
+            "type": "object",
+            "description": "For scheduled monitoring runs. Example: {\"baselineStore\": \"canary-baseline\", \"thresholdPoints\": 5}. The first run saves the null rate of key fields (and the mix of a status field) to that named key-value store; later runs compare and fail with an alert if any value moves by more than thresholdPoints percentage points. Leave empty for normal runs.",
+            "editor": "json",
+            "sectionCaption": "Advanced",
+            "example": {
+                "baselineStore": "canary-baseline",
+                "thresholdPoints": 5
+            }
+        },
+        "proxyConfiguration": {
+            "title": "Proxy",
+            "type": "object",
+            "description": "Apify Proxy datacenter IPs are enough for both stores.",
+            "editor": "proxy",
+            "prefill": {
+                "useApifyProxy": true
+            },
+            "default": {
+                "useApifyProxy": true
+            },
+            "example": {
+                "useApifyProxy": true
+            }
+        }
+    },
+    "required": [
+        "apps"
+    ]
+}

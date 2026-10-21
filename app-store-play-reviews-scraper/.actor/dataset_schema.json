@@ -1,0 +1,43 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "type": "object",
+        "properties": {
+            "schemaVersion": { "type": "integer" },
+            "store": { "type": "string", "enum": ["appStore", "googlePlay"] },
+            "appId": { "type": "string" },
+            "country": { "type": "string" },
+            "language": { "type": ["string", "null"] },
+            "reviewId": { "type": "string" },
+            "rating": { "type": "integer" },
+            "title": { "type": ["string", "null"] },
+            "text": { "type": "string" },
+            "date": { "type": "string" },
+            "appVersion": { "type": ["string", "null"] },
+            "thumbsUpCount": { "type": ["integer", "null"] },
+            "voteCount": { "type": ["integer", "null"] },
+            "developerReply": { "type": ["string", "null"] },
+            "developerReplyDate": { "type": ["string", "null"] },
+            "reviewUrl": { "type": "string" },
+            "userName": { "type": ["string", "null"] },
+            "userUrl": { "type": ["string", "null"] },
+            "userImage": { "type": ["string", "null"] }
+        },
+        "required": ["schemaVersion", "store", "appId", "country", "reviewId", "rating", "text", "date", "reviewUrl"]
+    },
+    "views": {
+        "overview": {
+            "title": "Reviews",
+            "transformation": {
+                "fields": ["store", "appId", "country", "rating", "title", "text", "date", "appVersion", "thumbsUpCount", "developerReply", "reviewUrl"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "reviewUrl": { "label": "Review link", "format": "link" },
+                    "date": { "format": "date" }
+                }
+            }
+        }
+    }
+}

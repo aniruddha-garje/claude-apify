@@ -1,0 +1,16 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Google Hotels Scraper output",
+    "properties": {
+        "hotels": {
+            "type": "string",
+            "title": "Hotel prices and offers",
+            "template": "{{links.apiDefaultDatasetUrl}}/items?view=hotels"
+        },
+        "stats": {
+            "type": "string",
+            "title": "Run statistics (pages, blocked responses, errors)",
+            "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/RUN_STATS"
+        }
+    }
+}

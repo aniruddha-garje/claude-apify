@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "com.whatsapp",
+ "country": "au",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 140 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:59:37Z",
+ "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+ "items": [
+  {
+   "reviewId": "10044eed-8a25-4835-b032-cfdc3e0cbc87",
+   "rating": 2,
+   "dateText": "August 21, 2026",
+   "text": "It's steadily getting worse. AI \"Features\" and all the other clutter just keeps clogging the app. I liked Whatsapp because it was just a no frills messenger. Also i found out the hard way if i install the app on a new phone it wipes all my chat histories as a \"safety\" precaution? It's still better than some options, but seemingly those days are numbered"
+  },
+  {
+   "reviewId": "fb3128b3-8960-4f9b-8b2e-88fbdbccffe5",
+   "rating": 4,
+   "dateText": "April 8, 2026",
+   "text": "I've been using Whatsapp for years now, and it's a very good way to communicate with others! but there's one problem that there's this profile picture glitch that only one contact can't see my picture and neither do I,the problem is we didn't block each other or excluded each other, I hope you fix this problem soon! overall the app is very powerful and useful."
+  },
+  {
+   "reviewId": "5785471f-9975-4cab-b5f7-bc6c8516ff93",
+   "rating": 4,
+   "dateText": "May 5, 2026",
+   "text": "The app is overall very nice. But I've recently started to face a problem with the new avatar feature. My WhatsApp is up to date, but it doesn't show the avatar option in the settings. But when I go to search in settings and type \"Avatar\" it shows the option. And when I click on the option, nothing happens. So I'm not able to use the avatar feature due to this issue. Rest is okay."
+  },
+  {
+   "reviewId": "4e57fe69-13cd-4437-8d42-d0fd94bbe807",
+   "rating": 4,
+   "dateText": "February 28, 2026",
+   "text": "I love this app. It’s very easy to use, and I’ve been using it for years to stay connected with the people I love. But I really wish there was a feature that allows us to access call history in a deeper way....like being able to download or save parts of our voice calls or video calls (with permission, of course😅). Sometimes very wholesome and meaningful moments happen during calls, and we don’t think to record them at the time."
+  },
+  {
+   "reviewId": "3fb2d63f-9d1a-4a57-abed-e4bdfa45ef0c",
+   "rating": 3,
+   "dateText": "February 17, 2026",
+   "text": "Currently using the \"lock immediately\" feature on WhatsApp and every time I enter my code to open the app it closes and it takes a couple tries before I amablento fully use the app. Also, I get notified of a message, when I go to check the message isn't there, but the notificattion still is, then I have to exit the app multiple times and go back to finally recieve the message. Please fix as it is frustrating to use."
+  },
+  {
+   "reviewId": "bd39b7cf-62ec-480b-a3b5-f2fb3e60eeed",
+   "rating": 3,
+   "dateText": "March 14, 2025",
+   "text": "I used to appreciate this app alot, still do. But now that it's becoming very common for more and more people to use this app for calls aswell, it's become very obvious to me that -after all these years- the quality for voice calls is still unacceptable. There seems to be a constant risk of WhatsApp repeatedly \"reconnecting to the network\" even if both/all participants have full network signal. This applies to both, mobile internet aswell as WiFi. Very disappointing, would give 5* otherwise."
+  },
+  {
+   "reviewId": "f62c7bee-4edd-4018-8fab-f81a51b907ed",
+   "rating": 4,
+   "dateText": "June 27, 2025",
+   "text": "I travel a lot so it's helped me keep in touch with ppl. The only complaint I have is that there are glitches with calling or text sounds. Quite often someone says they've been trying to call me and I see the notification but it didn't ring. Also, it would be nice if a deleted or edited message didn't say deleted /edited"
+  },
+  {
+   "reviewId": "15bc7422-1846-4ae1-81b0-4a1c8846067b",
+   "rating": 2,
+   "dateText": "June 7, 2025",
+   "text": "Update mid '25. I have used WhatsApp for ages now, but still, they haven't sorted out yet a better solution for the storage of the media sent over the chats. Why a different folder for WhatsApp media? Why do you force me to have a photo I already have in my phone (because I took it) also in the \"sent\" folder as a duplicate? Also, the new video limit of size/duration is a nightmare. You don't even storage people's media, what's you problem? that's just annoying"
+  },
+  {
+   "reviewId": "072b86a0-efb5-4e1c-9fe5-7b0f6b8988f5",
+   "rating": 2,
+   "dateText": "July 1, 2025",
+   "text": "The photo sending function is rather messed up after the update, despite clicking on \"view more\" to see all of my folders I only get a handful. Accidentally sending gifs while scrolling or without adding a caption is rather irritating due to the one click and send function and for the past few days whenever I search gifs I am met with \"check your device's internet connection\" which hardly goes away...."
+  },
+  {
+   "reviewId": "9b040475-9315-468e-89f9-0dd13c21afab",
+   "rating": 2,
+   "dateText": "September 16, 2025",
+   "text": "My experience with WhatsApp has been pleasant until very recently. Since the last update, when I share any link in a message, I can no longer add any caption or comment about the link before sharing (unlike before). From now on, I have to edit to insert commentary after sharing to say something about the link. Please fix this issue ASAP. Thanks."
+  }
+ ]
+}

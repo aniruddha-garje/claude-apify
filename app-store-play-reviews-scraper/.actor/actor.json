@@ -1,0 +1,15 @@
+{
+    "actorSpecification": 1,
+    "name": "app-store-play-reviews-scraper",
+    "title": "iOS App Store & Google Play Reviews Scraper and API",
+    "description": "Use to export Apple App Store and Google Play reviews for given apps and countries. Input: App Store IDs or links and Play package names or links, plus countries. Returns one row per review: rating, text, ISO date, app version, country, developer reply. $0.12 per 1,000 reviews.",
+    "version": "0.1",
+    "buildTag": "latest",
+    "input": "./input_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile",
+    "defaultMemoryMbytes": 1024
+}

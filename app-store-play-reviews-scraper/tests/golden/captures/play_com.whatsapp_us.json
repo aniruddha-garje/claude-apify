@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "com.whatsapp",
+ "country": "us",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 140 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:59:04Z",
+ "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+ "items": [
+  {
+   "reviewId": "d40bb75a-d1a5-44b3-863d-c8624445efe9",
+   "rating": 1,
+   "dateText": "August 28, 2026",
+   "text": "The most useless app I've encountered since apps were invented. I have it on my phone, and whenever I try to link it to another device - PC or tablet, using their app - the account is placed under review, during which time I can't use it, without explanation. There is no customer support as such, just what seems to be a beta version of 1st-generation AI. Don't waste your time."
+  },
+  {
+   "reviewId": "df162a51-d54f-4f64-9973-ef00cc5f2e37",
+   "rating": 2,
+   "dateText": "August 31, 2026",
+   "text": "Since the update, I have not been able to connect my phone to my computer with the same phone number, and each time when I attempted to connect them, I have been getting knocked off WhatsApp saying, \"this number can't use WhatsApp\" and then it goes under review. To make matters worse, there is no one to contact since all their customer service is AI generated and no live person can help."
+  },
+  {
+   "reviewId": "ad1e7e0f-1cfd-45e4-ad84-dfafb7d51c23",
+   "rating": 1,
+   "dateText": "September 18, 2026",
+   "text": "Forces android users to sync all contacts no option to add who you want via messaging.Read that you can still call someone then that number can be in the app (I think). More data for them to sell I suppose. Hard for ppl to trust this forceful behavior. I can't imagine business people wanting their clients and private numbers forcefully synced. there's a \"whatsapp business\" app that may or may not have this issue but still doesn't justify. anyway, 1 is what I feel is right"
+  },
+  {
+   "reviewId": "18f79504-e09f-4529-82a4-0b75d6aebd59",
+   "rating": 1,
+   "dateText": "July 26, 2026",
+   "text": "Side-by-side view on Z Fold phones not working anymore after update even though the setting is still on. Tried a bunch of stupid Android setting workarounds that didn't work. Please fix!!! Now the backup isn't working. I've been trying for 3 freaking days! It takes 10 hours just go get to the uploading part, which takes another 8 hours, and by then it's used up too much of the phone's memory, it has to restart, and it's not even done backing up yet! Videos not included!!! ZERO STARS!!!!"
+  },
+  {
+   "reviewId": "39c8e86a-3b41-4999-b182-3feeae691d1b",
+   "rating": 1,
+   "dateText": "July 24, 2026",
+   "text": "WhatsApp has completely failed us. The verification code is not being delivered by SMS or phone call, making it impossible to access the account. We've spent countless hours troubleshooting, worked with our carrier, switched providers and back again, and verified that the phone number is working normally. Despite all of this, there is no effective customer support available. Users are left stuck with automated responses and no real solution. For an app used by billions of people"
+  },
+  {
+   "reviewId": "5164053f-93a1-4377-bb62-4f052aef0062",
+   "rating": 3,
+   "dateText": "July 27, 2026",
+   "text": "I've used WhatsApp for years and it has been very good. However, as of the last update the app is unable to do the daily backup. The backup is stuck in a loop \"In progress,\" I tried deleting large files, stopping the app, looking for updates, etc. and still it won't finishing backing up. This process is causing my battery to overheat and deplete the battery."
+  },
+  {
+   "reviewId": "ea408e0c-697a-4ecd-b991-026ec7ff0e58",
+   "rating": 5,
+   "dateText": "July 23, 2026",
+   "text": "I had my WhatsApp installed on my phone, my Kindle, and my PC and working in exact sync. Then the app said I needed to update on my Kindle, which I did. But, when it opened, all I got was a rapidly flashing screen. I tried multiple times, only to find that it is no longer available on my Amazon Kindle after 16 months of using it. My phone is also an Android, so I'm wondering if it's going to go as well. This sucks big time!"
+  },
+  {
+   "reviewId": "da1c2d72-5619-42d6-b0ee-a7501e8eafb1",
+   "rating": 3,
+   "dateText": "August 17, 2026",
+   "text": "Works great on both Android and PC, however I do wish that there was a way to disable/remove the \"Archive\" button that pops up when you open the App Info in Android (at the bottom of the phone screen it pops up \"Open\", \"Archive\", \"Uninstall\", and \"Force Stop\"). Every time I try to click on \"Open\", the buttons suddenly move and I accidentally click \"Archive\" and then it takes forever to \"Restore\" - arrggghhh!!!"
+  },
+  {
+   "reviewId": "8fffa264-8e00-4757-91db-c417e70fc8c5",
+   "rating": 1,
+   "dateText": "August 19, 2026",
+   "text": "​I am extreme frustrated with WhatsApp’s customer service. Trying to get support is nearly impossible—they have no phone number to call, and you are forced to interact with automated AI bots that offer zero help. Only after multiple attempts do you finally get a ticket number, only to be informed that a response can take 2 to 3 business days. ​I have been completely locked out of my account since August 15th. I’ve sent numerous emails requesting assistance and nothing."
+  },
+  {
+   "reviewId": "81e48729-b9c3-41ba-8c0f-653b9125e9bb",
+   "rating": 1,
+   "dateText": "August 7, 2026",
+   "text": "I'd have given 0 stars if that were possible. Meta's new AI bot and scam scanning has caused my account to be blocked for 24 hours at a time almost a dozen times in the last month. Nearly every time I make a new message, my account is blocked. If that weren't bad enough, there is no customer service to prevent future issues. Their chat bot won't pass my issue on to a human and ends the ticket when I try to get it escalated to a human. This is not a reliable communication service."
+  }
+ ]
+}

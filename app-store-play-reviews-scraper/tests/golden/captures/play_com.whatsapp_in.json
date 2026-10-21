@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "com.whatsapp",
+ "country": "in",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 140 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:59:15Z",
+ "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+ "items": [
+  {
+   "reviewId": "e3486623-ea56-409c-b4d6-aaa68c8d7cd7",
+   "rating": 1,
+   "dateText": "August 30, 2026",
+   "text": "Most primitive app when it comes to backing up data and switching devices. Something new goes wrong each time. If you didn't click on log out before you factory reset your device, there seems to be absolutely no way to access your chat back on the same reset device. There's no help, no support page that accurately addresses such a basic setting, no website access to the account, nothing. But no, please don't fix it, tell me how much I need AI to read my messages for me."
+  },
+  {
+   "reviewId": "86478a55-1044-45c2-857c-b86e1b275731",
+   "rating": 1,
+   "dateText": "September 11, 2026",
+   "text": "WhatsApp is becoming worse and worse. I am facing serious issues with file sharing and downloading. Even with a 5G connection, I can't share or download files, even when they are only a few MB. Other apps work properly on the same network. I also can't cancel stuck downloads, and the delete option is missing. These basic features should work reliably, but the experience is becoming increasingly frustrating. Please fix these issues as soon as possible."
+  },
+  {
+   "reviewId": "30a52207-845a-4521-8c38-bf7f4cf5b0dc",
+   "rating": 5,
+   "dateText": "September 4, 2026",
+   "text": "I really enjoy using WhatsApp, but I have one issue with profile pictures. The required cropping often cuts out important parts of photos, especially wide shots or pictures with beautiful backgrounds. Please add an option to fit the entire photo within the DP frame without forcing users to crop it. Let users choose between cropping and fitting the full image. This would greatly improve the experience. 😊 you, Meta!"
+  },
+  {
+   "reviewId": "0228f2d3-9b5c-4200-b97d-40560a01ae84",
+   "rating": 1,
+   "dateText": "July 30, 2026",
+   "text": "I am writing to report a critical issue with my WhatsApp backup that has been ongoing for the past few days. My last automatic daily backup was completed one week ago. Because my work data is vital, I attempted to start a manual backup. However, the process is extremely slow; it only completed 2% in the first day. Over the last three days, the backup has remained stuck and has only reached 12% total completion.Due to this, my device is under heavy load and constantly prompts me to restart."
+  },
+  {
+   "reviewId": "c0cc7e8d-454d-4407-8958-3cda2e322c4f",
+   "rating": 2,
+   "dateText": "September 6, 2026",
+   "text": "It’s getting worse with every update. First, there was an issue with the iOS app on Mac, where it kept hanging repeatedly, and I had to uninstall and reinstall it. Now, I’m facing issues on Android as well. Whenever I select a message, the entire screen goes black, and sometimes the app hangs completely. These issues are becoming more frequent with every update. Please look into this and fix them as soon as possible."
+  },
+  {
+   "reviewId": "81b7b872-0f4f-44b8-ac3a-d8e98bb68ea5",
+   "rating": 4,
+   "dateText": "July 2, 2026",
+   "text": "I am not giving one star, but I think there should be a payment history feature on WhatsApp. When we open a person's profile, we can easily see photos, links, and documents shared in the chat, but there is no separate section for payments. Users have to scroll through the entire conversation to find a payment they made or received. Adding a dedicated payment history option in the profile would make it much easier to track and manage transactions."
+  },
+  {
+   "reviewId": "76b5cb22-f5a7-41a9-9bd0-03a6ce093f60",
+   "rating": 2,
+   "dateText": "September 11, 2026",
+   "text": "Please fix the WhatsApp Status quality issue. When we add a song/music to a photo while posting a Status, the photo quality becomes very poor and blurry. The same problem happens when adding multiple photos to a Status. The original photos are clear, but WhatsApp compresses them heavily when music or multiple photos are added. Please fix this issue as soon as possible. It is a very frustrating and important problem for users."
+  },
+  {
+   "reviewId": "c9f182cf-a6e8-4214-b7df-264cf79e998e",
+   "rating": 2,
+   "dateText": "August 1, 2026",
+   "text": "Give switch off option for whats app just to sleep well at night without handling any pressure of work, but also can bibge watch movies. i know there's an option to switch off by switching off the data availability. but still it would be easier if there's a switch off option inbuilt in whats app. And also Please give us delete for everyone with no time limit. it makes us look like a clown when somebody doesn't reply even after a week or more. please give that update. that's very much needed."
+  },
+  {
+   "reviewId": "c04917ba-e038-4fc3-8f32-ae5d3effcded",
+   "rating": 1,
+   "dateText": "July 28, 2026",
+   "text": "WhatsApp Video Calls have been broken for the last 2–3 days. My internet is stable, but only WhatsApp Video Calls show \"Poor Connection.\" The video becomes blurry, freezes, and the audio keeps cutting out. This happens with every contact, even with a strong Jio 4G signal. Please investigate and fix this issue as soon as possible. Very disappointing experience."
+  },
+  {
+   "reviewId": "c850a4f6-2039-4ada-9e8f-cf0ac36e79db",
+   "rating": 1,
+   "dateText": "August 18, 2026",
+   "text": "WhatsApp has been broken for over a month. Every time I open the app, I am logged out and forced to re-verify my phone number. ​I’ve tried everything: ​Reinstalling the app ​Updating to the latest version ​Clearing cache & permissions ​Nothing works. Having to log in every single time makes it unusable for daily communication. Notifications don't work, and I miss urgent messages. ​This is a major authentication bug. Please fix this log-out loop!"
+  }
+ ]
+}

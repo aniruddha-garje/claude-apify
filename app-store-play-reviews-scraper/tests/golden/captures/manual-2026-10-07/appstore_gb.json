@@ -1,0 +1,45 @@
+{
+ "store": "appStore",
+ "appId": "1228128916",
+ "country": "gb",
+ "method": "Built-in browser, apps.apple.com 'Ratings & Reviews' page, read from the rendered page (DOM); the 5 oldest of the 10 reviews shown",
+ "capturedAt": "2026-10-07T18:58:01.992Z",
+ "url": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+ "items": [
+  {
+   "reviewId": "7375550613",
+   "rating": 5,
+   "dateTime": "2021-05-22T20:19:07.000Z",
+   "title": "Simply does what you want",
+   "text": "I have tried the majority of the Havit Apps on the app store.I used to use Habit but it's owner sold out and now there's a pay well.I fully recommend this app, as there is:No gimmicks.No faffing around with endless feature and complicated settings No limit on habitsColours are customisable.There's a widget.However there is a couple of bugs then I have found:1. When reordering habits sometimes one disappears... It comes back if you reopen the app, it's not bee a problem for me cos I rarely reorder. But I am sure it could be seen to.2. The notifications come thru in multiples... And I noticed they grew exponentially, from about 5 duplicates for one habit, adding one more a day... In the end I just turned them off. I personally don't use the notifications but I could see how this would make the app redundant for some who would rely on them.I sincerely hope that the creator of this app does not sell out in a few years by adding showy features like social/silly graphics/excessive graphs/etc or subscriptions or limit the number of habits. I respect people need to make a living/pay to keep apps going and working with updates, but by keeping this as simple and effective as possible, they could add a suggested one-off donation or just keep proving something that all the other habit apps lost sight of and you’ll always have grateful users."
+  },
+  {
+   "reviewId": "8896455029",
+   "rating": 5,
+   "dateTime": "2022-07-21T11:33:04.000Z",
+   "title": "Simple and effective",
+   "text": "I’ve tried a few different habit trackers, including habit features built into apps I already use, but they all frustrated me in some may. Either too complicated or poor visual display. Thankfully Habitty solves all of those problems by being simple to set up, easy to use and having a clean but effective interface. Daily use provides pop up reminders, super quick check off system and a view of the last few days achievements, which is exactly the level of motivation I need. No digging into menus to see this info or having to generate a chart. Great work I love it."
+  },
+  {
+   "reviewId": "9467573341",
+   "rating": 3,
+   "dateTime": "2023-01-03T20:11:59.000Z",
+   "title": "Good but could be better",
+   "text": "I really like this app, it’s simple and easy to set up and tick off. However, I think there’s one flaw. If you set a habit to be done, say, just 2 times a week, ticking that habit twice in one week should complete the ring. But it doesn’t!  This is a bit unsatisfying and, at a glance, you can’t see that you have fulfilled your quota for that habit. Is there any way this could be modified?"
+  },
+  {
+   "reviewId": "9982048803",
+   "rating": 4,
+   "dateTime": "2023-05-30T21:37:33.000Z",
+   "title": "Notifications",
+   "text": "Its nice and simple. Its also great that theres no ads like the rest of the other apps. But just to point out a bug, when you have notifications set it sometimes sends multiple notifications through for a single habit. But so far this is a big recommendation from me.Also would be cool if there was a dark mode and also functional widgets for the new ios platorm"
+  },
+  {
+   "reviewId": "10191574636",
+   "rating": 4,
+   "dateTime": "2023-07-28T13:17:33.000Z",
+   "title": "Fantastic app but wish I could see a whole week",
+   "text": "I’ve been looking for a habit tracker. Something without gimmicks and just promotes positive reinforcement. What I love is I can list all the things I tend to forget. Get them out of my head and use this app to keep accountable instead. You can set up daily habits and for once a week which is great. My only wish is that you could see a whole week but it only shows past five days. Which makes weekly tracking not as easy."
+  }
+ ]
+}

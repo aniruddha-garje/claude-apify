@@ -1,0 +1,12 @@
+{
+    "ad": {
+        "eventTitle": "Ad",
+        "eventDescription": "One ad (creative) with its metadata and content, delivered to the dataset. Charged only after the row is saved, never for errors or duplicates.",
+        "eventPriceUsd": 0.0015
+    },
+    "asset": {
+        "eventTitle": "Downloaded asset",
+        "eventDescription": "One ad image saved to the run's key-value store. Only when Download images is on.",
+        "eventPriceUsd": 0.003
+    }
+}

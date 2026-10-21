@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "com.whatsapp",
+ "country": "gb",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 140 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:59:26Z",
+ "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+ "items": [
+  {
+   "reviewId": "60711e3f-82f4-42dd-b58a-26f9c0ba15e6",
+   "rating": 3,
+   "dateText": "February 21, 2026",
+   "text": "WhatsApp is in general good but has some disadvantages. Firstly, it automatically deleted messages I try to send many times and does not let me edit messages when I typed something wrong, showing a completely different message. Apart from that, it has a feature which lets you post things happening with music on it. The voice recordings are high quality and there isn't much delay ( apart from whenever I try to edit a message) Overall, very good"
+  },
+  {
+   "reviewId": "5b715746-285a-4706-9fca-41ab5af7ffd5",
+   "rating": 3,
+   "dateText": "September 6, 2026",
+   "text": "It's very annoying that you can't change the icons for contacts, you're stuck with whatever ridiculous one they choose. Also the timestamp against each message is the time that it landed on the phone, not the time it was sent, which is totally useless when they've been off-grid for a while. It's like it's been developed by children, but the actual messaging and telephony side of it works well and doesn't seem to hit the battery too much."
+  },
+  {
+   "reviewId": "0aa286da-285d-412a-a292-09f74db0b89c",
+   "rating": 2,
+   "dateText": "September 4, 2026",
+   "text": "was simple and worked 100% but..... since it's now being run by you know who, it's getting annoying to use. I can type out a message, attach a picture and send it only to find out it's only sent the picture and all the text has gone! Another point is the way they keep tinkering with the app and trying to make it do more/ be something else to what it originally was. why change something that's not broke and turn it into what everything else is. The notifications of new features is a pain"
+  },
+  {
+   "reviewId": "7eebc766-4918-4caa-8875-39ee52ca6859",
+   "rating": 1,
+   "dateText": "August 14, 2026",
+   "text": "Was a great app but it's somehow been ruined, at least for some of us. Since 1 Aug I'm constantly being logged out for no obvious reason. I've never shared my passport & always keep software up to date. Followed WhatsApp's advice to add 2 factor authentication &, afterwards, logouts got, if anything, even MORE frequent - more than once a day. I've changed the backup setting to DAILY but am still losing messages, to say nothing of HOURS spent uninstalling & reinstalling. Ready to uninstall..."
+  },
+  {
+   "reviewId": "97d1e676-bd4f-4923-8f19-38d249d75ead",
+   "rating": 1,
+   "dateText": "July 20, 2026",
+   "text": "Terrible, when moving from one phone to another it frequently just says \"loading\" that's it. until I close the app, go back into it, restart, uninstall the app but it won't transfer the chats from the previous phone. I switch phone a lot and this is the same every time. Also, when recieving a call for the first time after a reinstall, while the call is coming in, you have to accept a number of usage access rights - while the caller is waiting!"
+  },
+  {
+   "reviewId": "e0dae566-78eb-4f6e-b9e6-63899f80fb87",
+   "rating": 1,
+   "dateText": "July 30, 2026",
+   "text": "What on earth have you done in the latest update? Can't backup anything, phone is overheating. Many people seem to be experiencing this nonsense. I thought I was going mad. Tried all the troubleshooting and nothing has worked. It was 53% done last night at bedtime, that took 4 days to do. This morning back to zero and won't do a damn thing! Please sort this out!!!!"
+  },
+  {
+   "reviewId": "cf5c9b95-1f31-464b-9025-d00c02dc55e8",
+   "rating": 5,
+   "dateText": "June 29, 2026",
+   "text": "First starting using to text a friend in Germany and found other people I knew was using too, so set up a group and we can all join in and chat together in real time. I quite like it, can add documents, photos and files easily if needed and isn't difficult to use, which is a good thing, lol. 🤣 5 stars from me and highly recommend."
+  },
+  {
+   "reviewId": "0a830f81-daef-459e-bcfb-b92f93e18c77",
+   "rating": 2,
+   "dateText": "July 1, 2026",
+   "text": "The app used to be good, but now I find the calls to be very unreliable. Even with good connection via WiFi or Mobile data, it always disconnects and displays \"Reconnecting\" or it just ends the call. This occurs way too often. I now use other apps for internet calls, because WhatsApp seems to be so far behind, when it comes to calls."
+  },
+  {
+   "reviewId": "8161cd42-1f8a-4076-addc-dcb789479bf5",
+   "rating": 1,
+   "dateText": "June 24, 2026",
+   "text": "so if you send a text when only on mobile data from the drop down in notifications it won't send the message unless you open the app, mates iPhone 17 pro max has the same issue, beyond unacceptable. It also sometimes just doesn't alert you to message unless you actually open the app. who develops and maintains this app, actual children or? oh sorry it's all about having features no one wants and being atleast 2 years behind other messaging apps. fix. it!"
+  },
+  {
+   "reviewId": "65c2929d-fa3f-47ca-b2a8-17f6f545dc27",
+   "rating": 4,
+   "dateText": "April 30, 2026",
+   "text": "In my own opinion, WhatsApp is a great app for communicating with family and any communities, it's pretty simple and easy to use once you understand the settings, but it would be better if there was an in-app browser, similar to messenger, for whenever someone sends a link, and you don't have to go into chrome or any browser app you have, since I've noticed in both the reviews and the people I know who use WhatsApp, they'd prefer in-app browsers as well. But overall, a really easy to use app!!𔘓"
+  }
+ ]
+}

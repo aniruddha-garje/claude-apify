@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "edvarderos.habitgrid",
+ "country": "us",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 20 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:57:54Z",
+ "url": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+ "items": [
+  {
+   "reviewId": "bb9526ad-32ce-41bb-a805-bc8b94200610",
+   "rating": 5,
+   "dateText": "August 21, 2026",
+   "text": "This is a free Habit Tracker app that's already Great 🙌 Feature Request: Please add the feature to also log time for each habit so the hours and minutes show up in the calendar view for each day. This way users can track their progress even further."
+  },
+  {
+   "reviewId": "d85919bd-c550-4ad2-b624-4e3ab9f31279",
+   "rating": 5,
+   "dateText": "September 10, 2026",
+   "text": "free, clean and easy to use. easy back import and export, no signing up. just lovely. we should do these kinda apps more"
+  },
+  {
+   "reviewId": "f37e8205-104f-4de9-9a56-5377de69a14e",
+   "rating": 5,
+   "dateText": "August 28, 2026",
+   "text": "It's very convenient! And I'm glad it's free! It's the best habit tracker app I've ever seen. I just couldn't figure out how to delete unnecessary categories ♡"
+  },
+  {
+   "reviewId": "6c90f421-9700-4292-83d9-8303d990ff15",
+   "rating": 5,
+   "dateText": "August 12, 2026",
+   "text": "This is legit the best habit tracker app I've tried. It's completely free even. And the UI and UX is better than those paid apps and other habit tracker apps."
+  },
+  {
+   "reviewId": "20f37fc9-97be-4ffb-ab17-29bfc886bc42",
+   "rating": 5,
+   "dateText": "August 3, 2026",
+   "text": "Good Visual Interface and easy to use this app. It is very simple and easy and the best thing is that it is free of cost."
+  },
+  {
+   "reviewId": "702f5292-2c5f-4a47-95cf-eacac8d6279e",
+   "rating": 5,
+   "dateText": "July 9, 2026",
+   "text": "it's really great, it is my first time to rate app in the play store, it is help me and with infinit habits to add, thanks 👍"
+  },
+  {
+   "reviewId": "e180fb5a-69da-44a3-9368-2497d1ef2dea",
+   "rating": 5,
+   "dateText": "May 25, 2026",
+   "text": "A great app, it has all the necessary stuff that a habit tracker needs, and it's such a minimal ui with unlimited habits for free to track, I recommend it, I have also requested a feature to the developer to add daily tasks feature for the best experience"
+  },
+  {
+   "reviewId": "b7f15060-8912-431c-b05f-c09e4e769308",
+   "rating": 4,
+   "dateText": "August 28, 2026",
+   "text": "great app Require to add (am , pm )option in time baar , will be helpful for the remainder through notification"
+  },
+  {
+   "reviewId": "0fd6a637-3051-414e-9d91-d6ad87ac66e4",
+   "rating": 5,
+   "dateText": "August 11, 2026",
+   "text": "perfect app! free with unlimited habits to add."
+  },
+  {
+   "reviewId": "ad58fd24-09ca-45d8-9fac-19fd645fbf67",
+   "rating": 5,
+   "dateText": "July 28, 2026",
+   "text": "premium app for free of charge. Just amazing!"
+  }
+ ]
+}

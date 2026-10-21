@@ -1,0 +1,1639 @@
+{
+  "description": "Ads read from the live Ads Transparency Center pages by Playwright.",
+  "auditInput": {
+    "advertiserIds": [
+      "AR03840027764254048257",
+      "AR14055623489428127745",
+      "AR13203228903881048065",
+      "AR12166817904825729025",
+      "AR12462675644678930433",
+      "AR16735076323512287233",
+      "AR10072600183532683265",
+      "AR08008732350420615169",
+      "AR05107678471086145537",
+      "AR05288677867637440513",
+      "AR11720784202516398081",
+      "AR13303717429071839233"
+    ],
+    "region": "anywhere",
+    "dateFrom": "2020-01-01",
+    "maxAdsPerAdvertiser": 30,
+    "includeCreativeContent": true,
+    "proxyConfiguration": {
+      "useApifyProxy": true
+    }
+  },
+  "compare": {
+    "advertiserName": "exact",
+    "format": "exact",
+    "lastShownDate": "calendar date as displayed"
+  },
+  "items": [
+    {
+      "advertiserId": "AR03840027764254048257",
+      "creativeId": "CR05368705701206032385",
+      "expected": {
+        "advertiserName": "Skillspire LLC",
+        "format": "text",
+        "lastShownDate": "2026-09-16"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR03840027764254048257/creative/CR05368705701206032385?region=anywhere",
+      "capturedAt": "2026-10-08T16:51:53Z"
+    },
+    {
+      "advertiserId": "AR03840027764254048257",
+      "creativeId": "CR06946885378217345025",
+      "expected": {
+        "advertiserName": "Skillspire LLC",
+        "format": "text",
+        "lastShownDate": "2026-09-12"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR03840027764254048257/creative/CR06946885378217345025?region=anywhere",
+      "capturedAt": "2026-10-08T16:52:04Z"
+    },
+    {
+      "advertiserId": "AR03840027764254048257",
+      "creativeId": "CR14802325518300479489",
+      "expected": {
+        "advertiserName": "Skillspire LLC",
+        "format": "text",
+        "lastShownDate": "2026-03-31"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR03840027764254048257/creative/CR14802325518300479489?region=anywhere",
+      "capturedAt": "2026-10-08T16:52:14Z"
+    },
+    {
+      "advertiserId": "AR03840027764254048257",
+      "creativeId": "CR05373703247842246657",
+      "expected": {
+        "advertiserName": "Skillspire LLC",
+        "format": "image",
+        "lastShownDate": "2026-03-31"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR03840027764254048257/creative/CR05373703247842246657?region=anywhere",
+      "capturedAt": "2026-10-08T16:52:23Z"
+    },
+    {
+      "advertiserId": "AR03840027764254048257",
+      "creativeId": "CR10478726527196332033",
+      "expected": {
+        "advertiserName": "Skillspire LLC",
+        "format": "text",
+        "lastShownDate": "2026-02-04"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR03840027764254048257/creative/CR10478726527196332033?region=anywhere",
+      "capturedAt": "2026-10-08T16:52:33Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR11595459565080018945",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR11595459565080018945?region=anywhere",
+      "capturedAt": "2026-10-08T16:52:52Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR12179946752266207233",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR12179946752266207233?region=anywhere",
+      "capturedAt": "2026-10-08T16:53:03Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR05636808091082162177",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR05636808091082162177?region=anywhere",
+      "capturedAt": "2026-10-08T16:53:13Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR03064100355538157569",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "image",
+        "lastShownDate": "2026-10-06"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR03064100355538157569?region=anywhere",
+      "capturedAt": "2026-10-08T16:53:22Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR04086881086901059585",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-09-24"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR04086881086901059585?region=anywhere",
+      "capturedAt": "2026-10-08T16:53:31Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR09231991211584126977",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-09-24"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR09231991211584126977?region=anywhere",
+      "capturedAt": "2026-10-08T16:53:41Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR04515524939075289089",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-09-24"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR04515524939075289089?region=anywhere",
+      "capturedAt": "2026-10-08T16:53:50Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR16626305228769067009",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-09-24"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR16626305228769067009?region=anywhere",
+      "capturedAt": "2026-10-08T16:54:00Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR03782636916596277249",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-09-23"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR03782636916596277249?region=anywhere",
+      "capturedAt": "2026-10-08T16:54:09Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR14976978860153765889",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-03-06"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR14976978860153765889?region=anywhere",
+      "capturedAt": "2026-10-08T16:54:18Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR07009177548064030721",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-02-27"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR07009177548064030721?region=anywhere",
+      "capturedAt": "2026-10-08T16:54:28Z"
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "creativeId": "CR06739627049834512385",
+      "expected": {
+        "advertiserName": "Priswing Software LLC",
+        "format": "text",
+        "lastShownDate": "2026-02-26"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR14055623489428127745/creative/CR06739627049834512385?region=anywhere",
+      "capturedAt": "2026-10-08T16:54:37Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR18321708856939380737",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR18321708856939380737?region=anywhere",
+      "capturedAt": "2026-10-08T16:54:57Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR00429531647684116481",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR00429531647684116481?region=anywhere",
+      "capturedAt": "2026-10-08T16:55:08Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR03713948801711472641",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR03713948801711472641?region=anywhere",
+      "capturedAt": "2026-10-08T16:55:17Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR09255715313847107585",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR09255715313847107585?region=anywhere",
+      "capturedAt": "2026-10-08T16:55:27Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR10939661043013517313",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR10939661043013517313?region=anywhere",
+      "capturedAt": "2026-10-08T16:55:37Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR00179020876916719617",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR00179020876916719617?region=anywhere",
+      "capturedAt": "2026-10-08T16:55:46Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR02077405046043049985",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR02077405046043049985?region=anywhere",
+      "capturedAt": "2026-10-08T16:55:55Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR03882790606136672257",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR03882790606136672257?region=anywhere",
+      "capturedAt": "2026-10-08T16:56:05Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR15209177917595582465",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR15209177917595582465?region=anywhere",
+      "capturedAt": "2026-10-08T16:56:15Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR12870106902486319105",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR12870106902486319105?region=anywhere",
+      "capturedAt": "2026-10-08T16:56:25Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR12233355194577977345",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-01-14"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR12233355194577977345?region=anywhere",
+      "capturedAt": "2026-10-08T16:56:35Z"
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "creativeId": "CR06529144669891198977",
+      "expected": {
+        "advertiserName": "SiteRecon, Inc",
+        "format": "text",
+        "lastShownDate": "2026-01-14"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13203228903881048065/creative/CR06529144669891198977?region=anywhere",
+      "capturedAt": "2026-10-08T16:56:45Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR01815675855058239489",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR01815675855058239489?region=anywhere",
+      "capturedAt": "2026-10-08T16:57:11Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR12112171240622391297",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR12112171240622391297?region=anywhere",
+      "capturedAt": "2026-10-08T16:57:20Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR09307739711537676289",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR09307739711537676289?region=anywhere",
+      "capturedAt": "2026-10-08T16:57:31Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR00774639923549437953",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR00774639923549437953?region=anywhere",
+      "capturedAt": "2026-10-08T16:57:40Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR09450894441846931457",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR09450894441846931457?region=anywhere",
+      "capturedAt": "2026-10-08T16:57:49Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR06957143503876915201",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR06957143503876915201?region=anywhere",
+      "capturedAt": "2026-10-08T16:58:00Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR00516454570210099201",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR00516454570210099201?region=anywhere",
+      "capturedAt": "2026-10-08T16:58:09Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR03269732523403378689",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR03269732523403378689?region=anywhere",
+      "capturedAt": "2026-10-08T16:58:19Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR07843260446055333889",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR07843260446055333889?region=anywhere",
+      "capturedAt": "2026-10-08T16:58:28Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR10404670502055444481",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR10404670502055444481?region=anywhere",
+      "capturedAt": "2026-10-08T16:58:38Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR15047110822784401409",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR15047110822784401409?region=anywhere",
+      "capturedAt": "2026-10-08T16:58:47Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR03717708100686315521",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR03717708100686315521?region=anywhere",
+      "capturedAt": "2026-10-08T16:58:57Z"
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "creativeId": "CR17888873666440069121",
+      "expected": {
+        "advertiserName": "Dark Star Engineering, LLC",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12166817904825729025/creative/CR17888873666440069121?region=anywhere",
+      "capturedAt": "2026-10-08T16:59:07Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR17210417954936586241",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR17210417954936586241?region=anywhere",
+      "capturedAt": "2026-10-08T16:59:44Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR09320017949295116289",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR09320017949295116289?region=anywhere",
+      "capturedAt": "2026-10-08T16:59:54Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR00609305303518806017",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR00609305303518806017?region=anywhere",
+      "capturedAt": "2026-10-08T17:00:04Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR08764026908045213697",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR08764026908045213697?region=anywhere",
+      "capturedAt": "2026-10-08T17:00:14Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR05550330891672223745",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR05550330891672223745?region=anywhere",
+      "capturedAt": "2026-10-08T17:00:23Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR06567414778413711361",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR06567414778413711361?region=anywhere",
+      "capturedAt": "2026-10-08T17:00:32Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR05874817010914820097",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-09-26"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR05874817010914820097?region=anywhere",
+      "capturedAt": "2026-10-08T17:00:42Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR15719685796346724353",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-09-26"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR15719685796346724353?region=anywhere",
+      "capturedAt": "2026-10-08T17:00:52Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR09012740733215440897",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-09-26"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR09012740733215440897?region=anywhere",
+      "capturedAt": "2026-10-08T17:01:01Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR00291005483370676225",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-09-26"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR00291005483370676225?region=anywhere",
+      "capturedAt": "2026-10-08T17:01:11Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR01477937081647890433",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-09-19"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR01477937081647890433?region=anywhere",
+      "capturedAt": "2026-10-08T17:01:20Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR08315081913693896705",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-09-16"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR08315081913693896705?region=anywhere",
+      "capturedAt": "2026-10-08T17:02:37Z"
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "creativeId": "CR07903379680277823489",
+      "expected": {
+        "advertiserName": "Individual advertiser A",
+        "format": "video",
+        "lastShownDate": "2026-09-16"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR12462675644678930433/creative/CR07903379680277823489?region=anywhere",
+      "capturedAt": "2026-10-08T17:02:48Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR00485485175946346497",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR00485485175946346497?region=anywhere",
+      "capturedAt": "2026-10-08T17:03:14Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR06913011581039149057",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR06913011581039149057?region=anywhere",
+      "capturedAt": "2026-10-08T17:03:24Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR06699326169105301505",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR06699326169105301505?region=anywhere",
+      "capturedAt": "2026-10-08T17:03:34Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR07556988394601971713",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR07556988394601971713?region=anywhere",
+      "capturedAt": "2026-10-08T17:03:44Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR00700542941600415745",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR00700542941600415745?region=anywhere",
+      "capturedAt": "2026-10-08T17:03:53Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR17431635665765793793",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR17431635665765793793?region=anywhere",
+      "capturedAt": "2026-10-08T17:04:04Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR09478963857012555777",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR09478963857012555777?region=anywhere",
+      "capturedAt": "2026-10-08T17:04:14Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR05515116343143170049",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR05515116343143170049?region=anywhere",
+      "capturedAt": "2026-10-08T17:04:24Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR06289851821125009409",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR06289851821125009409?region=anywhere",
+      "capturedAt": "2026-10-08T17:04:34Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR04658695440504455169",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR04658695440504455169?region=anywhere",
+      "capturedAt": "2026-10-08T17:04:43Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR11068300665057968129",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR11068300665057968129?region=anywhere",
+      "capturedAt": "2026-10-08T17:04:53Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR10204359506612191233",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR10204359506612191233?region=anywhere",
+      "capturedAt": "2026-10-08T17:05:02Z"
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "creativeId": "CR13166501152474267649",
+      "expected": {
+        "advertiserName": "Nike, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR16735076323512287233/creative/CR13166501152474267649?region=anywhere",
+      "capturedAt": "2026-10-08T17:05:12Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR12867316719932145665",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR12867316719932145665?region=anywhere",
+      "capturedAt": "2026-10-08T17:05:37Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR05649694882755772417",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR05649694882755772417?region=anywhere",
+      "capturedAt": "2026-10-08T17:05:47Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR17502238030394556417",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR17502238030394556417?region=anywhere",
+      "capturedAt": "2026-10-08T17:05:56Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR07220040290311077889",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR07220040290311077889?region=anywhere",
+      "capturedAt": "2026-10-08T17:06:06Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR15153175005799383041",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR15153175005799383041?region=anywhere",
+      "capturedAt": "2026-10-08T17:06:16Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR17653568651858542593",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR17653568651858542593?region=anywhere",
+      "capturedAt": "2026-10-08T17:06:25Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR11699190988147785729",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR11699190988147785729?region=anywhere",
+      "capturedAt": "2026-10-08T17:06:35Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR04510583768179802113",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR04510583768179802113?region=anywhere",
+      "capturedAt": "2026-10-08T17:06:44Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR12065625331415908353",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR12065625331415908353?region=anywhere",
+      "capturedAt": "2026-10-08T17:06:54Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR15134456017904992257",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR15134456017904992257?region=anywhere",
+      "capturedAt": "2026-10-08T17:07:04Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR00201237806436057089",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR00201237806436057089?region=anywhere",
+      "capturedAt": "2026-10-08T17:07:14Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR03968795805820649473",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR03968795805820649473?region=anywhere",
+      "capturedAt": "2026-10-08T17:07:24Z"
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "creativeId": "CR14397395383158308865",
+      "expected": {
+        "advertiserName": "Hubspot, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR10072600183532683265/creative/CR14397395383158308865?region=anywhere",
+      "capturedAt": "2026-10-08T17:07:33Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR10072160456190984193",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR10072160456190984193?region=anywhere",
+      "capturedAt": "2026-10-08T17:08:02Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR13594731691355668481",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "image",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR13594731691355668481?region=anywhere",
+      "capturedAt": "2026-10-08T17:08:13Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR09285909028427268097",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR09285909028427268097?region=anywhere",
+      "capturedAt": "2026-10-08T17:08:24Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR14459806128462102529",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR14459806128462102529?region=anywhere",
+      "capturedAt": "2026-10-08T17:08:33Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR04852502223373991937",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR04852502223373991937?region=anywhere",
+      "capturedAt": "2026-10-08T17:08:43Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR03715932174659092481",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR03715932174659092481?region=anywhere",
+      "capturedAt": "2026-10-08T17:08:53Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR08334910635238227969",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR08334910635238227969?region=anywhere",
+      "capturedAt": "2026-10-08T17:09:03Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR08382147836610871297",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR08382147836610871297?region=anywhere",
+      "capturedAt": "2026-10-08T17:09:12Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR14066554121066905601",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR14066554121066905601?region=anywhere",
+      "capturedAt": "2026-10-08T17:09:23Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR14690617791208226817",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "image",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR14690617791208226817?region=anywhere",
+      "capturedAt": "2026-10-08T17:09:33Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR15843185270250799105",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR15843185270250799105?region=anywhere",
+      "capturedAt": "2026-10-08T17:09:42Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR12218913470124392449",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR12218913470124392449?region=anywhere",
+      "capturedAt": "2026-10-08T17:09:52Z"
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "creativeId": "CR05804821473625374721",
+      "expected": {
+        "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR08008732350420615169/creative/CR05804821473625374721?region=anywhere",
+      "capturedAt": "2026-10-08T17:10:01Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR02670580780270354433",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR02670580780270354433?region=anywhere",
+      "capturedAt": "2026-10-08T17:10:25Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR13910667604453752833",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR13910667604453752833?region=anywhere",
+      "capturedAt": "2026-10-08T17:10:36Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR11175434518267953153",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR11175434518267953153?region=anywhere",
+      "capturedAt": "2026-10-08T17:10:45Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR02885433504185712641",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR02885433504185712641?region=anywhere",
+      "capturedAt": "2026-10-08T17:10:55Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR09082808803912581121",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR09082808803912581121?region=anywhere",
+      "capturedAt": "2026-10-08T17:11:05Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR05050046443834834945",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR05050046443834834945?region=anywhere",
+      "capturedAt": "2026-10-08T17:11:15Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR14770124877172047873",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR14770124877172047873?region=anywhere",
+      "capturedAt": "2026-10-08T17:11:26Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR01741062446241546241",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR01741062446241546241?region=anywhere",
+      "capturedAt": "2026-10-08T17:11:36Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR02988312608173457409",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR02988312608173457409?region=anywhere",
+      "capturedAt": "2026-10-08T17:11:45Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR09023839796291698689",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR09023839796291698689?region=anywhere",
+      "capturedAt": "2026-10-08T17:11:54Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR09250963533829505025",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR09250963533829505025?region=anywhere",
+      "capturedAt": "2026-10-08T17:12:04Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR00725500730269499393",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR00725500730269499393?region=anywhere",
+      "capturedAt": "2026-10-08T17:12:13Z"
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "creativeId": "CR01657765094588678145",
+      "expected": {
+        "advertiserName": "Commerce.com, Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05107678471086145537/creative/CR01657765094588678145?region=anywhere",
+      "capturedAt": "2026-10-08T17:12:24Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR12095085860718903297",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR12095085860718903297?region=anywhere",
+      "capturedAt": "2026-10-08T17:12:53Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR11827642232926633985",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR11827642232926633985?region=anywhere",
+      "capturedAt": "2026-10-08T17:13:02Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR13211706739826622465",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR13211706739826622465?region=anywhere",
+      "capturedAt": "2026-10-08T17:13:12Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR05487699857495818241",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR05487699857495818241?region=anywhere",
+      "capturedAt": "2026-10-08T17:13:21Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR10690995149678313473",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR10690995149678313473?region=anywhere",
+      "capturedAt": "2026-10-08T17:13:31Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR06195955795855671297",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR06195955795855671297?region=anywhere",
+      "capturedAt": "2026-10-08T17:13:40Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR10796993018398244865",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR10796993018398244865?region=anywhere",
+      "capturedAt": "2026-10-08T17:14:57Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR04941465367034724353",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR04941465367034724353?region=anywhere",
+      "capturedAt": "2026-10-08T17:15:08Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR12973272326173884417",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR12973272326173884417?region=anywhere",
+      "capturedAt": "2026-10-08T17:15:18Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR04837112642587852801",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR04837112642587852801?region=anywhere",
+      "capturedAt": "2026-10-08T17:15:27Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR03598620133720850433",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR03598620133720850433?region=anywhere",
+      "capturedAt": "2026-10-08T17:15:37Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR06375355488887898113",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "video",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR06375355488887898113?region=anywhere",
+      "capturedAt": "2026-10-08T17:15:46Z"
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "creativeId": "CR08893916382752669697",
+      "expected": {
+        "advertiserName": "Superhuman Platform Inc.",
+        "format": "text",
+        "lastShownDate": "2026-10-08"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR05288677867637440513/creative/CR08893916382752669697?region=anywhere",
+      "capturedAt": "2026-10-08T17:15:55Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR07993790425485803521",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-29"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR07993790425485803521?region=anywhere",
+      "capturedAt": "2026-10-08T17:16:25Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR06023676694743744513",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-29"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR06023676694743744513?region=anywhere",
+      "capturedAt": "2026-10-08T17:16:34Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR03460996565374599169",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-29"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR03460996565374599169?region=anywhere",
+      "capturedAt": "2026-10-08T17:16:44Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR15771304671815139329",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-29"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR15771304671815139329?region=anywhere",
+      "capturedAt": "2026-10-08T17:16:53Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR09433253456384098305",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-29"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR09433253456384098305?region=anywhere",
+      "capturedAt": "2026-10-08T17:17:03Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR02914935110555926529",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-29"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR02914935110555926529?region=anywhere",
+      "capturedAt": "2026-10-08T17:17:12Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR09160011622742228993",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-28"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR09160011622742228993?region=anywhere",
+      "capturedAt": "2026-10-08T17:17:22Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR18252722095798616065",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-28"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR18252722095798616065?region=anywhere",
+      "capturedAt": "2026-10-08T17:17:31Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR03967845037500268545",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-28"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR03967845037500268545?region=anywhere",
+      "capturedAt": "2026-10-08T17:17:41Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR03401095171893362689",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-28"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR03401095171893362689?region=anywhere",
+      "capturedAt": "2026-10-08T17:17:51Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR12954355881453027329",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-28"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR12954355881453027329?region=anywhere",
+      "capturedAt": "2026-10-08T17:18:00Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR16266753407384027137",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-28"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR16266753407384027137?region=anywhere",
+      "capturedAt": "2026-10-08T17:18:10Z"
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "creativeId": "CR17174100089438732289",
+      "expected": {
+        "advertiserName": "(주)하이브",
+        "format": "video",
+        "lastShownDate": "2026-09-28"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR11720784202516398081/creative/CR17174100089438732289?region=anywhere",
+      "capturedAt": "2026-10-08T17:18:20Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR16472143725640810497",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR16472143725640810497?region=anywhere",
+      "capturedAt": "2026-10-08T17:18:49Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR16279823748779999233",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR16279823748779999233?region=anywhere",
+      "capturedAt": "2026-10-08T17:18:59Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR12652855946142285825",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR12652855946142285825?region=anywhere",
+      "capturedAt": "2026-10-08T17:19:08Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR12653150615258529793",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR12653150615258529793?region=anywhere",
+      "capturedAt": "2026-10-08T17:19:18Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR07810914600672559105",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR07810914600672559105?region=anywhere",
+      "capturedAt": "2026-10-08T17:19:29Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR04137947629575208961",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR04137947629575208961?region=anywhere",
+      "capturedAt": "2026-10-08T17:19:40Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR07907460517684314113",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "video",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR07907460517684314113?region=anywhere",
+      "capturedAt": "2026-10-08T17:19:51Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR11305426436535353345",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR11305426436535353345?region=anywhere",
+      "capturedAt": "2026-10-08T17:20:02Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR07273319385387761665",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR07273319385387761665?region=anywhere",
+      "capturedAt": "2026-10-08T17:20:11Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR00663007100686827521",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR00663007100686827521?region=anywhere",
+      "capturedAt": "2026-10-08T17:20:21Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR03494786103884382209",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR03494786103884382209?region=anywhere",
+      "capturedAt": "2026-10-08T17:20:31Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR11226998272126091265",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-07"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR11226998272126091265?region=anywhere",
+      "capturedAt": "2026-10-08T17:20:41Z"
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "creativeId": "CR05799441090784264193",
+      "expected": {
+        "advertiserName": "Runikon Retail OÜ",
+        "format": "image",
+        "lastShownDate": "2026-10-03"
+      },
+      "sourceUrl": "https://adstransparency.google.com/advertiser/AR13303717429071839233/creative/CR05799441090784264193?region=anywhere",
+      "capturedAt": "2026-10-08T17:20:51Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "store": "googlePlay",
+ "appId": "edvarderos.habitgrid",
+ "country": "us",
+ "language": "en",
+ "method": "Built-in browser, Google Play web page, 'See all reviews' dialog, read from the rendered page (DOM), oldest 5 of 73 loaded",
+ "capturedAt": "2026-10-07T18:55:08.684Z",
+ "url": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+ "items": [
+  {
+   "reviewId": "c4169f00-b5bd-49a6-b541-436d3355b761",
+   "rating": 5,
+   "dateText": "June 30, 2025",
+   "text": "Simple and intuitive with a beautiful design. The app is easy to navigate, everything works smoothly, and the user interface is clean and modern. Highly recommend! 🤩"
+  },
+  {
+   "reviewId": "cbadda24-6b81-4c03-9ea1-edf05698dda6",
+   "rating": 5,
+   "dateText": "July 5, 2025",
+   "text": "Finally a habit tracking app that doesn't have basic features behind a paywall. Hopefully this app gains more users in the future."
+  },
+  {
+   "reviewId": "6a6c9b78-9079-4e6f-ba2f-5949d958ddd1",
+   "rating": 4,
+   "dateText": "August 4, 2025",
+   "text": "simple, clean ui, and does exactly what i want it to do. my only complaint is that you can only set one time for a notification reminder per habit, which isn't helpful for tasks that you want to repeat multiple times in one day. otherwise its great"
+  },
+  {
+   "reviewId": "0fc8acb4-91e7-41ec-ab50-398c9d9af717",
+   "rating": 5,
+   "dateText": "August 14, 2025",
+   "text": "best app for tracking so far"
+  },
+  {
+   "reviewId": "8f0fdfe1-2b14-4f55-9259-1bb966145e6b",
+   "rating": 5,
+   "dateText": "August 20, 2025",
+   "text": "Amazing"
+  }
+ ]
+}

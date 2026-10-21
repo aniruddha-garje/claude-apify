@@ -1,0 +1,10 @@
+{
+ "store": "googlePlay",
+ "appId": "edvarderos.habitgrid",
+ "country": "au",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 1 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:58:24Z",
+ "url": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=au",
+ "items": []
+}

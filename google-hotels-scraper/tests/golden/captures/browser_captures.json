@@ -1,0 +1,922 @@
+{
+  "method": "Playwright Chromium on this computer (India), Google Hotels results page: dates picked in the date picker, first organic results per city, nightly price shown on each card or none (DOM). Prices are in Indian rupees because the browser is in India, so the stated country is IN and currency INR.",
+  "timezone": "Asia/Kolkata",
+  "captures": [
+    {
+      "city": "Tokyo",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in&ved=0CAAQ5JsGahcKEwiY2afEkayXAxUAAAAAHQAAAAAQCA&ts=CAESCgoCCAMKAggDEAAaUAoyEi4yJTB4NjA1ZDFiODdmMDJlNTdlNzoweDJlMDE2MThiMjI1NzFiODk6BVRva3lvGgASGhIUCgcI6g8QChgTEgcI6g8QChgVGAIyAggBKgkKBToDSU5SGgA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:51:23Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "Cocts Akihabara",
+          "hotelId": "ChoIsqW1-6nNn6OAARoNL2cvMTFyZmNxMDU4dBAB",
+          "priceText": "₹3,971"
+        },
+        {
+          "name": "ONE@Tokyo by insomnia",
+          "hotelId": "ChoI84KEy5HjiaeGARoNL2cvMTFkeGp4MnEyXxAB",
+          "priceText": "₹11,498"
+        },
+        {
+          "name": "TOKYO-W-inn Asakusa",
+          "hotelId": "ChoI1-6Rgu_W_53CARoNL2cvMTFmMDhuOHk3MBAB",
+          "priceText": "₹4,872"
+        },
+        {
+          "name": "plat hostel keikyu asakusa karin",
+          "hotelId": "ChkI1MrD_uqdm5ZmGg0vZy8xMWZqdzNna3Q0EAE",
+          "priceText": "₹3,152"
+        },
+        {
+          "name": "KOKO HOTEL Asakusa Komagata",
+          "hotelId": "ChkI7e7Rg_ubgpBXGg0vZy8xMWMxdm1fZHpoEAE",
+          "priceText": "₹9,831"
+        },
+        {
+          "name": "APA Hotel Asakusa Tawaramachi-Ekimae",
+          "hotelId": "ChkIsPyZ2sSMq9xJGg0vZy8xMWM3c3I0MnpiEAE",
+          "priceText": "₹9,605"
+        },
+        {
+          "name": "HOTEL GRAPHY NEZU",
+          "hotelId": "ChgI4MyEhJ_t7sJgGgwvZy8xMnFnanR5aG4QAQ",
+          "priceText": "₹7,320"
+        },
+        {
+          "name": "APA Hotel Hachioji Eki Nishi",
+          "hotelId": "ChkIhcbevZuW2_AgGg0vZy8xMWZkMGN5ODNqEAE",
+          "priceText": "₹4,103"
+        },
+        {
+          "name": "Hotel LiveMax Saitama Asaka Ekimae",
+          "hotelId": "ChoI1pqoneep-_7MARoNL2cvMTFkeWx6aGwzchAB",
+          "priceText": "₹3,289"
+        },
+        {
+          "name": "FOCUS KURAMAE",
+          "hotelId": "ChoI9PDQju-A_LiwARoNL2cvMTFncmMzOTh0ZxAB",
+          "priceText": "₹4,457"
+        },
+        {
+          "name": "the b hachioji",
+          "hotelId": "ChkIqMLQ1pXO1cj_ARoML2cvMXB0eGp6bTRyEAE",
+          "priceText": "₹5,370"
+        },
+        {
+          "name": "HOTEL THE CELESTINE TOKYO SHIBA",
+          "hotelId": "ChcIvoyWhOKHjcEhGgsvZy8xMjJydjdzZxAB",
+          "priceText": "₹18,061"
+        },
+        {
+          "name": "Tokyo Guest House Ouji Music Lounge",
+          "hotelId": "ChkI15aDuY3LxJlUGg0vZy8xMWY0d3NzejJxEAE",
+          "priceText": "₹3,239"
+        },
+        {
+          "name": "Hotel Plus Hostel Tokyo Asakusa 1",
+          "hotelId": "ChkI1rvynNyh3fBiGg0vZy8xMXZtNXE2cTlzEAE",
+          "priceText": "₹3,029"
+        },
+        {
+          "name": "Koko Hotel Tsukiji Ginza",
+          "hotelId": "ChkIq_atzbv20-8ZGg0vZy8xMXFoMzRoa3pfEAE",
+          "priceText": "₹13,071"
+        },
+        {
+          "name": "Sun Hotel",
+          "hotelId": "ChcI8ta4zuSZ9qxyGgsvZy8xdnk3Z21mchAB",
+          "priceText": "₹3,941"
+        },
+        {
+          "name": "Ohana Tokyo House",
+          "hotelId": "ChoI04b89aaz-p7SARoNL2cvMTFqMWY0NWtudhAB",
+          "priceText": "₹2,711"
+        },
+        {
+          "name": "Manga Art Hotel",
+          "hotelId": "ChkIj6OPu_yktclVGg0vZy8xMWd5ZDN4bXEzEAE",
+          "priceText": "₹5,944"
+        }
+      ]
+    },
+    {
+      "city": "Osaka",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in&ved=0CAAQ5JsGahcKEwjA_-fOkayXAxUAAAAAHQAAAAAQBw&ts=CAESCgoCCAMKAggDEAAaUAoyEi4yJTB4NjAwMGU2NTUzNDA2ZTJlMToweGM1NWJjMTZlZTQ2YTJmZTc6BU9zYWthGgASGhIUCgcI6g8QChgTEgcI6g8QChgVGAIyAggBKgkKBToDSU5SGgA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:51:45Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "KOKO HOTEL Osaka Namba",
+          "hotelId": "ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB",
+          "priceText": "₹4,688"
+        },
+        {
+          "name": "DOYANEN HOTELS YAMATO",
+          "hotelId": "ChoIhKT0o7HW-b_EARoNL2cvMTFmanR2bW5qaBAB",
+          "priceText": "₹2,506"
+        },
+        {
+          "name": "The Royal Park Hotel Iconic Osaka-Midosuji",
+          "hotelId": "ChkIrLzTmv7_kK1NGg0vZy8xMWZsdDA5cTFjEAE",
+          "priceText": "₹15,457"
+        },
+        {
+          "name": "Hotel Plaza Osaka",
+          "hotelId": "ChcIkJvp3PXAyr9zGgsvZy8xdGY3bWZ3MRAB",
+          "priceText": "₹4,136"
+        },
+        {
+          "name": "Sotetsu Fresa Inn Kitahama",
+          "hotelId": "ChkIjLPwnuuQxaBKGg0vZy8xMWYzenRybV8zEAE",
+          "priceText": "₹4,285"
+        },
+        {
+          "name": "HOPETREE OSAKA GRAND",
+          "hotelId": "ChoIucKpiI327arpARoNL2cvMTFqZmdyOWRtaBAB",
+          "priceText": "₹3,510"
+        },
+        {
+          "name": "CHISUN STANDARD Osaka Shin-Imamiya",
+          "hotelId": "ChkIxrDskIPl6PYmGg0vZy8xMXJod3JwNDRzEAE",
+          "priceText": "₹4,307"
+        },
+        {
+          "name": "Hotel Trad",
+          "hotelId": "ChoIndu9jeyViYPDARoNL2cvMTFjbV9od2R3ehAB",
+          "priceText": "₹3,085"
+        },
+        {
+          "name": "2Z - DOYANEN HOTELS",
+          "hotelId": "ChoI6MTOtYvs9a3DARoNL2cvMTF5c2tjMzkzaBAB",
+          "priceText": "₹2,440"
+        },
+        {
+          "name": "& AND HOSTEL SHINSAIBASHI EAST",
+          "hotelId": "ChoI-OfY3M3FjviNARoNL2cvMTFoNW44Y3dtXxAB",
+          "priceText": "₹3,518"
+        },
+        {
+          "name": "Noku Osaka",
+          "hotelId": "ChkIvoW4tNn3xYMGGg0vZy8xMWc3ejZjcjM5EAE",
+          "priceText": "₹4,023"
+        },
+        {
+          "name": "GRAND HOSTEL LDK OSAKA SHINSAIBASHI",
+          "hotelId": "ChkI-pKJyI6f18BAGg0vZy8xMWY4aDM0bWQ5EAE",
+          "priceText": "₹2,919"
+        },
+        {
+          "name": "Smile Hotel Shin-Osaka",
+          "hotelId": "ChoIi8_7moPd7abNARoNL2cvMTFsbGI3ZGZ6ZhAB",
+          "priceText": "₹4,404"
+        },
+        {
+          "name": "Travelodge Honmachi Osaka",
+          "hotelId": "ChoI8qjViMLU5InjARoNL2cvMTF0N2NicTRjNxAB",
+          "priceText": "₹3,856"
+        },
+        {
+          "name": "Bande Hotel in Namba",
+          "hotelId": "ChoI3Lul8ZS1hNOEARoNL2cvMTF3X3R6dmN0aBAB",
+          "priceText": "₹2,879"
+        },
+        {
+          "name": "Ark Hotel Osaka Shinsaibashi",
+          "hotelId": "ChgIj-mUpOGr0oSPARoLL2cvMXRmNjA1NHEQAQ",
+          "priceText": "₹4,095"
+        },
+        {
+          "name": "Hotel Lantana Osaka",
+          "hotelId": "ChoI-eSnzvmPh7G2ARoNL2cvMTFnajB5cWRmbhAB",
+          "priceText": "₹3,517"
+        },
+        {
+          "name": "ESLEAD HOTEL Osaka Tsuruhashi",
+          "hotelId": "ChkIq8yVn66UqcU_Gg0vZy8xMW53d3hta3k1EAE",
+          "priceText": "₹4,632"
+        }
+      ]
+    },
+    {
+      "city": "Kyoto",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in&ved=0CAAQ5JsGahcKEwioyofZkayXAxUAAAAAHQAAAAAQCA&ts=CAESCgoCCAMKAggDEAAaUAoyEi4yJTB4NjAwMWE4ZDZjZDNjYzNmMToweGMwOTYxZDM2NmJiYjFkM2Q6BUt5b3RvGgASGhIUCgcI6g8QChgTEgcI6g8QChgVGAIyAggBKgkKBToDSU5SGgA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:52:06Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "Hotel Granvia Kyoto",
+          "hotelId": "ChgI4vfH6fLZ9c6zARoLL2cvMTIxcDZzN3QQAQ",
+          "priceText": "₹17,806"
+        },
+        {
+          "name": "Hotel Chronos Kyoto",
+          "hotelId": "ChgI4_XTlbXb1oPHARoLL2cvMXRmN21nN2cQAQ",
+          "priceText": "₹3,607"
+        },
+        {
+          "name": "Miyako Hotel Kyoto Hachijo",
+          "hotelId": "ChkI2tTK-oiogsKxARoML2cvMTFjZnYxZDIxEAE",
+          "priceText": "₹10,576"
+        },
+        {
+          "name": "Hotel Resol Kyoto Kawaramachi Sanjo",
+          "hotelId": "ChoIvvKs15z0rIe4ARoNL2cvMTFnMDF2dHlwbhAB",
+          "priceText": "₹12,500"
+        },
+        {
+          "name": "Sakura Terrace The Atelier",
+          "hotelId": "ChkIpdOBruLww9hgGg0vZy8xMWNzMHE5cG4wEAE",
+          "priceText": "₹6,554"
+        },
+        {
+          "name": "Hotel Resol Kyoto Shijo Muromachi",
+          "hotelId": "ChgI9IXwzOqflr-sARoLL2cvMXRkZzdwdjEQAQ",
+          "priceText": "₹15,476"
+        },
+        {
+          "name": "KéFU stay & lounge",
+          "hotelId": "ChkIkL36i4Sj77Q1Gg0vZy8xMWo0dDQ3bXpwEAE",
+          "priceText": "₹4,216"
+        },
+        {
+          "name": "Kyoto Pleasant Hotel",
+          "hotelId": "ChkIgrrnm8Col5R_Gg0vZy8xMWxuajl4eHd5EAE",
+          "priceText": "₹9,560"
+        },
+        {
+          "name": "ORIENTAL HOTEL KYOTO ROKUJO",
+          "hotelId": "ChkIh46ls6ORhMkNGg0vZy8xMWZsZ3c1MnByEAE",
+          "priceText": "₹13,916"
+        },
+        {
+          "name": "Santiago Guesthouse Kyoto",
+          "hotelId": "ChgI9t6Rwbi9jfklGgwvZy8xaGh2eHhrcGYQAQ",
+          "priceText": "₹3,952"
+        },
+        {
+          "name": "Nohga Hotel Kiyomizu Kyoto",
+          "hotelId": "ChkI_uyYpsTA_sUCGg0vZy8xMXJjdjVnMTluEAE",
+          "priceText": "₹23,792"
+        },
+        {
+          "name": "The Royal Park Canvas Kyoto Nijo",
+          "hotelId": "ChkIv7a6qeLnlYtyGg0vZy8xMXFuMHhzaF8zEAE",
+          "priceText": "₹14,583"
+        },
+        {
+          "name": "VESSEL HOTEL CAMPANA KYOTO GOJO",
+          "hotelId": "ChoIh_jnv9Ke1p_GARoNL2cvMTFidHY2NzJoOBAB",
+          "priceText": "₹12,969"
+        },
+        {
+          "name": "Utano Youth Hostel",
+          "hotelId": "ChgI-YbIieXDlYWYARoLL2cvMTIxbjQ4dHEQAQ",
+          "priceText": "₹4,835"
+        },
+        {
+          "name": "Hotel Kuretakeso, Kyoto Kiyomizu Gojo",
+          "hotelId": "ChkI3uOhg6rb2apRGg0vZy8xMWg1NmJtZmJ3EAE",
+          "priceText": "₹9,915"
+        },
+        {
+          "name": "Len Kyoto Kawaramachi",
+          "hotelId": "ChoIwdjzxPzmoL3TARoNL2cvMTFid255NzE2cRAB",
+          "priceText": "₹7,851"
+        },
+        {
+          "name": "Moshi Moshi Pierrot Neo",
+          "hotelId": "ChcI9dfdsNSy-PNmGgsvZy8xdzN3MnlndxAB",
+          "priceText": "₹5,502"
+        },
+        {
+          "name": "KAGANHOTEL - 河岸ホテル -",
+          "hotelId": "ChkIo8vtrqnuh6oXGg0vZy8xMWZodjdwM3k2EAE",
+          "priceText": "₹6,426"
+        },
+        {
+          "name": "Stay Inn KOTO - Japanese-Style Room",
+          "hotelId": "ChkQx9700dXK4YJpGg0vZy8xMXo0c2IweGxuEAI",
+          "priceText": "₹7,139"
+        },
+        {
+          "name": "Free bike & free WIFI Take it easy 203",
+          "hotelId": "ChoQ6drG3OqKu7e2ARoNL2cvMTF6Mmc0dnk5MBAC",
+          "priceText": "₹7,355"
+        }
+      ]
+    },
+    {
+      "city": "Rome",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in&ved=0CAAQ5JsGahcKEwjg0ZjjkayXAxUAAAAAHQAAAAAQBw&ts=CAESCgoCCAMKAggDEAAaTwoxEi0yJTB4MTMyZjYxOTZmOTkyOGViYjoweGI5MGY3NzA2OTM2NTZlMzg6BFJvbWUaABIaEhQKBwjqDxAKGBMSBwjqDxAKGBUYAjICCAEqDQoJOgNJTlJiAggBGgA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:52:27Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "Hotel Domidea",
+          "hotelId": "ChgIs_jKh7ne9Y7QARoLL2cvMXdmNHFwZzAQAQ",
+          "priceText": "₹15,089"
+        },
+        {
+          "name": "La casa di Giulietta",
+          "hotelId": "ChoQwN-Fo9_L1pqKARoNL2cvMTF6NmI0bHdibhAC",
+          "priceText": "₹14,551"
+        },
+        {
+          "name": "Suite Blue Style",
+          "hotelId": "ChoIhNi7__7L7OHPARoNL2cvMTFyeXNxcW1fNxAB",
+          "priceText": "₹12,205"
+        },
+        {
+          "name": "Ibis Styles Vintage Hotel Rome",
+          "hotelId": "ChkIu7j-s--5psYZGg0vZy8xMWI2MzJsbHpoEAE",
+          "priceText": "₹11,919"
+        },
+        {
+          "name": "Hotel Roma Tor Vergata",
+          "hotelId": "ChgIz5iys9Wrp931ARoLL2cvMXRtZzhwYm0QAQ",
+          "priceText": "₹9,673"
+        },
+        {
+          "name": "Anagnina Apartment - Apartment with Terrace",
+          "hotelId": "ChkQ3OLvrKCK27kKGg0vZy8xMXl5YnQwcnluEAI",
+          "priceText": "₹8,886"
+        },
+        {
+          "name": "Virtus Prestige - Rooms Apartments - Family Room",
+          "hotelId": "ChoQy6eepMG9iuf6ARoNL2cvMTF6NGNwZzViYxAC",
+          "priceText": "₹9,002"
+        },
+        {
+          "name": "Roma Talenti Fucini",
+          "hotelId": "ChoI6bPb8tbmm-68ARoNL2cvMTFoMWczaGMyNRAB",
+          "priceText": "₹14,765"
+        },
+        {
+          "name": "Piccolo Appartamento Pdrone",
+          "hotelId": "ChoQws_Vldib35uVARoNL2cvMTF6eHd5MDZmZhAC",
+          "priceText": "₹10,275"
+        },
+        {
+          "name": "Piccolo Appartamento Pdrone - One-Bedroom Apartment",
+          "hotelId": "ChkQhv6Y_uucgKlwGg0vZy8xMW5ienpka2JfEAI",
+          "priceText": "₹11,359"
+        },
+        {
+          "name": "Appia Park Hotel",
+          "hotelId": "ChcIkpzKrq3btK8mGgsvZy8xd2NqX3BrNBAB",
+          "priceText": "₹14,071"
+        },
+        {
+          "name": "Hotel Roma Aurelia Antica",
+          "hotelId": "ChgIv8zmv8P22ti_ARoLL2cvMXRmZGd4NjQQAQ",
+          "priceText": "₹10,588"
+        },
+        {
+          "name": "Tiber Suite",
+          "hotelId": "ChkIo72O2cLfmO0dGg0vZy8xMXlieTRkdnhiEAE",
+          "priceText": "₹10,097"
+        },
+        {
+          "name": "Eco B & B Marela",
+          "hotelId": "ChkInIKS6cay9JKcARoML2cvMTEzZjNjZnBoEAE",
+          "priceText": "₹9,990"
+        },
+        {
+          "name": "Grand Hotel Fleming",
+          "hotelId": "ChgI7uKFsvLJneEGGgwvZy8xeWc1N3ZwenEQAQ",
+          "priceText": "₹13,445"
+        },
+        {
+          "name": "Roma Scout Center",
+          "hotelId": "ChcIrOvjmrCm5b0KGgsvZy8xdmNta3Z5ZhAB",
+          "priceText": "₹10,464"
+        },
+        {
+          "name": "Hotel Monteverde Roma",
+          "hotelId": "ChkIoYuNncDYwKIJGg0vZy8xMWI2MmpxXzIzEAE",
+          "priceText": "₹11,472"
+        },
+        {
+          "name": "Star of Rome",
+          "hotelId": "ChgImeby7dyzi6QXGgwvZy8xaG0zNXQzNjUQAQ",
+          "priceText": "₹10,889"
+        },
+        {
+          "name": "Black Hotel Rome",
+          "hotelId": "ChgI1p_3mZf6yYXQARoLL2cvMXZxdDI4bHQQAQ",
+          "priceText": "₹13,542"
+        },
+        {
+          "name": "Hotel Boomerang",
+          "hotelId": "ChgI9p6yyvyxmLHWARoLL2cvMXRjd2J5aHkQAQ",
+          "priceText": "₹8,753"
+        }
+      ]
+    },
+    {
+      "city": "Milan",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in&ved=0CAAQ5JsGahcKEwjAhLPtkayXAxUAAAAAHQAAAAAQBw&ts=CAESCgoCCAMKAggDEAAaUAoyEi4yJTB4NDc4NmMxNDkzZjEyNzVlNzoweDNjZmZjZDEzYzY3NDBlOGQ6BU1pbGFuGgASGhIUCgcI6g8QChgTEgcI6g8QChgVGAIyAggBKg0KCToDSU5SYgIIARoA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:52:49Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "Hotel Da Vinci Milano",
+          "hotelId": "ChgInu3Dz7bByqnYARoLL2cvMXRnNmpmNXQQAQ",
+          "priceText": "₹8,535"
+        },
+        {
+          "name": "Novotel Milano Nord Ca Granda",
+          "hotelId": "ChkIlfugpPjnj5wgGg0vZy8xMWI2ZDVsMHF2EAE",
+          "priceText": "₹7,336"
+        },
+        {
+          "name": "iH Hotels Milano Regency",
+          "hotelId": "ChcIxJPn5p_ThtUIGgsvZy8xdjlsOW5reBAB",
+          "priceText": "₹9,508"
+        },
+        {
+          "name": "Babila Hostel & Bistrot",
+          "hotelId": "ChoI6IyP7pjrhuuoARoNL2cvMTFkZnI1bXNidxAB",
+          "priceText": "₹6,668"
+        },
+        {
+          "name": "B&B HOTEL Milano San Siro",
+          "hotelId": "ChkI_82kjMXz_r8IGg0vZy8xMWJjN3JzZF8wEAE",
+          "priceText": "₹8,523"
+        },
+        {
+          "name": "Hyatt Centric Milan Centrale",
+          "hotelId": "ChoItPPT596gq5i0ARoNL2cvMTFiNjNjbGpyXxAB",
+          "priceText": "₹34,942"
+        },
+        {
+          "name": "Combo",
+          "hotelId": "ChkIlJOy4-6E-YJXGg0vZy8xMWhkdnZoMHR5EAE",
+          "priceText": "₹6,667"
+        },
+        {
+          "name": "Xenia Milano - Quiet and bright studio apt with a balcony and A/C",
+          "hotelId": "ChoQ1MahkL72qeboARoNL2cvMTF6Mzl0N3d5XxAC",
+          "priceText": "₹7,496"
+        },
+        {
+          "name": "MEININGER Milano Garibaldi",
+          "hotelId": "ChoI8vjIwabG2NmTARoNL2cvMTFmMW1neTh0axAB",
+          "priceText": "₹6,733"
+        },
+        {
+          "name": "2 Navigli B&B",
+          "hotelId": "ChoI-_3Pk5TJrPLCARoNL2cvMTFmazhkcXltahAB",
+          "priceText": "₹9,773"
+        },
+        {
+          "name": "YellowSquare Milan",
+          "hotelId": "ChkIsJO57duNtsNUGg0vZy8xMWoyY2hjdHhxEAE",
+          "priceText": "₹8,050"
+        },
+        {
+          "name": "Milan Suite Hotel",
+          "hotelId": "ChcInIPLrOaHscpnGgsvZy8xdGYwMWJsYhAB",
+          "priceText": "₹19,829"
+        },
+        {
+          "name": "Premier Apartment Milano",
+          "hotelId": "ChkQstukwJbfz_Q_Gg0vZy8xMXZkMzF2NjFtEAI",
+          "priceText": "₹9,946"
+        },
+        {
+          "name": "Idea Hotel Milano San Siro",
+          "hotelId": "ChgI5Pvbq8-p7vZtGgwvZy8xcHlkNG0xMnkQAQ",
+          "priceText": "₹7,254"
+        },
+        {
+          "name": "Ostello Bello Grande",
+          "hotelId": "ChkIkJeVocPD1ew4Gg0vZy8xMWJjNnk2dmw0EAE",
+          "priceText": "₹9,400"
+        },
+        {
+          "name": "Crowne Plaza Milan City, an IHG Hotel",
+          "hotelId": "ChgIj6GlrqvssuLuARoLL2cvMXR2ZGhwMmYQAQ",
+          "priceText": "₹29,677"
+        },
+        {
+          "name": "Hotel Forum",
+          "hotelId": "ChoIw6G7nMClkqbhARoNL2cvMTFjNTdrZzhfOBAB",
+          "priceText": "₹10,488"
+        },
+        {
+          "name": "The Westin Palace, Milan",
+          "hotelId": "ChYIh_rE17eU2YQVGgovbS8wYzAxbDN4EAE",
+          "priceText": "₹42,181"
+        },
+        {
+          "name": "Studio Modern Industrial - Porta Romana Milano",
+          "hotelId": "ChoQ9vz7zdPI-5KUARoNL2cvMTF6ZmI1cTY0ahAC",
+          "priceText": "₹10,086"
+        },
+        {
+          "name": "OstellOlinda Milano",
+          "hotelId": "ChcIsvHZjMy_nYslGgsvZy8xdGR4dHgzdhAB",
+          "priceText": "₹4,488"
+        }
+      ]
+    },
+    {
+      "city": "Florence",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in&ved=0CAAQ5JsGahcKEwigjIX4kayXAxUAAAAAHQAAAAAQBw&ts=CAESCgoCCAMKAggDEAAaUwo1EjEyJTB4MTMyYTU2YTY4MGQyZDZhZDoweDkzZDU3OTE3ZWZjNzJhMDM6CEZsb3JlbmNlGgASGhIUCgcI6g8QChgTEgcI6g8QChgVGAIyAggBKg0KCToDSU5SYgIIARoA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:53:11Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "DoubleTree by Hilton Florence Metropole",
+          "hotelId": "ChcI5oO7s-GL6r9PGgsvZy8xdGQ0NHhkOBAB",
+          "priceText": "₹24,845"
+        },
+        {
+          "name": "Hotel Mulino di Firenze, member of WorldHotels Crafted",
+          "hotelId": "ChcI9I2K8Me-_YYLGgsvZy8xdGtfcmRqOBAB",
+          "priceText": "₹15,647"
+        },
+        {
+          "name": "Together Florence Inn",
+          "hotelId": "ChcIvMeE5ajspP4NGgsvZy8xdGY4ajcwehAB",
+          "priceText": "₹10,113"
+        },
+        {
+          "name": "New Generation Hostel Florence",
+          "hotelId": "ChkI7ubxnIuM8JhSGg0vZy8xMWhfdzQxY21fEAE",
+          "priceText": "₹4,981"
+        },
+        {
+          "name": "PLUS Florence",
+          "hotelId": "ChgI7dqgxPShl_rkARoLL2cvMXRrX3Jkam4QAQ",
+          "priceText": "₹7,872"
+        },
+        {
+          "name": "Hotel Villa Olmi Firenze",
+          "hotelId": "ChgIyZOvm4qRj9c9GgwvZy8xaGMxeHlnYzUQAQ",
+          "priceText": "₹22,001"
+        },
+        {
+          "name": "Ostello Bello Firenze - Hostel and Bar",
+          "hotelId": "ChoImvn5rvPLu5ulARoNL2cvMTFxMnQyM3JrbRAB",
+          "priceText": "₹8,999"
+        },
+        {
+          "name": "Hotel Ferrucci",
+          "hotelId": "ChkIq_DBw_zatuLyARoML2cvMXE1Ym1tbmJ4EAE",
+          "priceText": "₹11,907"
+        },
+        {
+          "name": "Best Western Plus CHC Florence",
+          "hotelId": "ChoIiJ_0_J-Vx8uLARoNL2cvMTFkZmo1d3pjbhAB",
+          "priceText": "₹15,621"
+        },
+        {
+          "name": "Ambasciatori Hotel Florence",
+          "hotelId": "ChkI9qSu3-es4sWLARoML2cvMWpreWNrcnNjEAE",
+          "priceText": "₹22,247"
+        },
+        {
+          "name": "YellowSquare Florence",
+          "hotelId": "ChkIw-fRiYr0oqIRGg0vZy8xMXNxazY2a3o5EAE",
+          "priceText": "₹12,447"
+        },
+        {
+          "name": "B&B Palazzi",
+          "hotelId": "ChoIsqSC_rWc1behARoNL2cvMTFmankzeTkwMBAB",
+          "priceText": "₹13,021"
+        },
+        {
+          "name": "Santa Monaca Hostel",
+          "hotelId": "ChgIo4HojbyZ3IjPARoLL2cvMXRkNDU2MnAQAQ",
+          "priceText": "₹5,355"
+        },
+        {
+          "name": "Opera House Florence",
+          "hotelId": "ChoI1bCY9u3lwfeLARoNL2cvMTF4Z2RtNm5yZhAB",
+          "priceText": "₹14,855"
+        },
+        {
+          "name": "Hotel Grifone Firenze",
+          "hotelId": "ChcI44Kvy_e8mfheGgsvZy8xdnJ0eDIwdBAB",
+          "priceText": "₹14,040"
+        },
+        {
+          "name": "Hostel 7 Santi",
+          "hotelId": "ChcIz8zP9Pfik_wIGgsvZy8xdG1taGxoZxAB",
+          "priceText": "₹6,089"
+        },
+        {
+          "name": "a&o Hostel Firenze Campo Di Marte",
+          "hotelId": "ChkI14v66N_u9c9NGg0vZy8xMXZ5cDRrNTN6EAE",
+          "priceText": "₹5,281"
+        },
+        {
+          "name": "Dimora Palanca Boutique & SPA",
+          "hotelId": "ChoIkrGonKqO4fzZARoNL2cvMTFueDF4ajB5ZhAB",
+          "priceText": "₹24,224"
+        },
+        {
+          "name": "Tuscany Dream - Appartamento Firenze aria condizionata e giardino",
+          "hotelId": "ChoQ2eTlzISTl-LfARoNL2cvMTFuYzRwbjlxMRAC",
+          "priceText": "₹11,114"
+        },
+        {
+          "name": "Boboli Apartment by Mamo Florence",
+          "hotelId": "ChkQs9rWnKKnnZttGg0vZy8xMXZ4emR4andnEAI",
+          "priceText": "₹13,389"
+        }
+      ]
+    },
+    {
+      "city": "Jakarta",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in&ved=0CAAQ5JsGahcKEwiIwquCkqyXAxUAAAAAHQAAAAAQCA&ts=CAESCgoCCAMKAggDEAAaUgo0EjAyJTB4MmU2OWYzZTk0NWUzNGI5ZDoweDUzNzFiZjBmZGFkNzg2YTI6B0pha2FydGEaABIaEhQKBwjqDxAKGBMSBwjqDxAKGBUYAjICCAEqCQoFOgNJTlIaAA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:53:33Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "Hilton Garden Inn Jakarta Taman Palem",
+          "hotelId": "ChkIksmtl_iOk8QyGg0vZy8xMWsxMWQ1Yzd2EAE",
+          "priceText": "₹6,727"
+        },
+        {
+          "name": "Novotel Jakarta Mangga Dua Square",
+          "hotelId": "ChkIubqh69XM6tO4ARoML2cvMTFydzJjMTJ5EAE",
+          "priceText": "₹4,827"
+        },
+        {
+          "name": "DoubleTree by Hilton Hotel Jakarta - Diponegoro",
+          "hotelId": "ChgIprrx4J-AwN4tGgwvZy8xcHR6ZjJmcDQQAQ",
+          "priceText": "₹7,475"
+        },
+        {
+          "name": "Best Western Premier The Hive",
+          "hotelId": "ChkI1PSpyeGg1o3DARoML2cvMXE2ajZmc3dmEAE",
+          "priceText": "₹2,939"
+        },
+        {
+          "name": "Aston Kemayoran City Hotel",
+          "hotelId": "ChkI_Nqf0b75u8QoGg0vZy8xMWo4aG0wZG5nEAE",
+          "priceText": "₹3,106"
+        },
+        {
+          "name": "Hariston Hotel & Suites",
+          "hotelId": "ChgIofX3-qLXqeQSGgwvZy8xcHR5OXczanIQAQ",
+          "priceText": "₹2,233"
+        },
+        {
+          "name": "World Hotel Jakarta Bandengan",
+          "hotelId": "ChgIirzSlv2GyrkIGgwvZy8xcHpwa3dnNDQQAQ",
+          "priceText": "₹627"
+        },
+        {
+          "name": "Putri Duyung Cottage",
+          "hotelId": "ChoIlom12Ye9oPvtARoNL2cvMTFjMHJwYzA2MxAB",
+          "priceText": "₹3,458"
+        },
+        {
+          "name": "éL Hotel Jakarta",
+          "hotelId": "ChgI_b_WrsTAic09GgwvZy8xMm1sMnd5MTAQAQ",
+          "priceText": "₹2,778"
+        },
+        {
+          "name": "Wyndham Casablanca Jakarta",
+          "hotelId": "ChkIwbXzqv_B6_JwGg0vZy8xMWgwODFtOWZ6EAE",
+          "priceText": "₹5,722"
+        },
+        {
+          "name": "ARTOTEL Casa Kuningan",
+          "hotelId": "ChoI9Nj735C56r6yARoNL2cvMTF0NzdtbTJocRAB",
+          "priceText": "₹5,903"
+        },
+        {
+          "name": "Dparagon Kebon Jeruk",
+          "hotelId": "ChoQhYOvtZTTpNqJARoNL2cvMTFtY3NrOHgwYxAC",
+          "priceText": "₹2,165"
+        },
+        {
+          "name": "Swiss-Belresidences Rasuna Epicentrum",
+          "hotelId": "ChoIsM7Zz7fQz_OpARoNL2cvMTFnMDNyM2x4dxAB",
+          "priceText": "₹3,839"
+        },
+        {
+          "name": "Four Points by Sheraton Jakarta, Thamrin",
+          "hotelId": "ChoI84Sl5rf5revLARoNL2cvMTFjNDc2NmtoMxAB",
+          "priceText": "₹7,075"
+        },
+        {
+          "name": "Studio, \"West Jakarta Oasis\" Netflix, Pool, Mall",
+          "hotelId": "ChoQ0M-bwsH3w8nhARoNL2cvMTFtc192aF9oMhAC",
+          "priceText": "₹2,306"
+        },
+        {
+          "name": "Mandarin Oriental, Jakarta",
+          "hotelId": "ChcIl5rJ9MCc7vlqGgsvZy8xdmJiY3pxNBAB",
+          "priceText": "₹12,540"
+        },
+        {
+          "name": "ARYADUTA Menteng",
+          "hotelId": "ChkI1KHz6bq3t6heGg0vZy8xMWM1cm1zbjRiEAE",
+          "priceText": "₹4,614"
+        },
+        {
+          "name": "Holiday Inn Express Jakarta Menteng by IHG",
+          "hotelId": "ChkIncGV1t73wbpIGg0vZy8xMWY3dDUxeDR3EAE",
+          "priceText": "₹2,889"
+        },
+        {
+          "name": "Fairfield by Marriott Jakarta Soekarno-Hatta Airport",
+          "hotelId": "ChkI2auW-IH56bIlGg0vZy8xMXYweHp5ZmYzEAE",
+          "priceText": "₹6,598"
+        },
+        {
+          "name": "HABITARE Rasuna Jakarta",
+          "hotelId": "ChoImc_576WEu7joARoNL2cvMTFrcTE2cDZrZBAB",
+          "priceText": "₹4,222"
+        }
+      ]
+    },
+    {
+      "city": "Bali",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "finalUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in&ved=0CAAQ5JsGahcKEwjQouOMkqyXAxUAAAAAHQAAAAAQBw&ts=CAESCgoCCAMKAggDEAAaTwoxEi0yJTB4MmRkMTQxZDNlODEwMGZhMToweDI0OTEwZmIxNGIyNGU2OTA6BEJhbGkaABIaEhQKBwjqDxAKGBMSBwjqDxAKGBUYAjICCAEqCQoFOgNJTlIaAA&qs=CAE4DQ&ap=MAE",
+      "capturedAt": "2026-10-09T04:53:55Z",
+      "checkIn": "2026-10-19",
+      "checkOut": "2026-10-21",
+      "checkInShown": "Mon, Oct 19",
+      "checkOutShown": "Wed, Oct 21",
+      "travelers": "Number of travelers. Current number of travelers is 2.",
+      "occupancyShown": [
+        "Adults Remove adult 2 2 Add adult",
+        "Children Remove child 0 0 Add child"
+      ],
+      "cards": [
+        {
+          "name": "Sekar Ayu Spa Salon Bungalow - Deluxe Room (2 Adults + 1 Child)",
+          "hotelId": "ChkQ9bShi9unqb8vGg0vZy8xMXYzZmZmcG01EAI",
+          "priceText": "₹1,474"
+        },
+        {
+          "name": "Wyndham Tamansari Jivva Resort Bali",
+          "hotelId": "ChoIr97n8-f4wPm8ARoNL2cvMTFid3A2aGJzNhAB",
+          "priceText": "₹3,950"
+        },
+        {
+          "name": "The Sandat Bungalow - Deluxe Bungalow",
+          "hotelId": "ChkQ1qGxwN3z6YUfGg0vZy8xMXZ3c3d6MGp3EAI",
+          "priceText": "₹1,892"
+        },
+        {
+          "name": "The Kuta Beach Heritage Hotel Bali - Dikelola oleh Accor",
+          "hotelId": "ChgIuvDRitnckeRlGgwvZy8xcHR6NnR5ZG0QAQ",
+          "priceText": "₹6,573"
+        },
+        {
+          "name": "Eden Hotel Kuta Bali",
+          "hotelId": "ChkItZK74ND0_rPAARoML2cvMXE2MmdrejMyEAE",
+          "priceText": "₹1,387"
+        },
+        {
+          "name": "Grand Zuri Hotels Kuta - Bali",
+          "hotelId": "ChoIkpbz25u63oKAARoNL2cvMTFiNmQyMjlzMxAB",
+          "priceText": "₹1,774"
+        },
+        {
+          "name": "Cemara Beachfront Nusa Penida - Deluxe Double Room with Balcony and Sea View",
+          "hotelId": "ChoQuo6bze3rifDjARoNL2cvMTF6NXF0OGtxZBAC",
+          "priceText": "₹892"
+        },
+        {
+          "name": "Courtyard by Marriott Bali Nusa Dua Resort",
+          "hotelId": "ChgI8--wpNnPuYWdARoLL2cvMXRrM3c3Z2MQAQ",
+          "priceText": "₹11,516"
+        },
+        {
+          "name": "AYANA Resort Bali",
+          "hotelId": "ChcIyo2FjenOuZ8xGgsvZy8xdGYyMTV2aBAB",
+          "priceText": "₹19,976"
+        },
+        {
+          "name": "The Pandawa Hills Ceningan - Twin Room with Balcony",
+          "hotelId": "ChoQxJaakviXiNqEARoNL2cvMTFrajVwaGRrdxAC",
+          "priceText": "₹1,622"
+        },
+        {
+          "name": "Ramada Encore by Wyndham Seminyak Bali",
+          "hotelId": "ChoI1-Hr08HjrcemARoNL2cvMTFjM2s2ZHFsahAB",
+          "priceText": "₹3,041"
+        },
+        {
+          "name": "The Patra Bali Resort & Villas",
+          "hotelId": "ChkIsInI0ujjjbXtARoML2cvMWhkenZnZ2Q2EAE",
+          "priceText": "₹6,690"
+        },
+        {
+          "name": "Padmasari Resort Hotel",
+          "hotelId": "ChgI3arF9KSYlpxiGgwvZy8xMmh0dm1uX3gQAQ",
+          "priceText": "₹4,037"
+        },
+        {
+          "name": "THE HAVEN Bali Seminyak",
+          "hotelId": "ChgI_Jyq__OlwIYdGgwvZy8xcHR6M3J6bnMQAQ",
+          "priceText": "₹6,111"
+        },
+        {
+          "name": "Nusa Veranda Sunset Villas & Restaurant",
+          "hotelId": "ChoIuMu_-4XWz4mtARoNL2cvMTFmNzY2eWJmchAB",
+          "priceText": "₹3,746"
+        },
+        {
+          "name": "Aston Canggu Beach Resort",
+          "hotelId": "ChkIydec2cLd95ZPGg0vZy8xMWM1c3gwMHAyEAE",
+          "priceText": "₹5,140"
+        },
+        {
+          "name": "Gama's Villa",
+          "hotelId": "ChkQ25v2-teWtN5xGg0vZy8xMW50aHF5bmNuEAI",
+          "priceText": "₹2,432"
+        },
+        {
+          "name": "Royal Regantris Kuta",
+          "hotelId": "ChcI_Kes757r1t8eGgsvZy8xdGRxa3JfeBAB",
+          "priceText": "₹1,951"
+        },
+        {
+          "name": "Bali Beach Glamping",
+          "hotelId": "ChoIhonWnqvir7i4ARoNL2cvMTFoc3NkOXkyMRAB",
+          "priceText": "₹5,256"
+        },
+        {
+          "name": "Bali Breezz Hotel",
+          "hotelId": "ChgI56eV4d_e8_G0ARoLL2cvMXRraGZmOTUQAQ",
+          "priceText": "₹1,822"
+        }
+      ]
+    }
+  ]
+}

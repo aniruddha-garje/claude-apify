@@ -1,0 +1,186 @@
+{
+    "title": "Google Hotels Scraper input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "queries": {
+            "title": "Searches",
+            "type": "array",
+            "description": "City or hotel searches as you would type them into Google, for example \"hotels in Paris\". Each row carries resolvedPlace, the place Google read the search as. A search Google does not recognise is skipped and not charged.",
+            "editor": "stringList",
+            "prefill": [
+                "hotels in Paris"
+            ],
+            "example": [
+                "hotels in Paris"
+            ]
+        },
+        "hotelUrls": {
+            "title": "Hotel URLs (coming soon)",
+            "type": "array",
+            "description": "Coming soon: named-hotel tracking. Leave this empty for now. A run with hotel links stops at once and costs nothing; use Searches instead, for example \"hotels in Paris\".",
+            "editor": "stringList",
+            "default": [],
+            "example": []
+        },
+        "checkInFrom": {
+            "title": "First check-in date",
+            "type": "string",
+            "description": "First check-in date of the price calendar (YYYY-MM-DD), for example 2026-11-12. Defaults to tomorrow. Past dates are rejected before the run starts, so they never cost anything. For scheduled runs use First check-in, days ahead instead, so the date moves forward with every run.",
+            "editor": "datepicker",
+            "example": "2026-11-12"
+        },
+        "checkInTo": {
+            "title": "Last check-in date",
+            "type": "string",
+            "description": "Last check-in date of the calendar. One search runs per check-in date in the range. Defaults to the first check-in date.",
+            "editor": "datepicker",
+            "example": "2026-11-18"
+        },
+        "checkInFromDaysAhead": {
+            "title": "First check-in, days ahead",
+            "type": "integer",
+            "description": "First check-in date as days after the run date: 0 is today, 7 is a week ahead. Use it instead of First check-in date for scheduled runs, so they never ask for a past date. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/copenhagen-hotel-prices-30-check-in-dates.html\" target=\"_blank\">Read an example</a>.",
+            "minimum": 0,
+            "maximum": 365,
+            "example": 7
+        },
+        "checkInToDaysAhead": {
+            "title": "Last check-in, days ahead",
+            "type": "integer",
+            "description": "Last check-in date as days after the run date, for example 30. Defaults to the first check-in date. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/copenhagen-hotel-prices-30-check-in-dates.html\" target=\"_blank\">Read an example</a>.",
+            "minimum": 0,
+            "maximum": 365,
+            "example": 30
+        },
+        "nights": {
+            "title": "Nights",
+            "type": "integer",
+            "description": "Stay length applied to every check-in date and echoed on every row, as Google reported it.",
+            "minimum": 1,
+            "maximum": 30,
+            "default": 1,
+            "example": 2
+        },
+        "adults": {
+            "title": "Adults",
+            "type": "integer",
+            "description": "Adults per room. Prices change with occupancy.",
+            "minimum": 1,
+            "maximum": 12,
+            "default": 2,
+            "example": 2
+        },
+        "children": {
+            "title": "Children",
+            "type": "integer",
+            "description": "Number of children. Ages default to 8 unless set below.",
+            "minimum": 0,
+            "maximum": 8,
+            "default": 0,
+            "example": 1
+        },
+        "childrenAges": {
+            "title": "Children's ages",
+            "type": "array",
+            "description": "Optional ages (0 to 17), one per child.",
+            "editor": "json",
+            "default": [],
+            "example": [
+                8
+            ]
+        },
+        "currency": {
+            "title": "Currency",
+            "type": "string",
+            "description": "Three-letter ISO 4217 code, for example USD, EUR, GBP, INR or IDR.",
+            "editor": "textfield",
+            "default": "USD",
+            "example": "USD"
+        },
+        "country": {
+            "title": "Country",
+            "type": "string",
+            "description": "Two-letter country of the searcher. It pins the proxy country, because Google's prices follow the requester's country.",
+            "editor": "textfield",
+            "default": "US",
+            "example": "US"
+        },
+        "filters": {
+            "title": "Filters",
+            "type": "object",
+            "description": "Optional: hotelClass (array of 2 to 5), amenities (for example [\"freeWifi\", \"pool\"]), minRating (for example 4.0), priceMin and priceMax (per night, in your currency).",
+            "editor": "json",
+            "prefill": {},
+            "default": {},
+            "example": {
+                "hotelClass": [
+                    4,
+                    5
+                ],
+                "amenities": [
+                    "freeWifi"
+                ]
+            }
+        },
+        "includeOffers": {
+            "title": "Include per-site offers",
+            "type": "boolean",
+            "description": "Adds one row per booking site (Booking.com, Expedia, the hotel's own site and others) for each hotel and date. Each offer is a separate paid event. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/berlin-hotel-booking-site-price-spread.html\" target=\"_blank\">Read an example</a>.",
+            "default": false,
+            "example": false
+        },
+        "includeUnavailable": {
+            "title": "Include hotels without a price",
+            "type": "boolean",
+            "description": "Also return hotels Google lists without a price on that date (sold out or not bookable), with pricePerNight null and available false. These rows are not charged. Off by default.",
+            "default": false,
+            "example": false
+        },
+        "maxHotelsPerQuery": {
+            "title": "Max hotels per search and date",
+            "type": "integer",
+            "description": "Hard cost cap per search and check-in date.",
+            "minimum": 1,
+            "maximum": 360,
+            "prefill": 5,
+            "default": 50,
+            "example": 50
+        },
+        "canary": {
+            "title": "Drift canary (advanced)",
+            "type": "object",
+            "description": "For scheduled monitoring runs. Example: {\"baselineStore\": \"canary-baseline\", \"thresholdPoints\": 5}. The first run saves the null rate of key fields (and the mix of a status field) to that named key-value store; later runs compare and fail with an alert if any value moves by more than thresholdPoints percentage points. Leave empty for normal runs.",
+            "editor": "json",
+            "sectionCaption": "Advanced",
+            "example": {
+                "baselineStore": "canary-baseline",
+                "thresholdPoints": 5
+            }
+        },
+        "proxyConfiguration": {
+            "title": "Proxy",
+            "type": "object",
+            "description": "Residential proxy pinned to the country above is recommended.",
+            "editor": "proxy",
+            "prefill": {
+                "useApifyProxy": true,
+                "apifyProxyGroups": [
+                    "RESIDENTIAL"
+                ]
+            },
+            "default": {
+                "useApifyProxy": true,
+                "apifyProxyGroups": [
+                    "RESIDENTIAL"
+                ]
+            },
+            "example": {
+                "useApifyProxy": true,
+                "apifyProxyGroups": [
+                    "RESIDENTIAL"
+                ]
+            }
+        }
+    }
+}

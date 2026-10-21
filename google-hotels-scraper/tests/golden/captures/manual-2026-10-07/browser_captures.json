@@ -1,0 +1,47 @@
+{
+  "method": "Built-in browser on this computer (residential connection in India), Google Hotels web page, read from the rendered page (DOM): the first 5 organic results per city, the nightly price shown on each card, and the check-in and check-out shown in the date fields. Travelers panel showed Adults 2, Children 0. Prices were shown in Indian rupees because the browser is in India, so the stated country is IN and currency INR.",
+  "captures": [
+    {
+      "city": "Rome",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-07T19:00:06.597Z",
+      "checkInShown": "Thu, Oct 8",
+      "checkOutShown": "Sat, Oct 10",
+      "cards": [
+        {"name": "Mercure Roma West", "hotelId": "ChkInMH55YKrgKe-ARoML2cvMWhjMnkza2wzEAE", "priceText": "₹12,538"},
+        {"name": "Virtus Prestige - Rooms Apartments - Junior Suite with Private Pool", "hotelId": "ChoQ2ZHBqcC5_83nARoNL2cvMTF4NXlkdzE3NxAC", "priceText": "₹8,927"},
+        {"name": "Shangri-La", "hotelId": "ChcI1MmPzruDnfAxGgsvZy8xdGZuNWczbBAB", "priceText": "₹15,868"},
+        {"name": "Revolution Hotel", "hotelId": "ChkIjOa8tMj9__omGg0vZy8xMXoxMV9scXN3EAE", "priceText": "₹11,819"},
+        {"name": "Holiday Inn Rome - Aurelia", "hotelId": "ChgI15Sn8p7x7MVGGgwvZy8xeWdiYjgwcnIQAQ", "priceText": "₹15,881"}
+      ]
+    },
+    {
+      "city": "Tokyo",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-07T19:02:02.830Z",
+      "checkInShown": "Thu, Oct 8",
+      "checkOutShown": "Sat, Oct 10",
+      "cards": [
+        {"name": "ホテルイースト２１東京", "hotelId": "ChcIsYTH4KmG-Z04GgsvZy8xMjJucDcyeRAB", "priceText": "₹11,616"},
+        {"name": "HOTEL GRAPHY NEZU", "hotelId": "ChgI4MyEhJ_t7sJgGgwvZy8xMnFnanR5aG4QAQ", "priceText": "₹8,149"},
+        {"name": "ONE@Tokyo by insomnia", "hotelId": "ChoI84KEy5HjiaeGARoNL2cvMTFkeGp4MnEyXxAB", "priceText": "₹13,471"},
+        {"name": "Shinagawa Prince Hotel", "hotelId": "ChcIsJPkmrmmvpV2GgsvZy8xMjIyMXQ5MRAB", "priceText": "₹17,464"},
+        {"name": "Tokyo Guest House Ouji Music Lounge", "hotelId": "ChkI15aDuY3LxJlUGg0vZy8xMWY0d3NzejJxEAE", "priceText": "₹4,543"}
+      ]
+    },
+    {
+      "city": "Paris",
+      "url": "https://www.google.com/travel/search?q=hotels%20in%20Paris&hl=en&gl=in",
+      "capturedAt": "2026-10-07T19:02:16.453Z",
+      "checkInShown": "Thu, Oct 22",
+      "checkOutShown": "Sat, Oct 24",
+      "cards": [
+        {"name": "Hotel De Bellevue Paris Gare du Nord", "hotelId": "ChgI9aaViuiogNWnARoLL2cvMXRneHN2bnAQAQ", "priceText": "₹10,498"},
+        {"name": "Hôtel Mercure Paris Boulogne", "hotelId": "ChgI__blh8L-mBcaDS9nLzExbDlzZ2R3ZDkQAQ", "priceText": "₹15,239"},
+        {"name": "ibis Paris Porte d'Italie", "hotelId": "ChgI0LGjyYbJiJT6ARoLL2cvMXRrOG14bjgQAQ", "priceText": "₹12,242"},
+        {"name": "Hôtel Mercure Paris Porte d'Orléans", "hotelId": "ChgIk_yPrdu8xKuuARoLL2cvMXY4Z2JiOTIQAQ", "priceText": "₹9,385"},
+        {"name": "Generator Paris", "hotelId": "ChkI7_q93r2s8vwRGg0vZy8xMWI2d20xeTBqEAE", "priceText": "₹7,695"}
+      ]
+    }
+  ]
+}

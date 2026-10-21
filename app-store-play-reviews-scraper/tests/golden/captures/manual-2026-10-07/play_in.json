@@ -1,0 +1,41 @@
+{
+ "store": "googlePlay",
+ "appId": "edvarderos.habitgrid",
+ "country": "in",
+ "language": "en",
+ "method": "Built-in browser, Google Play web page, 'See all reviews' dialog, read from the rendered page (DOM); 5 oldest of 20 loaded that are not in the US set. Google Play showed no reviews section for gl=gb from this connection, so India is the second country.",
+ "capturedAt": "2026-10-07T18:56:23.031Z",
+ "url": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+ "items": [
+  {
+   "reviewId": "f3385821-6460-4cd4-87b1-c622b9e033a3",
+   "rating": 5,
+   "dateText": "September 7, 2025",
+   "text": "I just downloaded habitgrid, and so far: it seems like it's literally everything I wanted in a habit/routine app. I love how simple yet conventionally costumizable it is. and a BIG (but not the only) reason why I think I'm sticking to this app is that it's free. that's a big issue that me, and others, have with habit apps. this app seems authentic and I really value that. I'm excited to see upgrades since this seems like a relatively new (and already amazing) app! :)"
+  },
+  {
+   "reviewId": "267b703c-1964-4618-a75b-ba3784f8d7ab",
+   "rating": 5,
+   "dateText": "November 11, 2025",
+   "text": "After downloading more than twenty habit trackers, each of which had a problem, such as not having a yearly chart, or having to pay for useful features, or not having a nice user interface, or not having a widget, I finally found this app, which is so great.👍 but The user interface and widgets could be better."
+  },
+  {
+   "reviewId": "90b605ae-576c-47fb-a429-b1f2e4c6ede2",
+   "rating": 5,
+   "dateText": "April 3, 2026",
+   "text": "Great app, free simple, useful, statistics, only complaint is the widgets dont match theme or have settings to change color, and there isnt a widget 'button' to complete a specific task. Besides that, amazing app!"
+  },
+  {
+   "reviewId": "c6f8b024-6fa5-4666-932c-1f44cadd510f",
+   "rating": 5,
+   "dateText": "May 12, 2026",
+   "text": "So far so good. The visual data helps very much in what I want to track. Simple interface and easy to use. Perfect for what I need it for. Thank you"
+  },
+  {
+   "reviewId": "dda93718-c3b4-4b8c-be80-ed898e4c9f75",
+   "rating": 2,
+   "dateText": "May 13, 2026",
+   "text": "a good concept but without one glance tap widget, within days, I'll stop opening the app all together even when I am doing my tasks. so basically it will become useless."
+  }
+ ]
+}

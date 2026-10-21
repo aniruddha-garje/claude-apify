@@ -1,0 +1,80 @@
+{
+ "store": "appStore",
+ "appId": "1228128916",
+ "country": "in",
+ "method": "Playwright Chromium, apps.apple.com Ratings & Reviews page (DOM); oldest 10 of the reviews shown",
+ "capturedAt": "2026-10-11T06:57:27Z",
+ "url": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+ "items": [
+  {
+   "reviewId": "8349511969",
+   "rating": 5,
+   "dateTime": "2022-02-13T03:07:27.000Z",
+   "title": "Amazing simple UI",
+   "text": "It’s so easy to use, and best part the visual design motivates to not to skip and continue the streak.I’m expecting account sync option so that data will be stored and can be restored in case device is reset"
+  },
+  {
+   "reviewId": "8468769175",
+   "rating": 3,
+   "dateTime": "2022-03-18T13:31:02.000Z",
+   "title": "Quite good",
+   "text": "I really like how the app is simple and easy to use. But the app doesn’t send notifications (reminders). When I tried setting a habit with an upcoming (nearby) time, the notification is sent. The other real habits of which I actually need the reminder… it’s not working.. hope the team solves this."
+  },
+  {
+   "reviewId": "8944874674",
+   "rating": 3,
+   "dateTime": "2022-08-04T17:23:50.000Z",
+   "title": "Please add these features..!!!",
+   "text": "Please add more features to the app especially dark mode other than that app is pretty smooth.Secondly, could we type in time for remind me? I mean if one has to add like 10 habits he has to scroll 10 different times in order to set time; writing time would be much more convenient."
+  },
+  {
+   "reviewId": "9007297245",
+   "rating": 5,
+   "dateTime": "2022-08-23T04:44:39.000Z",
+   "title": "Simple and does what it’s meant to do",
+   "text": "This is a great app with a simple but attractive and useful UI - that helps you check box the activities each day. Meets it’s purpose. Feedback for developers -  Getting each reminder notification thrice on Lock Screen. Can this be fixed?Is there a way that we don’t get reminders if we have already marked the habit done for that day?"
+  },
+  {
+   "reviewId": "10566521186",
+   "rating": 5,
+   "dateTime": "2023-11-09T11:51:34.000Z",
+   "title": "Home widget feature",
+   "text": "Please whenever i try to find this app in widget section so I can them clearly everyday. It doesnt show up . Please do something in next update so we can add it as a widget"
+  },
+  {
+   "reviewId": "10968103572",
+   "rating": 5,
+   "dateTime": "2024-02-22T19:32:02.000Z",
+   "title": "Best in the space",
+   "text": "I highly recommend to use this app or any habit tracking app. This is the best UI and the cleanest interface to start with and the best part. It's free.I am willing to pay a one-time fees for this app any day the only thing which I would love to add is if good sync all the data which I have."
+  },
+  {
+   "reviewId": "11166692011",
+   "rating": 5,
+   "dateTime": "2024-04-16T21:26:53.000Z",
+   "title": "Thanks for making it absolutely free!!",
+   "text": "I have no idea why people charging money for these simple kind of apps. I searched the entire App Store and found this completely free app with decent features. I intentionally review this because I wanted to do something to this developer apart from giving 5 star rating. Thankyou buddy."
+  },
+  {
+   "reviewId": "12717864526",
+   "rating": 5,
+   "dateTime": "2025-05-31T03:15:00.000Z",
+   "title": "Amazing iOS app to track habits",
+   "text": "I love that the app is simple and does only what is required - track habits! The stats view is amazing and I cant thank you enough for the app it’s just amazing!!! I’d like for a dark theme version though!"
+  },
+  {
+   "reviewId": "13235558994",
+   "rating": 5,
+   "dateTime": "2025-10-07T13:01:41.000Z",
+   "title": "Better accessibility",
+   "text": "Five star but need improvement in accessibility and presentation of each habit if needed. And detailed note option  concerned  with habit must be available, which is nowhere but problem with every habit app. Compared to other habit apps, accessibility of habits and rearrangement of habits is good as compared to other habit apps it’s challenge and possible after steps followed in other apps. Font is small Habit name visible is small which is with every habit app so universal problem."
+  },
+  {
+   "reviewId": "13870143414",
+   "rating": 1,
+   "dateTime": "2026-03-21T03:20:10.000Z",
+   "title": "All habits recorded are lost",
+   "text": "I done the one time payment to remove the ads and have been recording my habits for sometime now, however this morning when I opened the page I noticed that all my recorded habits are lost and it is shows a blank page to start all over again. I don’t see any option through which I can retrieve the data entered so far. Disappointed!"
+  }
+ ]
+}

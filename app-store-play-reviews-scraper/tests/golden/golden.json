@@ -1,0 +1,2510 @@
+{
+ "description": "Reviews read from the live App Store and Google Play web pages by Playwright.",
+ "auditInput": {
+  "apps": [
+   "1228128916",
+   "310633997",
+   "6478388488",
+   "com.junhwank.habitjar",
+   "com.whatsapp",
+   "edvarderos.habitgrid"
+  ],
+  "countries": [
+   "au",
+   "gb",
+   "in",
+   "us"
+  ],
+  "languages": [
+   "en"
+  ],
+  "sort": "mostHelpful",
+  "maxReviewsPerApp": 500,
+  "proxyConfiguration": {
+   "useApifyProxy": true
+  }
+ },
+ "compare": {
+  "text": "whitespace removed on both sides (the web page drops line breaks)",
+  "title": "exact",
+  "rating": "exact",
+  "date": "calendar date, see dateBasis"
+ },
+ "items": [
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "8306115208",
+   "expected": {
+    "rating": 5,
+    "date": "2022-02-01",
+    "text": "A simple habit tracking app with a gorgeous interface. I have tried much fancier ones but this is much better.",
+    "title": "Gorgeous interface"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "8317856614",
+   "expected": {
+    "rating": 5,
+    "date": "2022-02-04",
+    "text": "Love this app so much because of the weekly overview and the simplicity! Would love if the developer could extend compatibility to apple watch!",
+    "title": "Apple watch app?"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "8431567413",
+   "expected": {
+    "rating": 4,
+    "date": "2022-03-07",
+    "text": "I like the simplicity of this tracker however of the notifications which I have turned off in the app continue to notify me I may need to delete it!",
+    "title": "Simple but notifications won’t turn off"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "9222312073",
+   "expected": {
+    "rating": 5,
+    "date": "2022-10-26",
+    "text": "Does exactly what you’d want, no more, no less. There is no “premium” version, you get full access without paying, unlimited (as fas as I can tell) habits, useful analysis, basic customisation, simple or complex repetitions. 100% what I was looking for, without any compromises.",
+    "title": "Good, simple, effective"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "9490063782",
+   "expected": {
+    "rating": 5,
+    "date": "2023-01-09",
+    "text": "This app is perfect, simple, and completely free. There’s no pro, no subscription, no annoying ads. This is what apps should be. It does what it says and does it perfectly.",
+    "title": "Simple and Perfect"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "9735882992",
+   "expected": {
+    "rating": 5,
+    "date": "2023-03-21",
+    "text": "Does exact what it says it will, cute colours, simple and easy to use. Only thing that would make it better would be that the completion circle change according to whether it’s once a week or every day etc. it would visually track better for progress. Overall would recommend",
+    "title": "Great free app"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "9806743565",
+   "expected": {
+    "rating": 5,
+    "date": "2023-04-10",
+    "text": "I appreciate this app, I’ve been keeping track of my habits manually by printing out tables on paper and sticking to my wall and thought there has got to be an app for this and I’m glad I found Habitty. Does the job",
+    "title": "Great"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "13760289158",
+   "expected": {
+    "rating": 1,
+    "date": "2026-02-17",
+    "text": "I have using Habitty for 1.5years storing data. I woke up this morning to find the has been updated and all my data from the past 1.5years deleted.  Everything deleted . Disappointed.Update : support is through ‘X’ which I don’t have and can’t reach out. I don’t know if I’m subscribed or not - I don’t want to pay $1.99 a week and I don’t know if I click ‘restore purchase’ it will subscribe me if I’m not subscribed. Confused. Poor management design",
+    "title": "Update cancelled all my data"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "13763854868",
+   "expected": {
+    "rating": 1,
+    "date": "2026-02-18",
+    "text": "I have used this app religiously for 4 years and it was great. Suddenly I open it this morning to find that the developers have accidentally erased every single person’s data, so the daily logging I had done every day for 4 years is now gone. Disappointed is an understatement. Truely do not understand how that can happen and I will no longer be using this app.",
+    "title": "Extremely disappointing DO NOT GET"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "au",
+   "reviewId": "13773045873",
+   "expected": {
+    "rating": 1,
+    "date": "2026-02-21",
+    "text": "Have been using Habitty for a while as it is a free option. It’s alright, but I’ve just opened it and I suddenly have no habits and no data. I can only assume it’s updated for something but I’ve lost everything. And their support just takes me to their twitter account? What’s the point if you loose all my data?",
+    "title": "Lost all data"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:29Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "7375550613",
+   "expected": {
+    "rating": 5,
+    "date": "2021-05-22",
+    "text": "I have tried the majority of the Havit Apps on the app store.I used to use Habit but it's owner sold out and now there's a pay well.I fully recommend this app, as there is:No gimmicks.No faffing around with endless feature and complicated settings No limit on habitsColours are customisable.There's a widget.However there is a couple of bugs then I have found:1. When reordering habits sometimes one disappears... It comes back if you reopen the app, it's not bee a problem for me cos I rarely reorder. But I am sure it could be seen to.2. The notifications come thru in multiples... And I noticed they grew exponentially, from about 5 duplicates for one habit, adding one more a day... In the end I just turned them off. I personally don't use the notifications but I could see how this would make the app redundant for some who would rely on them.I sincerely hope that the creator of this app does not sell out in a few years by adding showy features like social/silly graphics/excessive graphs/etc or subscriptions or limit the number of habits. I respect people need to make a living/pay to keep apps going and working with updates, but by keeping this as simple and effective as possible, they could add a suggested one-off donation or just keep proving something that all the other habit apps lost sight of and you’ll always have grateful users.",
+    "title": "Simply does what you want"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "8896455029",
+   "expected": {
+    "rating": 5,
+    "date": "2022-07-21",
+    "text": "I’ve tried a few different habit trackers, including habit features built into apps I already use, but they all frustrated me in some may. Either too complicated or poor visual display. Thankfully Habitty solves all of those problems by being simple to set up, easy to use and having a clean but effective interface. Daily use provides pop up reminders, super quick check off system and a view of the last few days achievements, which is exactly the level of motivation I need. No digging into menus to see this info or having to generate a chart. Great work I love it.",
+    "title": "Simple and effective"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "9467573341",
+   "expected": {
+    "rating": 3,
+    "date": "2023-01-03",
+    "text": "I really like this app, it’s simple and easy to set up and tick off. However, I think there’s one flaw. If you set a habit to be done, say, just 2 times a week, ticking that habit twice in one week should complete the ring. But it doesn’t!  This is a bit unsatisfying and, at a glance, you can’t see that you have fulfilled your quota for that habit. Is there any way this could be modified?",
+    "title": "Good but could be better"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "9982048803",
+   "expected": {
+    "rating": 4,
+    "date": "2023-05-30",
+    "text": "Its nice and simple. Its also great that theres no ads like the rest of the other apps. But just to point out a bug, when you have notifications set it sometimes sends multiple notifications through for a single habit. But so far this is a big recommendation from me.Also would be cool if there was a dark mode and also functional widgets for the new ios platorm",
+    "title": "Notifications"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "10191574636",
+   "expected": {
+    "rating": 4,
+    "date": "2023-07-28",
+    "text": "I’ve been looking for a habit tracker. Something without gimmicks and just promotes positive reinforcement. What I love is I can list all the things I tend to forget. Get them out of my head and use this app to keep accountable instead. You can set up daily habits and for once a week which is great. My only wish is that you could see a whole week but it only shows past five days. Which makes weekly tracking not as easy.",
+    "title": "Fantastic app but wish I could see a whole week"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "10634277441",
+   "expected": {
+    "rating": 2,
+    "date": "2023-11-28",
+    "text": "It would’ve been amazing if only it didn’t remove some of the the habits you’ve ticked making it look like u didn’t do them. It’s too much to try to always keep track of them it defeats the purpose of recording ur habits Second thing is there is no choice for custom setup such as Every 3 days only daily per week or specific days If these two things changed along with a whole calendar overview it would be 5stars",
+    "title": "Would’ve been great"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "13759641155",
+   "expected": {
+    "rating": 5,
+    "date": "2026-02-17",
+    "text": "This app was 5 stars as it had all the simple features of a habit tracker app with no limits and no subscription forcing to get more, unfortunately it has gone down that route like all 20 other habit trackers app that are the same.",
+    "title": "Erased all my past habit data and now has a paywall for habits"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "13772454197",
+   "expected": {
+    "rating": 3,
+    "date": "2026-02-21",
+    "text": "I’m not sure how to get in touch with the developers of the app, so I decided to leave a review here. I’ve been using the app for a while and loved it. It was simple and free, but recently the new update was released that requires you to make a payment for further use. That’s understandable. The issue is all the habits I had in the app have disappeared, which is frustrating. As obviously, I was relying on the app and storing the information there. Is there any way to get back to my profile?",
+    "title": "Erased all my data with the new update"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "13772748864",
+   "expected": {
+    "rating": 1,
+    "date": "2026-02-21",
+    "text": "Used to be a 5 star app hands down. This app was great. It did what it said on the box: track habits, graph goes up as you tick habits as you completed them every day. Great. I am pretty sure I even paid the one off fee for unlimited habits, colouring etc.. I had my qualms with it, like how when you maxed out a habit it was basically impossible for it to go down even if you never practiced it, or on the other extreme how hard it was to get a habit past 20%. But now, an update and I am welcome with a questionnaire about my personal details I'd rather not share, and then I have to pay a subscription of minimum £2 a month for what is essentially a tickbox linked to graph app you could replace with a well built Excel sheet. Also it just erased three years worth of habit data I had built so far. It unfortunately feels like nothing in this update was made accommodate legacy users or even make them feel seen. I feel completely screwed over. It's an uninstall and bye-bye from me. Shame because the app was nice.",
+    "title": "Ruined it and screwed over legacy users with one update"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "gb",
+   "reviewId": "14529670030",
+   "expected": {
+    "rating": 1,
+    "date": "2026-09-09",
+    "text": "I have a very negative experience with this app. I bought it with the one-time purchase option available at that time, thinking it would stay forever with me. One day, I discovered that all my tracking data was completely gone since the owner of the app decided to make more money with a new subscription model. I understand the purpose (we all need to buy food and pay bills, right?), however, they should have ensured that old users could keep the simple app model they paid for and definitely wouldn’t lose their progress. I have another app I bought in 2016. The owner also switched it to a subscription model with many new features in 2020, but he was much cleverer than the Habitty app owner. He kept that old interface app for old users who bought lifetime access. I still use that app from time to time and recommend it to others. I definitely don't recommend Habitty since it's a very unreliable app 😐",
+    "title": "I used this app but then uninstalled it."
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:25Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "8349511969",
+   "expected": {
+    "rating": 5,
+    "date": "2022-02-13",
+    "text": "It’s so easy to use, and best part the visual design motivates to not to skip and continue the streak.I’m expecting account sync option so that data will be stored and can be restored in case device is reset",
+    "title": "Amazing simple UI"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "8468769175",
+   "expected": {
+    "rating": 3,
+    "date": "2022-03-18",
+    "text": "I really like how the app is simple and easy to use. But the app doesn’t send notifications (reminders). When I tried setting a habit with an upcoming (nearby) time, the notification is sent. The other real habits of which I actually need the reminder… it’s not working.. hope the team solves this.",
+    "title": "Quite good"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "8944874674",
+   "expected": {
+    "rating": 3,
+    "date": "2022-08-04",
+    "text": "Please add more features to the app especially dark mode other than that app is pretty smooth.Secondly, could we type in time for remind me? I mean if one has to add like 10 habits he has to scroll 10 different times in order to set time; writing time would be much more convenient.",
+    "title": "Please add these features..!!!"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "9007297245",
+   "expected": {
+    "rating": 5,
+    "date": "2022-08-23",
+    "text": "This is a great app with a simple but attractive and useful UI - that helps you check box the activities each day. Meets it’s purpose. Feedback for developers -  Getting each reminder notification thrice on Lock Screen. Can this be fixed?Is there a way that we don’t get reminders if we have already marked the habit done for that day?",
+    "title": "Simple and does what it’s meant to do"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "10566521186",
+   "expected": {
+    "rating": 5,
+    "date": "2023-11-09",
+    "text": "Please whenever i try to find this app in widget section so I can them clearly everyday. It doesnt show up . Please do something in next update so we can add it as a widget",
+    "title": "Home widget feature"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "10968103572",
+   "expected": {
+    "rating": 5,
+    "date": "2024-02-22",
+    "text": "I highly recommend to use this app or any habit tracking app. This is the best UI and the cleanest interface to start with and the best part. It's free.I am willing to pay a one-time fees for this app any day the only thing which I would love to add is if good sync all the data which I have.",
+    "title": "Best in the space"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "11166692011",
+   "expected": {
+    "rating": 5,
+    "date": "2024-04-16",
+    "text": "I have no idea why people charging money for these simple kind of apps. I searched the entire App Store and found this completely free app with decent features. I intentionally review this because I wanted to do something to this developer apart from giving 5 star rating. Thankyou buddy.",
+    "title": "Thanks for making it absolutely free!!"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "12717864526",
+   "expected": {
+    "rating": 5,
+    "date": "2025-05-31",
+    "text": "I love that the app is simple and does only what is required - track habits! The stats view is amazing and I cant thank you enough for the app it’s just amazing!!! I’d like for a dark theme version though!",
+    "title": "Amazing iOS app to track habits"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "13235558994",
+   "expected": {
+    "rating": 5,
+    "date": "2025-10-07",
+    "text": "Five star but need improvement in accessibility and presentation of each habit if needed. And detailed note option  concerned  with habit must be available, which is nowhere but problem with every habit app. Compared to other habit apps, accessibility of habits and rearrangement of habits is good as compared to other habit apps it’s challenge and possible after steps followed in other apps. Font is small Habit name visible is small which is with every habit app so universal problem.",
+    "title": "Better accessibility"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "in",
+   "reviewId": "13870143414",
+   "expected": {
+    "rating": 1,
+    "date": "2026-03-21",
+    "text": "I done the one time payment to remove the ads and have been recording my habits for sometime now, however this morning when I opened the page I noticed that all my recorded habits are lost and it is shows a blank page to start all over again. I don’t see any option through which I can retrieve the data entered so far. Disappointed!",
+    "title": "All habits recorded are lost"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:27Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "5484056325",
+   "expected": {
+    "rating": 3,
+    "date": "2020-02-03",
+    "text": "Simple, quick not complicated to add a habit, etc...I like the app for the most part.  A few more features would definitely rank it higher and be something I would highly recommend and use... like creating a daily view, weekly view, monthly view, etc. so you can not have so many habits on one view.  Date display options. When adding a habit have the option to have it be an AM or PM Habit and populate the list by AM, PM, Daily, other, etc With this being said, I search for apps a lot and so far I’ve like this one more than others.",
+    "title": "Easy to use"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "5879386633",
+   "expected": {
+    "rating": 5,
+    "date": "2020-04-29",
+    "text": "I like it for its simplicity, however Screen time will show around seventy notifications slightly more or less for the week and that was with only two habits listed. More than twice the notifications for my meds app. At two a day it should be around 14 a week max. Maybe twice that if I have a habit of not responding on the first notification. However, click on one and they all go away. If someone is paying attention seventy notifications showing up on screen time must be impressive. 🌞",
+    "title": "Good"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "8366725980",
+   "expected": {
+    "rating": 5,
+    "date": "2022-02-17",
+    "text": "I like that this app allows me to see 5 days worth of progress on all habits on the main screen. Tapping on each habit shows monthly and annual progress, which helps motivate one to keep up with the habit. Overall, I love the simplicity and intuitive nature of the app. In terms of aesthetics, a 7-day streak on the main screen (instead of 5 days) would be ideal. Also, checkmarks are good, but filled in bubbles with sound effects would be better and more rewarding. Likewise, on the monthly/yearly view, filled in bubbles (instead of open circles) would be more aesthetically pleasing.  Other than these minor personal preferences, this app is far better than most habit tracking apps for its simplicity and intuitive interface.",
+    "title": "Simple yet better than most paid apps"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "8557271208",
+   "expected": {
+    "rating": 5,
+    "date": "2022-04-11",
+    "text": "I’ve downloaded a whole bunch of “habit” and “todo” apps, and this is the only one that comes close to what I want.The only thing is that I want the ability to create multiple habit lists:One for eating habitsOne for exercise habitsOne for other habits So please modify this app to allow that.Otherwise it’s perfect.I was searching for an app that lists all the foods I can eat each day and all the exercises I can do.  Then each day I cross off whatever foods I’ve eaten or exercises I’ve done.  And other habits as well. Then at the end of the week I can see which exercises I’ve done and which foods I’ve eaten.  I like that these habits stay in the same place after I check them off.  Lots of apps don’t do that… they either remove from the list or go to the bottom.  Please make this one change to this app allowing multiple habit lists, and then it will really be perfect!  Also this app is free!  Which is great.A lot of them have monthly subscription.  I would be willing to pay $20 for this app but I don’t like monthly fees.",
+    "title": "Awesome but please add ability to have multiple lists"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "9129697213",
+   "expected": {
+    "rating": 5,
+    "date": "2022-09-28",
+    "text": "I have tried a few and for me this is the best free habit tracker.  Many free ones limit you to 3-5 habits, but I don’t think there is a limit on this one (I have 16).  I love that I can select the color as I have categories of habits (health, mind, cleaning, work).  I’ve also added the widget so I can check the boxes for the day without having to open the full app.  It’s very satisfying to check the boxes and watch my habit “rings” fill in as I do them more consistently.  I can also see the ones that I most commonly miss.  For those, I have used the feature to add a reminder at a certain time. Overall, I really enjoy this app and use it daily.",
+    "title": "Best Free Habit Tracker"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "9488545429",
+   "expected": {
+    "rating": 5,
+    "date": "2023-01-09",
+    "text": "It’s a simple little habit tracker that shows a few days of progress at a time and sends you reminders when you ask for them. Very intuitive design, quite easy to use. And it’s totally free, no paywalls.I am a little confused by the repetitive reminder notifications, and I noticed that if you change time zones the app seems to forget the past few days?? But it’s not enough of a distraction to actually bother me, so yeah.",
+    "title": "Exactly what it claims to be"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "9560695328",
+   "expected": {
+    "rating": 4,
+    "date": "2023-01-29",
+    "text": "I just started using the app and the use of 5 days in the wrong order is really off-putting. It would be infinitely better to have all 7 days and in order so I can see the week’s progress. I do not understand the 5-day week that shifts depending on what day it is. Make it start on Sunday or Monday and not move days. Also, a check mark instead of an X would feel more like you completed it, and like someone else said, a short phone vibration when you tap to check it off would feel more official and rewarding. Just some suggestions but very much recommended for better user interaction.",
+    "title": "5 backwards days? What is the point?"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "10215677107",
+   "expected": {
+    "rating": 5,
+    "date": "2023-08-03",
+    "text": "I mean this is exactly as it says. A simple habit tracker but it doesn’t have extra features of things you might want like maybe for water goals of dinking x amount or reading habits of x number of mins. I’m not disappointed by it and think this is great for people that just need a regular to do checklist. From what I can tell there are no limitations on the app for the number of habits you want to track so you can definitely double up on them but I don’t really like that set up for me personally. It also doesn’t have a multi alarm set up so like I said the simplest tracker for those that have a regular daily one off list.",
+    "title": "It’s really simple"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "13780708964",
+   "expected": {
+    "rating": 1,
+    "date": "2026-02-23",
+    "text": "I loved this app for its clean presentation, simple purpose and great customization. I just wanted a quick checklist for the areas I am working on, and after trying many options, this is the one I chose and loved. I have used it for years. Last week, when I went to record my progress for the night, it opened as if it was a brand new app I had just downloaded; no saved data, no login, just three different payment options. What a terrible way to roll out a new monetized model! Some things are worth paying for, and this is one that I would have. It simply would have taken a notice and some consideration or respect for your loyal users to let them know the model was changing. Instead, it was likely me being locked out of a familiar space and all my data was wiped. There’s no notice, explanation, or alternative. So inconsiderate and scummy.",
+    "title": "Lost in the shuffle"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "1228128916",
+   "country": "us",
+   "reviewId": "13807534554",
+   "expected": {
+    "rating": 1,
+    "date": "2026-03-02",
+    "text": "I recently paid for this app, though I have used it for many years and may have paid for it before with my old phone. I liked its simplicity over the “services” offered by other apps. From the last update, my habit data is gone. It forced me through an onboarding survey and then prompted me for a subscription. The “Restore Purchases” button doesn’t help. The developer’s website and support links go to a long neglected “Twitter” account, and I’m not on X, anyway, to contact them for any hope of restoring my lost data. I haven’t yet labored to re-enter all of my lost habits, so I don’t know whether the functionality I paid for will still work—if it doesn’t, I will notify Apple of fraud. I have strongly recommended Habitty to friends in the past—I cannot do so after this update.UPDATE: I cannot add more than one habit. It prompts for payment. “Restore Purchases” reports “no purchases found. I will contact Apple.",
+    "title": "Paid user, data lost, subscription push"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/habit-tracker-habitty/id1228128916?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:23Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "7350464733",
+   "expected": {
+    "rating": 4,
+    "date": "2021-05-17",
+    "text": "Hi developers! WhatsApp is super useful, it’s my go-to messaging platform. I use it almost daily, and have rarely ever had problems with it. Clean, simple, easy to use, aesthetically pleasing interface, WhatsApp is great in a lot of ways. One of my issues with WhatsApp, however great it may be, is that the features regarding image sending and editing is extremely simple. I understand that you don’t want to make it too complicated, it is a messaging platform and not an art platform after all. However, I’ve noticed that when trying to mark up images and draw on them I’ll often have a particular colour that I used that I want to reuse, but there is no tool to grab a colour and use it again, and this has been quite frustrating. I’m not saying that you should incorporate extravagant colour pickers or a way to save old colours, that’s unnecessary. I just think it would be extremely beneficial to include a button (perhaps an eye dropper) below the colours that you can use to pick colours from an image or previous lines to match. I’d really appreciate your consideration, as I think it would be very useful. :)Thanks",
+    "title": "Additional feature?"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "9114545243",
+   "expected": {
+    "rating": 4,
+    "date": "2022-09-23",
+    "text": "Hi I’m back. With another app review. This app is something that I personally use to connect with all of my friends and family. 💕WhatsApp💕:⭐️WhatsApp is a great place for connecting with other people that are distant to you and people who you are not currently spending time with. ⭐️The status portion on the app creates a way to share what you are doing to all of your contacts. My only critique for this portion of the app is that I wish it had more, funny filters, pretty filters, music overlays, so that it would better compare against other apps that people would be using instead of WhatsApp (such as Instagram, TikTok or Snapchat).⭐️The calls on WhatsApp are good and have reliable connectivity. ⭐️ For the camera portion of the app, again, I wish that the camera had funny filters, pretty filters and music overlays. This would make it so much better for me. ⭐️The messages portion of the app is pretty good. I like that you can delete messages on your end and the other person’s end before they’ve seen it. I like that you can see if the massage has delivered and been read. I LOVE the fact that you can change your chat backgrounds. You can have group chats on WhatsApp too. This is a great option for people in sporting teams, family members, people working on a school or work projects together or some friends who want to talk. ❓So back to our question earlier:❓ WhatsApp. To get it or not to get it? I think that’s totally up to you but I personally think that this app is very good. The only thing that I really think needs improving is the  status portion of the app. I really hope the status portion of the app gets an upgrade because it’s laCkYinGAnyway that’s all from me today. I’ll have another review tomorrow.",
+    "title": "WhatsApp. Hmmm get it or don’t get it?"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "10255494232",
+   "expected": {
+    "rating": 4,
+    "date": "2023-08-14",
+    "text": "Hi WhatsApp,This app is really great, I use it everyday and is exactly what I need! It is a basic app for messaging, but with so many advanced features! However, I think a really good improvement for this app would be to have information on photos you send. So if you click on your photo either on a chat or status, you can find out who saved or took a screenshot of it. This would be very beneficial for many users, and enhance the app even more! One more thing that would be great to be able to do is delete photos, even if everyone has viewed it. Every person I’ve talked to wants this feature, and it would be helpful for personal, non business related chats. So once everyone has viewed it, you could still go back and delete it before more people save it. I would love to see these as an addition for WhatsApp, as it is such a great app! Thanks for your time!",
+    "title": "Add photo info!"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "10575766553",
+   "expected": {
+    "rating": 1,
+    "date": "2023-11-11",
+    "text": "I have received a message on whatapp that is part of an ongoing harassment. In a separate incident, I also received messages that were sexual harassment (a man I didn’t know asking me for photos of my naked body). Both times I reported it to WhatsApp straight away. The first time it happened I then tried to reported it to the group the man tried to get my number from to get him removed from the group. The group asked for evidence, and I couldn’t find the messages. The second time it happened, I needed to take a screen shot to get the person prosecuted with local authorities. And I couldn’t find the message. I have since realised whatsapp must delete messages if you report the person. The moral of the story? Don’t report to WhatsApp because nothing happens from their end and you’ll lose the messages.I’m guessing that WhatsApp will say they do it for your safety, but the truth is they don’t want people to have screen shots of bad messages sent on their platform. It doesn’t make me safer not being able to report the messages to the group or to the police. I contacted WhatsApp with a polite message requesting access to the message I received so I could report it to local authorities. The WhatsApp support was so unhelpful I was flabbergasted. I think this is a really dangerous feature and users should be made very aware of it in case it happens to them. It’s happened to me twice now and I’m just a normal nice person, so I think it’s a pretty common occurrence.",
+    "title": "—USER BEWARE— WhatsApp deletes reported messages"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "10760906840",
+   "expected": {
+    "rating": 5,
+    "date": "2023-12-30",
+    "text": "Hi!Undoubtedly this app is something part of our daily life now and after all these years of technological advancement - it’s a shame that transferring from an old iPhone to new one could so painful !! Whatever the app suggests doesn’t match the reality at all and it’s a very very annoying feel given other popular app like such of WeChat was so quick and easy between the phones to transfer ! I did back up on iCloud and some messages / group chats are missing when transferred but then i had to fall back to old phone - reinstall and get on with usual business chats.I request the concern people to address this issue urgently & see how to make UX of this particular feature more reliable and practical .  Thank you and best of luck !",
+    "title": "Switching between phones!"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "11508988033",
+   "expected": {
+    "rating": 3,
+    "date": "2024-07-19",
+    "text": "I use to love this app it been at least 3 years since I first started using WhatsApp but yesterday I posted a lot of stuff on my WhatsApp channel. When I finally stopped posting stuff I didn’t use my phone for like a few hours. I few hours later I got a notification from one of my friends so I went on the app and it took me back to my home page I opened the app again and it did the same thing. So I tried restarting my phone and it didn’t work again!!!! Then I went on Apple Store to update the app but when it was done updating I try opening the app again and it kicked me back to my home page again😢 and also can u please fix the avatar they look weird. Anyway I always loved this app but if u can fix this bug I would really be happy 😃 Thank you for reading this really long review and hope you can fix it 😉",
+    "title": "The app keeps kicking me out"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "11571681716",
+   "expected": {
+    "rating": 1,
+    "date": "2024-08-04",
+    "text": "If there was ever an equivalent of social services that took words away while they were being abused then WhatsApp would have the word ‘private’ in front of a child psychologist showing the nice lady where exactly on the toy smartphone it was that weird Uncle WhatsApp took photos of them without their knowledge and sold the offer to data to his all of sweaty golfing buddies. That’s before the child psychologist smashes the toy on the ground and forgets about the whole 'tortured simile' thing, and having a sticky beak by scrolling down there ⤹ ~<(* )  and looking at all the information WhatsApp thinks it deserves - like a couch surfing room mate asking clarifiers during a family emergency.  Here's a better idea: Don't download it! Because the fact you need to scroll down at all to check what data an app employing the word  ‘private’ (in its product heading no less) is demanding is like - shoving a mango scented marker pen up your nostril and then checking the back of the box to determine how many servings of your daily recommended fruit intake it just counted as.",
+    "title": "Wow so private!"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "11845019216",
+   "expected": {
+    "rating": 5,
+    "date": "2024-10-17",
+    "text": "What’s app from its invention in 2009 has become one of the most frequently used applications in smart phones. It provides the range for regular chatting, voice calling and live video calling domestically and around the world in every nation internationally.The service has maximized communication between human souls in an efficient and elegant manner. People have saved on millions of dollars in landline and mobile phone bills through this system. The techniques are grasped well by people of all age groups. And the following of global celebrities and various industries and associations is made easier through various groups within what’s app. The revival of the golden era music alongside educational reminders happens in brilliant videos over what’s app.",
+    "title": "What’s app review from Renjith Rajagopalan"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "13829007733",
+   "expected": {
+    "rating": 3,
+    "date": "2026-03-09",
+    "text": "Hi don’t get me wrong I love WhatsApp it’s so easy and convenient to use. But there’s are some things that could be better. One thing that come to mind for me is that you could add a share all chat history option onto group chats. For example the other day, I wanted to add a new member to my friendship group chat, sharing all the chat history so that the new member would always know what was going on. But when I tried to do that, I just added the member in. No chat history shared. I tried changing this in settings, asked meta ai for help, but nothing proved useful. I even removed the new member from the group chat multiple times, trying to find out how to share the chat history. I couldn’t and this is the one thing that really makes WhatsApp not good for me. Another bummer for me is meta ai. It’s not quite as accurate or easy to understand with its instructions as I would like it to be, but that’s not too big of an issue, so I understand if fixing this is not an option at the momentOtherwise I love it so much it’s an amazing app and doesn’t use much data to use, so you can use it anywhere, even if you have weak signal. Good job Meta group, and keep it up!!! ☺️☺️",
+    "title": "WhatsApp is nice but there’s a few features missing"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "au",
+   "reviewId": "13853722353",
+   "expected": {
+    "rating": 5,
+    "date": "2026-03-16",
+    "text": "Great app, love the status updates and the community, in general it’s an amazing platform and I can communicate and connect with my friends and family with this! Such a wonderful and interesting community, love the different features it has to offer and honestly not bad, just sometimes it doesn’t send well I don’t know how to tell, and I get added to a community or group and my number automatically gets leaked to everyone, because my friend can’t just leave her friends and us separate. But it’s great and I love how you can open someone once, NOT, because they have very interesting things that we be talking about at school. It’s just drama, sorry taking you off topic and myself and imma stop. Okay anyways, 100% recommend especially if you have a friend that has Samsung! Thanks for reading this BYEE!!",
+    "title": "Pretty Solid"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/au/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:43Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "7322825691",
+   "expected": {
+    "rating": 1,
+    "date": "2021-05-10",
+    "text": "This App is USELESS if you’re counting on trying to restore your chat history when changing your phone! I’m livid - if I could give it zero stars I would. There is no customer helpline, only standard Troubleshooting guides, which all leave out the key info which they only say in their standard-form email reply :”We aren't able to help you restore your chats, documents, media files, backups, or call history. In most cases, the chat history and media files can only be found on your phone or the recipient's phone.” They omit to say this - funnily - in their marketing blurb about how you can backup all your data and restore your chat history from the cloud at the touch of a button. That is NOT true. The App does NOT systematically back up to the cloud, even if it claims to: it backs up to your PHONE. So if you change your phone, or SIM card, EVEN if you keep your number/have enough space in the cloud/connect to WiFi/ enable your iCloud Drive ... blah blah.. and do ALL the things you’re supposed to do, just FORGET about retrieving your data.SORT IT OUT WhatsApp - many customers are now writing about this problem. Your blanket claims re: backup are, frankly, misleading advertising. And your customer service is non-existent. Do better please.",
+    "title": "No chat backup if you change your phone!"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "10840405816",
+   "expected": {
+    "rating": 5,
+    "date": "2024-01-19",
+    "text": "I know this looks long but READ IT ALL. THIS APP WILL LEGIT CHANGE YOUR LIFE!!!!!!!!!!!!!!!!!!!!Ok this app is soooooo good! I got a new phone at one point and was gutted when I couldn’t use this until my number switched! It’s even free to send nearly anything, unlike other apps where you have to pay extra for pics and stickers and calls. I can use this to call my friend in Scotland who I otherwise couldn’t contact properly. It is fun too! The stickers are amazing and you can even make them out of your own pics on your camera roll! Then you can post on your status, the group chats, so you can post multiple people at once, and the channels (I highly recommend getting the WhatsApp channel as It will give you so many hints and notices) and other apps go well with it too like Emoji+ and Bitmoji (❤️) yeah you will never get bored and I am gonna stop there even though there is so much more to tell coz you are probably getting bored of me now though you will never be bored of this app get it now!I MEAN IT!!!!!!! 😆",
+    "title": "Please get this app it will change ur life"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "11405574963",
+   "expected": {
+    "rating": 5,
+    "date": "2024-06-21",
+    "text": "WhatsApp is really good however it’s a bit hard to find some stuff and you can customise your own profile picture and you can also add a sentence about you underneath your profile picture. And say if you upgraded from messages to WhatsApp then if you had a friend who can’t find WhatsApp in the App Store then you can invite them to WhatsApp by sending an invitation in settings. Also you can turn on disappearing messages but if someone clicks on your message then they can keep the messages stopping it from disappearing from that specific person. Along with that if you’re in a group chat then you can click on your message and then info to see who has read it and you can send a message where you can only red it once. And same with if you’re on a group chat then you can easily just block one person from that group which does mean you can still see the group chat messages it’s just that you can’t see the person’s message(s) if they send any since you have blocked them.Thank you WhatsApp for helping me over the past 9 years!",
+    "title": "Amazing"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "11536799013",
+   "expected": {
+    "rating": 4,
+    "date": "2024-07-26",
+    "text": "I’m quite offended because you have a Portsmouth channel, but you don’t have a Saints channel and I think it’s quite.. you know. as a strong and proud Saints supporter, I completely argue that you shouldn’t have Pompei channel and you should definitely have a Saints channel. to be honest I think this is unacceptable behaviour. this is disgusting. you should very well put Southampton as a channel. Southampton FC. i’m sorry but Pompey fans are allowed to keep like caught up with their like team and we’re not even allowed to look at a channel that we support. my whole family is a Saints fan. do you have something against Southampton FC because if you do announce it on your WhatsApp channel because guess what I am following unlike the Southampton Channel oh which you don’t have!! this is unacceptable. and believe me, I love WhatsApp truly, but you won’t let Southampton FC have a WhatsApp channel. What is your thing against Southampton? Get back to me on that one. I am out raged at your choices. and you might not get enough complaints about this, but me and my friend do not agree. I will be expecting Southampton Channel by the end of 2024 thank you. 💔💔😡😡😡😡😡😡😥😥😪😪😭🥺🥺😔😔☹️🙁🙁",
+    "title": "Whatsapps Channels."
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "12001455403",
+   "expected": {
+    "rating": 1,
+    "date": "2024-11-28",
+    "text": "Since 2022 I started noticing messages being opened when I had not even been anywhere near my phone. Contacted WhatsApp support once I had evidence (ex partners messages only) to show from screenshots. Was completely dismissed by WhatsApp support as nothing wrong with my account. It was not logged into a computer which I had checked so was being accessed remotely. This person was also repeatedly saying things (the most random things) I had said verbatim which such consistency it could not be considered a coincidence. I live 2.5hrs away since 2022 also since they knew where and when I was working and taking breaks etc. after notifying WhatsApp a number of times with evidence of messages being opened and dismissed as well as having so much evidence of abuse, bizarre gaslighting etc to show police/family court (we have a 3yr old son), all of a sudden one day in May this year, ALL of my messages from this person and this person only disappeared without me having touched my phone!!! Again contacted WhatsApp to show this and low and behold was told my WhatsApp was working perfectly nothing wrong with my account.  No investigation just an instant reply. Not a robust app whatsoever. Obviously can be hacked so not private and zero customer support in spite of evidence. Not going to delete my only evidence I have of being stalked am I and then whine about it. Jesus god help me someone. WhatsApp surely won’t (undermines their credibility most likely that’s it’s so easily done).",
+    "title": "BEWARE!!! Not private; easily hacked."
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "12601429956",
+   "expected": {
+    "rating": 2,
+    "date": "2025-04-30",
+    "text": "The last few months every now and then it just stops working and says that I have gone against some terms, I send an appeal asking what I am supposed to have done and then 24 hours or not long before I get a response saying that they are sorry for the mistake and that I can continue to use the app! I have asked every time what they think I am supposed to have done or why it keeps happening but I don’t seem to get any answers and it’s more frustrating when you haven’t saved the number in your phone or your in the middle of messaging and it all of a sudden cuts off! And as far as I’m aware it doesn’t inform people or put something on your account to tell anyone that your WhatsApp is unavailable so people have assumed that I am just ignoring them which is even more annoying! I wish they could either explain why this happens or fix whatever the problem is as I am not aware of any other messaging application that is similar and as widely known as this! So I used to think highly of this app but since this has been happening it’s gone down down and I’m getting very annoyed with it, I have to tell everyone that if I don’t reply then please text as it keeps stopping me using it and then apologising! Not impressed and I can’t seem to find a support chat other than being told to go through the settings, but I can’t when they stop it working so it’s useless then!!!!!",
+    "title": "Becoming unreliable"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "12906618413",
+   "expected": {
+    "rating": 1,
+    "date": "2025-07-18",
+    "text": "I use WhatsApp every single day for important daily communication with my friends, family and business contacts. For four years I have enjoyed the app significantly to do things such as text messaging, voice messaging and voice calling. However, I am really disappointed with the recent performance of WhatsApp. As a totally blind individual I rely on screen reading technology through the use of Apple’s VoiceOver for iPhone. And the most recent WhatsApp update has completely broken the navigation with VoiceOver for us as blind people. For example, when I’m in a chat and I want to send a voice message I do a certain gesture which lets me record my voice message. About 10 seconds into my record recording VoiceOver losers focus and loses my place on the screen and I can no longer get past what is called the vertical scroll bar. Which means VoiceOver is trapped in the Recording of the voice message. Even with the additional screen recognition feature the Apple provides the app is barely usable for not only me but others in the blind and visually impaired community who use WhatsApp as their daily messaging app. So as of right now, the app is barely usable to me. I am really disappointed with this service as this is my way of communicating to everyone in my life. And the fact that WhatsApp can just release updates that break things is just unacceptable. I would recommend people, especially people who are blind to stay away from WhatsApp for the foreseeable future until they decide to fix this huge bug.",
+    "title": "Review from a blind persons perspective."
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "13051642211",
+   "expected": {
+    "rating": 2,
+    "date": "2025-08-23",
+    "text": "This is an excellent app and well designed. However the sign in process on the iPad is unnecessarily ridiculous and really hard if you’re physically disabled. If you have a physical disability like I have (tetraplegic) you have to wait to ask your support worker or someone else to help you link your iPad to the WhatsApp app on the iPhone, because you can’t sign in on an iPad for some reason. Then when you go to the WhatsApp app in the iPhone to link your iPad, it won’t do it unless you use fingerprint verification(and yes, fingerprint unlocking is turned off in the WhatsApp settings before anyone thinks of that, it doesn’t matter apparently). So then because you don’t use fingerprint security when you’re paralysed from the neck down., you'll have to ask your support worker to try and hold your thumb on the iPhone to create one, which is not easy when you're paralysed, and then go back to the WhatsApp app then try and get your thumb in the proper place with help just to start the link Device malarkey in the WhatsApp app. This is a brilliant app and you must have some superb coders clearly, so surely it can't be that hard to adapt the iPad app so you can just sign in normally, please. I had friends who were down in the area for a week wanting to catch up with me and they use the WhatsApp app to check if I’m alright to take visitors, but I missed them because I didn’t realise I was signed out until late, and then I had to wait several hours until I had help again. Please fix this guys.",
+    "title": "Superb app but anti-disabled"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "14575832309",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-21",
+    "text": "Hi there I’ve used WhatsApp messenger since last year and on 11th August I accidentally tapped a button while’s I was chatting with Meta AI and it said I have to link to a parent and ofc I didn’t want to do that so I closed all the apps and rebooted my phone still nothing I was scared 😱 I started crying 😭 and I was freaking out and then I got an idea 💡 to download WhatsApp business and when I did it didn’t come through so I waited and waited for three weeks and I went to check on WhatsApp messenger and apparently it decided to ban me and I went back to WhatsApp business I wrote a support letter before they unbanned me but still it wanted to to link to a parent then on Saturday my WhatsApp business came and immediately I put in the required credentials it came at the same time my WhatsApp messenger said agree and continue but it didn’t say that before and I’m leaving WhatsApp business for WhatsApp messenger so please 🙏 developers don’t hate me 🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺",
+    "title": "My experience with both WhatsApp apps……………"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "gb",
+   "reviewId": "14634788111",
+   "expected": {
+    "rating": 5,
+    "date": "2026-10-06",
+    "text": "WhatsApp has become an absolute nightmare to use. I have now been banned six times, despite doing nothing wrong, and it is honestly beyond frustrating. Getting banned repeatedly for no clear reason is completely unacceptable, especially when I rely on WhatsApp to communicate with people. It is incredibly annoying and, quite frankly, embarrassing to suddenly find yourself banned when you haven’t done anything wrong. Every time it happens, I’m left wondering what I supposedly did to deserve it. Being treated as if I’ve broken the rules when I haven’t is extremely frustrating. What makes it even worse is how difficult it can be to get the issue resolved. You can lose access to your account and important conversations, and you’re basically left having to appeal and wait, hoping someone actually looks into the situation properly. Then, even after getting your account back, it can happen again. Six bans is ridiculous. At this point, using WhatsApp feels stressful rather than convenient because I’m constantly worried that I’ll be banned again for absolutely no reason. A messaging app should not make its users feel like they are doing something wrong when they aren’t.",
+    "title": "Just so u can see I voted a 5"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:39Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14567279684",
+   "expected": {
+    "rating": 1,
+    "date": "2026-09-19",
+    "text": "I am extremely disappointed and frustrated with the way my WhatsApp account has been banned without any proper reason or explanation. I have been using this WhatsApp number for the past 8 years, and suddenly my account was banned even though I have not knowingly done anything wrong or violated any rules. What is even more frustrating is that I have not been given any clear reason for why my account was banned. I have sent numerous emails and requests to WhatsApp Support asking them to review my account and explain the issue, but I have still not received any proper solution or meaningful response.This is really unfair because this number is very important to me and I have been using WhatsApp on it for several years. Suddenly banning my account without providing a specific reason and then refusing to properly review or restore it is extremely disappointing.If I have made any mistake unknowingly, I am willing to understand and follow all WhatsApp policies in the future, but I genuinely believe that I have not done anything wrong that deserves a permanent ban. I respectfully request WhatsApp to properly review my case again, clearly explain the reason for the ban, and please restore my account. I have been patiently requesting help through multiple emails, but I am still not receiving a fair resolution. Please take my complaint seriously and give me a proper response instead of leaving my account banned without any clear explanation.",
+    "title": "Worst experience from last 2mnths"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14579159563",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-22",
+    "text": "I have been using WhatsApp with the same phone number for several years without any issues. However, over the past few weeks, my account has repeatedly been banned and placed under review without any clear explanation. Whenever I submitted a review request, my account was restored, but unfortunately, the same issue occurred again shortly afterward. My account has now been permanently banned, and it has been 18 days since the ban. There is currently no option available for me to request another review. I have also tried contacting WhatsApp Support several times, but I have not received a proper response or a solution to this issue. This situation is extremely concerning because my WhatsApp account contains important personal conversations, contacts, photos, documents, and other valuable information that I have accumulated over many years. I kindly request that you manually review my account and investigate the reason for these repeated bans. If my account was restricted due to a misunderstanding or an error, I sincerely request that you restore my account and help ensure that this issue does not happen again.  I assure you that I will strictly comply with WhatsApp’s Terms of Service and all applicable policies going forward. Please consider my request and help me regain access to my account. I would greatly appreciate your assistance in resolving this matter as soon as possible.",
+    "title": "Request to remove my what’s app ban asap"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14589973576",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-25",
+    "text": "I am extremely disappointed and frustrated with the way my WhatsApp account has been banned without any proper reason or explanation. I have been using this WhatsApp number for the past 10 years, and suddenly my account was banned even though I have not knowingly done anything wrong or violated any rules.What is even more frustrating is that I have not been given any clear reason for why my account was banned. I have sent numerous emails and requests to WhatsApp Support asking them to review my account and explain the issue, but I have still not received any proper solution or meaningful response.This is really unfair because this number is very important to me and I have been using WhatsApp on it for several years. Suddenly banning my account without providing a specific reason and then refusing to properly review or restore it is extremely disappointing.If I have made any mistake unknowingly, I am willing to understand and follow all WhatsApp policies in the future, but I genuinely believe that I have not done anything wrong that deserves a permanent ban. I respectfully request WhatsApp to properly review my case again, clearly explain the reason for the ban, and please restore my account. I have been patiently requesting help through multiple emails, but I am still not receiving a fair resolution.Please take my complaint seriously and give me a proper response instead of leaving my account banned without any clear explanation.",
+    "title": "About whatsapp ban permanently"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14590650595",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-25",
+    "text": "Dear WhatsApp Support Team, I am writing to respectfully request a review of my WhatsApp account, which has recently been banned. I believe this ban may have occurred due to a misunderstanding, technical issue, or an unintentional violation of WhatsApp's policies. WhatsApp is very important to me for communicating with my family, friends, colleagues, and other contacts. I use my account for genuine personal and professional communication and have never intentionally used WhatsApp for spam, fraud, harmful activities, or any other activity that violates the Terms of Service. If any activity from my account was detected as suspicious, I sincerely apologize for any unintentional mistake. I kindly request your team to conduct a manual review of my account and verify my recent activity. If my account was banned incorrectly, I would be very grateful if you could restore access to my phone number. I fully respect WhatsApp's Terms of Service and community guidelines and assure you that I will strictly follow all applicable rules in the future. Please reconsider my account ban and give me an opportunity to continue using WhatsApp. I am willing to complete any verification process required to confirm that I am the legitimate owner of the account. Thank you for your time and consideration.",
+    "title": "Appeal to Unban WhatsApp"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14592291987",
+   "expected": {
+    "rating": 4,
+    "date": "2026-09-25",
+    "text": "I am extremely disappointed and frustrated with the way my WhatsApp account has been banned without any proper reason or explanation. I have been using this WhatsApp number for the past 6 years, and suddenly my account was banned even though I have not knowingly done anything wrong or violated any rules. What is even more frustrating is that I have not been given any clear reason for why my account was banned. I have sent numerous emails and requests to WhatsApp Support asking them to review my account and explain the issue, but I have still not received any proper solution or meaningful response. This is really unfair because this number is very important to me and I have been using WhatsApp on it for several years. Suddenly banning my account without providing a specific reason and then refusing to properly review or restore it is extremely disappointing. If I have made any mistake unknowingly, I am willing to understand and follow all WhatsApp policies in the future, but I genuinely believe that I have not done anything wrong that deserves a permanent ban. I respectfully request WhatsApp to properly review my case again, clearly explain the reason for the ban, and please restore my account. I have been patiently requesting help through multiple emails, but I am still not receiving a fair resolution. Please take my complaint seriously and give me a proper response instead of leaving my account banned without any clear explanation.",
+    "title": "Please unbanned my account Appeal for WhatsApp accounts review"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14595848072",
+   "expected": {
+    "rating": 2,
+    "date": "2026-09-26",
+    "text": "I am extremely disappointed and frustrated with the way my WhatsApp account has been banned without any proper reason or explanation. I have been using this WhatsApp number for the past 10 years, and suddenly my account was banned even though I have not knowingly done anything wrong or violated any rules.What is even more frustrating is that I have not been given any clear reason for why my account was banned. I have sent numerous emails and requests to WhatsApp Support asking them to review my account and explain the issue, but I have still not received any proper solution or meaningful response.This is really unfair because this number is very important to me and I have been using WhatsApp on it for several years. Suddenly banning my account without providing a specific reason and then refusing to properly review or restore it is extremely disappointing.If I have made any mistake unknowingly, I am willing to understand and follow all WhatsApp policies in the future, but I genuinely believe that I have not done anything wrong that deserves a permanent ban. I respectfully request WhatsApp to properly review my case again, clearly explain the reason for the ban, and please restore my account. I have been patiently requesting help through multiple emails, but I am still not receiving a fair resolution.Please take my complaint seriously and give me a proper response instead of leaving my account banned without any clear explanation",
+    "title": "account banned"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14603849987",
+   "expected": {
+    "rating": 1,
+    "date": "2026-09-28",
+    "text": "I’m extremely disappointed and frustrated for your WhatsApp support no one can resolve this problem so many mails and contacting your gmail WhatsApp support Last time I’m sending a mail to WhatsApp support in 23 August 2026 And I’m facing this issue on 19 August and didn’t work and anyone solved this problem that why I’m putting this message here to hope you solved this issue so have been using WhatsApp with the same phone number for several years without any issues. However, over the past six weeks, my account has repeatedly been banned and placed under review without any clear explanation. Whenever I submitted a review request, my account was restored, but unfortunately, the same issue occurred again shortly afterward. My account has now been permanently banned, and it has been 38 days since the ban. There is currently no option available for me to request another review. I have also tried contacting WhatsApp Support several times, but I have not received a proper response or a solution to this issue. This situation is extremely concerning because my WhatsApp account contains important valuable information and personal conversations, contacts, photos, documents, and other that I have accumulated over many years. I kindly request that you manually review my account and investigate the reason for these repeated bans. If my account was restricted due to a misunderstanding or an error, I sincerely request that you restore my account and help",
+    "title": "Problem for whatsapp support"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14614601411",
+   "expected": {
+    "rating": 2,
+    "date": "2026-10-01",
+    "text": "I am extremely disappointed and frustrated with the way my WhatsApp account has been banned without any proper reason or explanation. I have been using this WhatsApp number for the past 14 years, and suddenly my account was banned even though I have not knowingly done anything wrong or violated any rules.What is even more frustrating is that I have not been given any clear reason for why my account was banned. I have sent numerous emails and requests to WhatsApp Support asking them to review my account and explain the issue, but I have still not received any proper solution or meaningful response.This is really unfair because this number is very important to me and I have been using WhatsApp on it for several years. Suddenly banning my account without providing a specific reason and then refusing to properly review or restore it is extremely disappointing.If I have made any mistake unknowingly, I am willing to understand and follow all WhatsApp policies in the future, but I genuinely believe that I have not done anything wrong that deserves a permanent ban. I respectfully request WhatsApp to properly review my case again, clearly explain the reason for the ban, and please restore my account. I have been patiently requesting help through multiple emails, but I am still not receiving a fair resolution.Please take my complaint seriously and give me a proper response instead of leaving my account banned without any clear explanation.",
+    "title": "About WhatsApp ban permanently"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14625069715",
+   "expected": {
+    "rating": 5,
+    "date": "2026-10-04",
+    "text": "I am extremely disappointed and frustrated with the way my WhatsApp account has been banned without any proper reason or explanation. I have been using this WhatsApp number for the past 10 years, and suddenly my account was banned even though I have not knowingly done anything wrong or violated any rules. What is even more frustrating is that I have not been given any clear reason for why my account was banned. I have sent numerous emails and requests to WhatsApp Support asking them to review my account and explain the issue, but I have still not received any proper solution or meaningful response. This is really unfair because this number is very important to me and I have been using WhatsApp on it for several years. Suddenly banning my account without providing a specific reason and then refusing to properly review or restore it is extremely disappointing. If I have made any mistake unknowingly, I am willing to understand and follow all WhatsApp policies in the future, but I genuinely believe that I have not done anything wrong that deserves a permanent ban. I respectfully request WhatsApp to properly review my case again, clearly explain the reason for the ban, and please restore my account. I have been patiently requesting help through multiple emails, but I am still not receiving a fair resolution. Please take my complaint seriously and give me a proper response instead of leaving my account banned without any clear explanation.",
+    "title": "WhatsApp ban permanently"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "in",
+   "reviewId": "14628833757",
+   "expected": {
+    "rating": 5,
+    "date": "2026-10-05",
+    "text": "I am extremely disappointed and frustrated with the way my WhatsApp account has been banned without any proper reason or explanation. I have been using this WhatsApp number for the past 10 years, and suddenly my account was banned even though I have not knowingly done anything wrong or violated any rules.What is even more frustrating is that I have not been given any clear reason for why my account was banned. I have sent numerous emails and requests to WhatsApp Support asking them to review my account and explain the issue, but I have still not received any proper solution or meaningful response.This is really unfair because this number is very important to me and I have been using WhatsApp on it for several years. Suddenly banning my account without providing a specific reason and then refusing to properly review or restore it is extremely disappointing.If I have made any mistake unknowingly, I am willing to understand and follow all WhatsApp policies in the future, but I genuinely believe that I have not done anything wrong that deserves a permanent ban. I respectfully request WhatsApp to properly review my case again, clearly explain the reason for the ban, and please restore my account. I have been patiently requesting help through multiple emails, but I am still not receiving a fair resolution.Please take my complaint seriously and give me a proper response instead of leaving my account banned without any clear explanation.",
+    "title": "About WhatsApp Ban"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/in/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:41Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "6262118842",
+   "expected": {
+    "rating": 4,
+    "date": "2020-07-31",
+    "text": "What will it take to get connected when I make an audio call?  Is WhatsApp promises to its patrons as vague and unfulfilling as I have experienced?  I would love to give you, WhatsApp, a FIVE  STAR rating in all your services, but, NO!  When it comes to audio calling, NO! On many occasions, and now regular basis, anytime I have attempted to make an international call , the connectivity has failed completely. It’s either, the person I am trying to reach hears only silence from my side and so is vice vasa when the contact attempts to call be. Each time I have felt like a wounded lion for your let down. Each time  I call,  a contact, the only communication I se on my screen is , “ connecting  ......” and after 30 seconds or so, I am disconnected. Why is it I can never get connection but when I use my private number to call, the same contacts, the connection is superb and I don’t have to run into  networking issues and disconnection?  I am disappointed and  fed up with your poor customer service. To add more injury to my disappointment , today, you interrupted my dialing by asking me to rate your service? This was after I had  five attempts to get connection to the same contact I was attempting to call. I have tried different contacts in the same region but I get zero connection from WhatsApp. Please, I urge you to fix the glitch that you have created , but until then, I would prefer to give you  a zero rating for your audio calling service.  Unfortunately, zero is not among the choices you have. Disappointed  and wounded patron.",
+    "title": "Audio Calls"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "10031881920",
+   "expected": {
+    "rating": 4,
+    "date": "2023-06-14",
+    "text": "I love the app and it’s my main communication method. I just have some ideas that would make the app experience better. 1. It would be useful to have the possibility to filter (as you can do with unread messages) the group chats and individual chats. This would help to find chats easier. 2. The possibility to schedule messages to be sent at a certain time would be a major improvement. This would eliminate barriers created from different time zone as the app is used internationally. 3. Many of us use WhatsApp for everything including social and work related communication. And all chats and group chats are mixed together. It would be good to be able to add a label to chats according to a category. Then, you could filter the categories and find the ones that are under the label selected easily. This could be useful to save time and also to be able to prioritize messages. 4. Connected to the possibility to label chats to custom categories, it would be useful to put a schedule when you can receive messages in each label. Since most of us use the app as a work tool, but also as our main communication method. This creates a problem when trying to disconnect from work. It would be useful to pin chats (and group chats) to a category and be able to put certain schedule to when you can receive messages from each category of chats. This could help a lot to separate work from social life. This are just ideas that I would love to see through and hope the app continues to improve.",
+    "title": "Potential improvements"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "10384277855",
+   "expected": {
+    "rating": 1,
+    "date": "2023-09-19",
+    "text": "Whats app has been the most reliable and best app for as long as touch screens phone have existed. I lived in many countries. Some people even prefer to only have whats app on their phone. Now whats app has media, and channels and it gets connected with facebook ???? No one asked for that. I understand that instagram is getting replaced with TikTok. And threads didn’t do as needed. But now turning whats app into instagram is by far the dumbest move. Telegram will definitely be winning people now. Whats does connecting my whats app account with facebook do to my end-to-end encryption. Whats app is everyone’s number one choice simply cause its simple. A lot of old people and a lot of disabled people even children. Work,teams,companies, organizations use whats app and whats app groups for a simple use. And in countries in  Africa, asia, south America… where internet is much slower. Whats app is easy to use as it only uses data for sending and receiving messages. Now it needs data to upload media and what not. There has been a lot of upgrades, that are nice and helpful, but going to the status section is just overwhelming. Having a second related app, like messenger is to facebook would have been a much better idea. It could be a media based application with a totally new way to view and share that media through whats app chat which can be the normal app. I feel like meta is panicking, all these risky changes are extremely overwhelming. And eventually we’ll witness nokia all over again.",
+    "title": "The worst move yet"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "12184619408",
+   "expected": {
+    "rating": 1,
+    "date": "2025-01-14",
+    "text": "WhatsApp was what I used when I studied abroad to communicate with friends and family, but I unfortunately the app has so many issues that I refuse to use it even if that means it will be more difficult to communicate with those same friends and family living abroad. The app does provide some privacy in messaging, but based on the updated service agreements, it seems clear that Meta plans to use and train large language models on private messages. Additionally, WhatsApp has a series of issues regarding collecting metadata of its users and having nearly total freedom to monetize that information. I hate the idea of an app that claims to provide private and secure communication that is simultaneously monetizing my data.The app is also filled with scammers. I receive near daily notifications from massive cryptocurrency scam groups adding me to group chats promising “massive returns on my investment.” No matter how many times I report these groups, they just keep popping up. I blame the extraction of all contacts from your phone that WhatsApp uses to help you communicate with others through the app. It’s clear that Meta is doing nothing to address these issues and they continue to violate our data while doing nothing.If I could go back and never use the app in the first place, I would do it in a heartbeat. There other options for communication with family and friends abroad that does not come with the same issues that WhatsApp promises.",
+    "title": "Filled with scammers, not a secure app"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "12193498175",
+   "expected": {
+    "rating": 1,
+    "date": "2025-01-17",
+    "text": "WhatsApp is an absolute disaster of an app, and Mark Zuckerberg should be ashamed of what he's turned it into. The platform is nothing more than a data-harvesting machine, stealing every ounce of personal information it can get its hands on. From your private messages to your contacts and location, nothing is sacred. The moment you install WhatsApp, you’ve essentially signed away your privacy, with WhatsApp profiting off your data in ways most people don’t even understand.Let’s not forget that WhatsApp shares your data with advertisers and even other entities within Zuckerberg's empire, constantly bombarding you with targeted ads and influencing your every move. The so-called “privacy settings” are laughable at best—they are intentionally confusing and buried deep within layers of menus, ensuring that most users never have a chance to protect themselves. Zuckerberg and his team have built an empire on the backs of people’s privacy violations, all for the sake of profit. It's no wonder the app is riddled with security issues, invasive tracking, and personal data exploitation.WhatsApp has become more about exploiting its users than providing any kind of meaningful communication. If you're still using WhatsApp, you're essentially handing over your life for free—while Zuckerberg and his company profit off of it. Do yourself a favor: delete your account and find a platform that values your privacy. WhatsApp is a data thief, plain and simple.",
+    "title": "Absolutely horrible"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "12389964257",
+   "expected": {
+    "rating": 3,
+    "date": "2025-03-06",
+    "text": "Over the weekend, the app began showing a message that required me to update in order to keep using the app. When I try to do so in the App Store, a pop-up message asks me if I want to download to the latest compatible version (since my iOS is too old for the most recent version). I’ve done this several times successfully over the past year. However, this time, when I confirm that I want to download the latest compatible version, it just immediately resets and puts up the same exact message again. It doesn’t matter how many times I click it, it just repopulates and won’t start a download.I understand that WhatsApp will soon no longer be supporting my current iOS (13.3) on my iPhone 7, and they have given previous pop-up messages warning of this; however, these warning messages clearly stated that the ceasing of support would begin in “May” of 2025. As I write this, it is only the begging of March, 2025. I should have at least 2 more months of time with which to migrate my use of WhatsApp to a newer, currently supported device. Instead, I am effectively locked out of the app, so I have no way of backing up my messages or transferring them. Please provide a fix for this. I have used WhatsApp happily for many years, and I would like to keep doing so.",
+    "title": "Requires update but won’t download"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "12681258568",
+   "expected": {
+    "rating": 1,
+    "date": "2025-05-21",
+    "text": "The WhatsApp support team absolutely  not helpfull!!! I explained my situation that I don’t remember setting a password for end to end encryption. I got this phone back in September and everything was fine I was successfully able to back up everything from old phone to the new phone. All of the sudden my voice messages stopped working on whatsapp(which is WhatsApp’s fault again!)a few days ago. I checked what I can do and it was saying on the whatsapp help website first update the app and  if it doesn’t work then uninstall and redownload the app. So I did. Before I did that I backed up all the chats so I don’t lose them. When I redownloaded the app SURPRISE!!! I need a password to get access to my chats. Which password? When was it set it up? Even if it was set by me why absolutely nobody was able to help me to reset it. I could verify my identity, number whatever could possibly be asked for. But instead they kept saying they can’t do it. As a result, I lost all of my chats including the ones from my grandmother who passed away 5 months ago. They were my only voice memories from her. If I didn’t have to use WhatsApp for my work purposes I wouldn’t even bother deleting or redownloading the app.  Horrible service! If you can’t reset that password why before I’m deleting the app, the app doesn’t ask me for a password or warn me that when I reinstall it I’m gonna need a password?",
+    "title": "End to end encryption password couldn’t be reset!!!"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "13365264225",
+   "expected": {
+    "rating": 5,
+    "date": "2025-11-06",
+    "text": "I just wanted to take a moment to express my appreciation for creating such a fantastic app. WhatsApp has truly revolutionized the way we connect with others, and I’m extremely impressed with the range of features it offers. Here are a few aspects that stand out to me: Seamless Communication: The ability to send messages, make voice and video calls, and share multimedia files effortlessly has made WhatsApp indispensable in both my personal and professional life. End-to-End Encryption: The security features, especially end-to-end encryption, give me peace of mind knowing that my private conversations are safe and secure. User-Friendly Interface: I find the app incredibly easy to use, even for someone who’s not particularly tech-savvy. It’s intuitive, and navigating through it feels natural. Cross-Device Syncing: The ability to use WhatsApp on both my phone and desktop, along with WhatsApp Web, makes managing my messages so convenient and accessible, no matter where I am. Group Chats & Status: The group chat feature is perfect for keeping in touch with multiple people, whether it’s family, friends, or colleagues. Plus, I love being able to share status updates with my contacts. No Cost for Calls and Messages: The fact that WhatsApp allows me to communicate globally for free, as long as I have an internet connection, is something I truly value. That said, I’d love to see more features that can enhance our user experience, such as more customization options for notifications and better management tools for large groups. But overall, WhatsApp has exceeded my expectations, and I look forward to its continued growth and improvements. Thank you for such a reliable and user-friendly app",
+    "title": "My hosnest rewive"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "13657831289",
+   "expected": {
+    "rating": 5,
+    "date": "2026-01-21",
+    "text": "WhatsApp’s not bad at all—it’s actually great for what it does. End-to-end encryption keeps your actual messages and calls private (no one, not even Meta, can read them), and it’s super reliable for texting, voice notes, video calls, groups, and sharing pics/videos across the world without paying extra. Works flawlessly on slow connections, syncs across devices, and the disappearing messages + status features make staying connected fun and easy. Love it for family chats, quick check-ins with friends abroad, and even some work stuff—simple, fast, no ads in chats.But let’s be real: It’s owned by Meta (Facebook), so there are legit privacy dangers. They collect a ton of metadata (who you talk to, when, how often, your phone number, IP address, device info), and that gets shared within Meta for “improving services” or ads elsewhere. Backups aren’t encrypted by default (turn that on!), business chats can feed into Meta’s ecosystem, and features like Meta AI aren’t fully private. Scams/spam groups pop up too often, and if you’re super privacy-focused, it’s not Signal-level secure.Still, for everyday use? It’s one of the best out there—billions trust it daily for a reason. Just stay aware, tweak your privacy settings (disable link previews, limit profile visibility, enable 2-step verification), and use it smart. 4.5 stars—love the app, cautious about the company.Nickname: Ed Bradwayway “Dad Warrior”",
+    "title": "WhatsApp not bad"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "310633997",
+   "country": "us",
+   "reviewId": "14478556408",
+   "expected": {
+    "rating": 3,
+    "date": "2026-08-27",
+    "text": "I have been unable to use WhatsApp for several days due to an account registration issue that started unexpectedly. My account was initially restricted for “unusual activity,” so I submitted a review as instructed. The review was completed and WhatsApp allowed me to log in again, but since then I have been stuck in a continuous login loop. When I log in, my previous chats briefly appear, then “Connecting…” appears and I am immediately logged out again with the message that my phone number is no longer registered with WhatsApp on this phone. I have tried everything suggested by WhatsApp Support, including updating the app, restarting my iPhone, switching between Wi-Fi and mobile data, using a VPN, trying WhatsApp Web, and even offloading and reinstalling the app. Nothing has worked. The most frustrating part is that WhatsApp Support keeps providing automated/AI responses that repeat generic troubleshooting steps instead of actually investigating the account. I have already provided screenshots and explained the issue multiple times, yet I still cannot access my account. Please have a real technical support representative investigate this issue and restore access to my WhatsApp account. I have been without WhatsApp for days, and this is extremely frustrating for an essential communication app. still acter 3 updates my issue stand unresolved.",
+    "title": "Can’t log in, No Human support from the app just AI response"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:38Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "6478388488",
+   "country": "gb",
+   "reviewId": "13063139941",
+   "expected": {
+    "rating": 5,
+    "date": "2025-08-26",
+    "text": "Is dhiiir qlpi💋👏❤️",
+    "title": "Waa inan waxa is baraa 👏💋"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habit-tracker-loop/id6478388488?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:33Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "6478388488",
+   "country": "gb",
+   "reviewId": "13974058418",
+   "expected": {
+    "rating": 3,
+    "date": "2026-04-19",
+    "text": "So I asked ChatGPT to get me an app that could get me into healthy habits. first of all you have to pay,second of all you couldn’t put your age in so it was saying don’t smoke don’t drink and I’m not old enough yet anyway I couldn’t work out how to do that stuff so idk. But if I do change my mind I will 100%💯 update you on that.bye Besties xx",
+    "title": "It’s ok"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habit-tracker-loop/id6478388488?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:33Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "6478388488",
+   "country": "gb",
+   "reviewId": "14498488828",
+   "expected": {
+    "rating": 2,
+    "date": "2026-09-01",
+    "text": "But it’s not yet, it’s simply ‘ok’ the biggest let down is the absence of any sound when you complete a habit, some sort of animation or joyful sound would elevate this app a lot more. It’s a bit awkward to set up how you want it, and not many options to customise in any meaningful way, however it looks good, but that’s it.",
+    "title": "Could be great"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habit-tracker-loop/id6478388488?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:33Z"
+  },
+  {
+   "store": "appStore",
+   "appId": "6478388488",
+   "country": "gb",
+   "reviewId": "14525868901",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-08",
+    "text": "Great app idea. Easy to use, clean user-interface. Looking forward to further exploring the app’s features. Thank you for developing the app!",
+    "title": "Really enjoying the app so far! 👍"
+   },
+   "dateBasis": "UTC date from the page <time datetime> attribute",
+   "sourceUrl": "https://apps.apple.com/gb/app/habit-tracker-loop/id6478388488?see-all=reviews",
+   "capturedAt": "2026-10-11T06:57:33Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "a954e2e7-d618-49d3-9dad-d7922008362d",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-08",
+    "text": "it's so good and feel so friendly and sweet I like it",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "4537b30d-8254-46be-98db-b890f67025f8",
+   "expected": {
+    "rating": 5,
+    "date": "2026-07-18",
+    "text": "a very useful app for developing habits. i like it. pls dont add ads.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "a12c9635-2768-4d8e-82ae-533adb7eb4e4",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-03",
+    "text": "You can get infinite stars if you just keep selecting and unselecting...",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "626497eb-24a9-4f45-9817-8fc6365e474d",
+   "expected": {
+    "rating": 5,
+    "date": "2026-02-14",
+    "text": "I don't give reviews that easily but this is exactly what I was finding almost desperately and even tried to invent one myself Will pray for your growth as there are very few app devs that actually care .suggestion not demands)-make it 3D,colour combination is still bit dull in comparison of jar themes,add shake and see memory feture,statics. Edit4 eg-grat jar,Menfestation jar,swear jar 3D,Happiness jar,Gratitude jar(searched so you don't have to:)BTW can u make same concept garden theme app?.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "90871422-6149-4ade-bdf5-05ae76f31592",
+   "expected": {
+    "rating": 4,
+    "date": "2026-06-13",
+    "text": "love it! wish there were some more free features but I do enjoy this app <3",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "eb184e5a-60e7-41df-bfe7-a7f715070b58",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-03",
+    "text": "Amazing easy and practical 👌",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "3f98c355-e914-43fb-8901-575cb5f0fb66",
+   "expected": {
+    "rating": 3,
+    "date": "2026-04-10",
+    "text": "actually it is great app but how pity you can only create one jar. It would be better if we could create a lot of jars. But it is really great overall",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "91373a38-3215-440b-94a1-83de95ce9dd8",
+   "expected": {
+    "rating": 5,
+    "date": "2026-07-20",
+    "text": "i love it!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "8fc39ffc-5fd1-43bb-ab78-cfcaf6116b6c",
+   "expected": {
+    "rating": 5,
+    "date": "2026-02-10",
+    "text": "fun and cute app",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "in",
+   "reviewId": "00787f3e-4f30-4daa-9aa9-77aba466dfe4",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-23",
+    "text": "such a simple good app. I have only used it for a few days so imagine it needs to be visible to avoid dropping off. it has a really nice widget though to help with that.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:44Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "b85398e8-d3c4-480c-afae-a359124f25b2",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-14",
+    "text": "This app is phenomenal. Definitely worth the lifetime subscription. I got this app for habit tracking; I didn't really think I would be using the habit jar. But that has been an excellent addition to keeping me motivated. I like that I can switch between the daily, monthly, and yearly views of my habits. I love that there's so much that you can customize.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "74790082-df44-45d0-b277-49048d397e90",
+   "expected": {
+    "rating": 5,
+    "date": "2026-07-23",
+    "text": "Good app! And its free features are also good enough. But I believe adding some features would make it better, the most important one is an option to set a habit to do for example 3 times a week without setting a certain day for it, so I could do it at any day and when I did it for 3 random days in a week, it would be considered as finished for that week. Or an option to set measurements for a habit like reading. so I could add how many pages I read and see in the charts. but it's fine anyway 👍",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "c2c1d51a-d11a-429c-ad78-fe89d503ec2c",
+   "expected": {
+    "rating": 5,
+    "date": "2026-06-08",
+    "text": "I love this app! It is a simple but effective way to keep up with your habits and track them over time, and I love all the jar customisation. No flashy ads or distracting mini-games, just does what it says on the tin. And the paid version is only £5. Really recommended! P.S please can we have a little tinkly sound effect when we put the marble in the jar 😆😆😆",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "bc86314d-e6fa-4e08-9437-e3a78c8710b4",
+   "expected": {
+    "rating": 4,
+    "date": "2026-05-12",
+    "text": "I absolutely love this app. it's a quick and easy way to keep track of habits and small task that you need to do throughout the week ! I just wished there was a little bit more feature on the app, like adding sound when you interact with the marbles, writing more motivatal messages in the jar , etc. besides that , the app is amazing 🥰",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "2de9bf5e-d974-41a3-bce5-e01dcf289f95",
+   "expected": {
+    "rating": 4,
+    "date": "2026-04-14",
+    "text": "awesome app, simple to use. was already doing something similar with origami stars, but having it on the phone is much more organized and easier to keep track of habits. one feature that wouldve made it perfect was if color of the marble correlated with the habit that was completed, that would make the visual aspect more motivating to see what habits I'm staying on top of. Other than that, I love the app and does what I need. Tried a lot of habit trackers and this is the only one I actually use",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "ebf94956-ffbd-4d26-a21f-3fc955369cec",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-10",
+    "text": "Such a great value for a habit tracking app 🩷 finally something that works for me after years of trying.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "9fb6f8d5-7b9b-42a3-9911-67ca4efb310b",
+   "expected": {
+    "rating": 4,
+    "date": "2026-08-21",
+    "text": "is it simple yeah, do i love it YES! It helps me so much to stay on track and keeps me motivated to keep going. The only thing, I think it would be cool to have a mini reward for every 50 marbles or something! Still love it",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "d9b124bc-34db-4f60-9ab1-df7897096ab2",
+   "expected": {
+    "rating": 4,
+    "date": "2026-07-01",
+    "text": "Super cute and simple. Keeps me motivated! I wish there was a way to organize tasks into subgroups, but otherwise it's great!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "8b706486-0032-4b69-b6d0-8c991124d4e3",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-15",
+    "text": "super great mechanics really cute idea I love it a lot",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.junhwank.habitjar",
+   "country": "us",
+   "reviewId": "4bd3199b-50bd-4da9-8b77-51aa06331ccf",
+   "expected": {
+    "rating": 5,
+    "date": "2026-06-06",
+    "text": "Firstly it's a really intuitive and great app for building habits, there's one suggestion to customise the jar quantity instead of a fixed 100 pebbles.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:58:34Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "10044eed-8a25-4835-b032-cfdc3e0cbc87",
+   "expected": {
+    "rating": 2,
+    "date": "2026-08-21",
+    "text": "It's steadily getting worse. AI \"Features\" and all the other clutter just keeps clogging the app. I liked Whatsapp because it was just a no frills messenger. Also i found out the hard way if i install the app on a new phone it wipes all my chat histories as a \"safety\" precaution? It's still better than some options, but seemingly those days are numbered",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "fb3128b3-8960-4f9b-8b2e-88fbdbccffe5",
+   "expected": {
+    "rating": 4,
+    "date": "2026-04-08",
+    "text": "I've been using Whatsapp for years now, and it's a very good way to communicate with others! but there's one problem that there's this profile picture glitch that only one contact can't see my picture and neither do I,the problem is we didn't block each other or excluded each other, I hope you fix this problem soon! overall the app is very powerful and useful.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "5785471f-9975-4cab-b5f7-bc6c8516ff93",
+   "expected": {
+    "rating": 4,
+    "date": "2026-05-05",
+    "text": "The app is overall very nice. But I've recently started to face a problem with the new avatar feature. My WhatsApp is up to date, but it doesn't show the avatar option in the settings. But when I go to search in settings and type \"Avatar\" it shows the option. And when I click on the option, nothing happens. So I'm not able to use the avatar feature due to this issue. Rest is okay.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "4e57fe69-13cd-4437-8d42-d0fd94bbe807",
+   "expected": {
+    "rating": 4,
+    "date": "2026-02-28",
+    "text": "I love this app. It’s very easy to use, and I’ve been using it for years to stay connected with the people I love. But I really wish there was a feature that allows us to access call history in a deeper way....like being able to download or save parts of our voice calls or video calls (with permission, of course😅). Sometimes very wholesome and meaningful moments happen during calls, and we don’t think to record them at the time.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "3fb2d63f-9d1a-4a57-abed-e4bdfa45ef0c",
+   "expected": {
+    "rating": 3,
+    "date": "2026-02-17",
+    "text": "Currently using the \"lock immediately\" feature on WhatsApp and every time I enter my code to open the app it closes and it takes a couple tries before I amablento fully use the app. Also, I get notified of a message, when I go to check the message isn't there, but the notificattion still is, then I have to exit the app multiple times and go back to finally recieve the message. Please fix as it is frustrating to use.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "bd39b7cf-62ec-480b-a3b5-f2fb3e60eeed",
+   "expected": {
+    "rating": 3,
+    "date": "2025-03-14",
+    "text": "I used to appreciate this app alot, still do. But now that it's becoming very common for more and more people to use this app for calls aswell, it's become very obvious to me that -after all these years- the quality for voice calls is still unacceptable. There seems to be a constant risk of WhatsApp repeatedly \"reconnecting to the network\" even if both/all participants have full network signal. This applies to both, mobile internet aswell as WiFi. Very disappointing, would give 5* otherwise.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "f62c7bee-4edd-4018-8fab-f81a51b907ed",
+   "expected": {
+    "rating": 4,
+    "date": "2025-06-27",
+    "text": "I travel a lot so it's helped me keep in touch with ppl. The only complaint I have is that there are glitches with calling or text sounds. Quite often someone says they've been trying to call me and I see the notification but it didn't ring. Also, it would be nice if a deleted or edited message didn't say deleted /edited",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "15bc7422-1846-4ae1-81b0-4a1c8846067b",
+   "expected": {
+    "rating": 2,
+    "date": "2025-06-07",
+    "text": "Update mid '25. I have used WhatsApp for ages now, but still, they haven't sorted out yet a better solution for the storage of the media sent over the chats. Why a different folder for WhatsApp media? Why do you force me to have a photo I already have in my phone (because I took it) also in the \"sent\" folder as a duplicate? Also, the new video limit of size/duration is a nightmare. You don't even storage people's media, what's you problem? that's just annoying",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "072b86a0-efb5-4e1c-9fe5-7b0f6b8988f5",
+   "expected": {
+    "rating": 2,
+    "date": "2025-07-01",
+    "text": "The photo sending function is rather messed up after the update, despite clicking on \"view more\" to see all of my folders I only get a handful. Accidentally sending gifs while scrolling or without adding a caption is rather irritating due to the one click and send function and for the past few days whenever I search gifs I am met with \"check your device's internet connection\" which hardly goes away....",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "au",
+   "reviewId": "9b040475-9315-468e-89f9-0dd13c21afab",
+   "expected": {
+    "rating": 2,
+    "date": "2025-09-16",
+    "text": "My experience with WhatsApp has been pleasant until very recently. Since the last update, when I share any link in a message, I can no longer add any caption or comment about the link before sharing (unlike before). From now on, I have to edit to insert commentary after sharing to say something about the link. Please fix this issue ASAP. Thanks.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=au",
+   "capturedAt": "2026-10-11T06:59:37Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "60711e3f-82f4-42dd-b58a-26f9c0ba15e6",
+   "expected": {
+    "rating": 3,
+    "date": "2026-02-21",
+    "text": "WhatsApp is in general good but has some disadvantages. Firstly, it automatically deleted messages I try to send many times and does not let me edit messages when I typed something wrong, showing a completely different message. Apart from that, it has a feature which lets you post things happening with music on it. The voice recordings are high quality and there isn't much delay ( apart from whenever I try to edit a message) Overall, very good",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "5b715746-285a-4706-9fca-41ab5af7ffd5",
+   "expected": {
+    "rating": 3,
+    "date": "2026-09-06",
+    "text": "It's very annoying that you can't change the icons for contacts, you're stuck with whatever ridiculous one they choose. Also the timestamp against each message is the time that it landed on the phone, not the time it was sent, which is totally useless when they've been off-grid for a while. It's like it's been developed by children, but the actual messaging and telephony side of it works well and doesn't seem to hit the battery too much.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "0aa286da-285d-412a-a292-09f74db0b89c",
+   "expected": {
+    "rating": 2,
+    "date": "2026-09-04",
+    "text": "was simple and worked 100% but..... since it's now being run by you know who, it's getting annoying to use. I can type out a message, attach a picture and send it only to find out it's only sent the picture and all the text has gone! Another point is the way they keep tinkering with the app and trying to make it do more/ be something else to what it originally was. why change something that's not broke and turn it into what everything else is. The notifications of new features is a pain",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "7eebc766-4918-4caa-8875-39ee52ca6859",
+   "expected": {
+    "rating": 1,
+    "date": "2026-08-14",
+    "text": "Was a great app but it's somehow been ruined, at least for some of us. Since 1 Aug I'm constantly being logged out for no obvious reason. I've never shared my passport & always keep software up to date. Followed WhatsApp's advice to add 2 factor authentication &, afterwards, logouts got, if anything, even MORE frequent - more than once a day. I've changed the backup setting to DAILY but am still losing messages, to say nothing of HOURS spent uninstalling & reinstalling. Ready to uninstall...",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "97d1e676-bd4f-4923-8f19-38d249d75ead",
+   "expected": {
+    "rating": 1,
+    "date": "2026-07-20",
+    "text": "Terrible, when moving from one phone to another it frequently just says \"loading\" that's it. until I close the app, go back into it, restart, uninstall the app but it won't transfer the chats from the previous phone. I switch phone a lot and this is the same every time. Also, when recieving a call for the first time after a reinstall, while the call is coming in, you have to accept a number of usage access rights - while the caller is waiting!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "e0dae566-78eb-4f6e-b9e6-63899f80fb87",
+   "expected": {
+    "rating": 1,
+    "date": "2026-07-30",
+    "text": "What on earth have you done in the latest update? Can't backup anything, phone is overheating. Many people seem to be experiencing this nonsense. I thought I was going mad. Tried all the troubleshooting and nothing has worked. It was 53% done last night at bedtime, that took 4 days to do. This morning back to zero and won't do a damn thing! Please sort this out!!!!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "cf5c9b95-1f31-464b-9025-d00c02dc55e8",
+   "expected": {
+    "rating": 5,
+    "date": "2026-06-29",
+    "text": "First starting using to text a friend in Germany and found other people I knew was using too, so set up a group and we can all join in and chat together in real time. I quite like it, can add documents, photos and files easily if needed and isn't difficult to use, which is a good thing, lol. 🤣 5 stars from me and highly recommend.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "0a830f81-daef-459e-bcfb-b92f93e18c77",
+   "expected": {
+    "rating": 2,
+    "date": "2026-07-01",
+    "text": "The app used to be good, but now I find the calls to be very unreliable. Even with good connection via WiFi or Mobile data, it always disconnects and displays \"Reconnecting\" or it just ends the call. This occurs way too often. I now use other apps for internet calls, because WhatsApp seems to be so far behind, when it comes to calls.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "8161cd42-1f8a-4076-addc-dcb789479bf5",
+   "expected": {
+    "rating": 1,
+    "date": "2026-06-24",
+    "text": "so if you send a text when only on mobile data from the drop down in notifications it won't send the message unless you open the app, mates iPhone 17 pro max has the same issue, beyond unacceptable. It also sometimes just doesn't alert you to message unless you actually open the app. who develops and maintains this app, actual children or? oh sorry it's all about having features no one wants and being atleast 2 years behind other messaging apps. fix. it!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "gb",
+   "reviewId": "65c2929d-fa3f-47ca-b2a8-17f6f545dc27",
+   "expected": {
+    "rating": 4,
+    "date": "2026-04-30",
+    "text": "In my own opinion, WhatsApp is a great app for communicating with family and any communities, it's pretty simple and easy to use once you understand the settings, but it would be better if there was an in-app browser, similar to messenger, for whenever someone sends a link, and you don't have to go into chrome or any browser app you have, since I've noticed in both the reviews and the people I know who use WhatsApp, they'd prefer in-app browsers as well. But overall, a really easy to use app!!𔘓",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:59:26Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "e3486623-ea56-409c-b4d6-aaa68c8d7cd7",
+   "expected": {
+    "rating": 1,
+    "date": "2026-08-30",
+    "text": "Most primitive app when it comes to backing up data and switching devices. Something new goes wrong each time. If you didn't click on log out before you factory reset your device, there seems to be absolutely no way to access your chat back on the same reset device. There's no help, no support page that accurately addresses such a basic setting, no website access to the account, nothing. But no, please don't fix it, tell me how much I need AI to read my messages for me.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "86478a55-1044-45c2-857c-b86e1b275731",
+   "expected": {
+    "rating": 1,
+    "date": "2026-09-11",
+    "text": "WhatsApp is becoming worse and worse. I am facing serious issues with file sharing and downloading. Even with a 5G connection, I can't share or download files, even when they are only a few MB. Other apps work properly on the same network. I also can't cancel stuck downloads, and the delete option is missing. These basic features should work reliably, but the experience is becoming increasingly frustrating. Please fix these issues as soon as possible.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "30a52207-845a-4521-8c38-bf7f4cf5b0dc",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-04",
+    "text": "I really enjoy using WhatsApp, but I have one issue with profile pictures. The required cropping often cuts out important parts of photos, especially wide shots or pictures with beautiful backgrounds. Please add an option to fit the entire photo within the DP frame without forcing users to crop it. Let users choose between cropping and fitting the full image. This would greatly improve the experience. 😊 you, Meta!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "0228f2d3-9b5c-4200-b97d-40560a01ae84",
+   "expected": {
+    "rating": 1,
+    "date": "2026-07-30",
+    "text": "I am writing to report a critical issue with my WhatsApp backup that has been ongoing for the past few days. My last automatic daily backup was completed one week ago. Because my work data is vital, I attempted to start a manual backup. However, the process is extremely slow; it only completed 2% in the first day. Over the last three days, the backup has remained stuck and has only reached 12% total completion.Due to this, my device is under heavy load and constantly prompts me to restart.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "c0cc7e8d-454d-4407-8958-3cda2e322c4f",
+   "expected": {
+    "rating": 2,
+    "date": "2026-09-06",
+    "text": "It’s getting worse with every update. First, there was an issue with the iOS app on Mac, where it kept hanging repeatedly, and I had to uninstall and reinstall it. Now, I’m facing issues on Android as well. Whenever I select a message, the entire screen goes black, and sometimes the app hangs completely. These issues are becoming more frequent with every update. Please look into this and fix them as soon as possible.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "81b7b872-0f4f-44b8-ac3a-d8e98bb68ea5",
+   "expected": {
+    "rating": 4,
+    "date": "2026-07-02",
+    "text": "I am not giving one star, but I think there should be a payment history feature on WhatsApp. When we open a person's profile, we can easily see photos, links, and documents shared in the chat, but there is no separate section for payments. Users have to scroll through the entire conversation to find a payment they made or received. Adding a dedicated payment history option in the profile would make it much easier to track and manage transactions.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "76b5cb22-f5a7-41a9-9bd0-03a6ce093f60",
+   "expected": {
+    "rating": 2,
+    "date": "2026-09-11",
+    "text": "Please fix the WhatsApp Status quality issue. When we add a song/music to a photo while posting a Status, the photo quality becomes very poor and blurry. The same problem happens when adding multiple photos to a Status. The original photos are clear, but WhatsApp compresses them heavily when music or multiple photos are added. Please fix this issue as soon as possible. It is a very frustrating and important problem for users.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "c9f182cf-a6e8-4214-b7df-264cf79e998e",
+   "expected": {
+    "rating": 2,
+    "date": "2026-08-01",
+    "text": "Give switch off option for whats app just to sleep well at night without handling any pressure of work, but also can bibge watch movies. i know there's an option to switch off by switching off the data availability. but still it would be easier if there's a switch off option inbuilt in whats app. And also Please give us delete for everyone with no time limit. it makes us look like a clown when somebody doesn't reply even after a week or more. please give that update. that's very much needed.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "c04917ba-e038-4fc3-8f32-ae5d3effcded",
+   "expected": {
+    "rating": 1,
+    "date": "2026-07-28",
+    "text": "WhatsApp Video Calls have been broken for the last 2–3 days. My internet is stable, but only WhatsApp Video Calls show \"Poor Connection.\" The video becomes blurry, freezes, and the audio keeps cutting out. This happens with every contact, even with a strong Jio 4G signal. Please investigate and fix this issue as soon as possible. Very disappointing experience.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "in",
+   "reviewId": "c850a4f6-2039-4ada-9e8f-cf0ac36e79db",
+   "expected": {
+    "rating": 1,
+    "date": "2026-08-18",
+    "text": "WhatsApp has been broken for over a month. Every time I open the app, I am logged out and forced to re-verify my phone number. ​I’ve tried everything: ​Reinstalling the app ​Updating to the latest version ​Clearing cache & permissions ​Nothing works. Having to log in every single time makes it unusable for daily communication. Notifications don't work, and I miss urgent messages. ​This is a major authentication bug. Please fix this log-out loop!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:59:15Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "d40bb75a-d1a5-44b3-863d-c8624445efe9",
+   "expected": {
+    "rating": 1,
+    "date": "2026-08-28",
+    "text": "The most useless app I've encountered since apps were invented. I have it on my phone, and whenever I try to link it to another device - PC or tablet, using their app - the account is placed under review, during which time I can't use it, without explanation. There is no customer support as such, just what seems to be a beta version of 1st-generation AI. Don't waste your time.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "df162a51-d54f-4f64-9973-ef00cc5f2e37",
+   "expected": {
+    "rating": 2,
+    "date": "2026-08-31",
+    "text": "Since the update, I have not been able to connect my phone to my computer with the same phone number, and each time when I attempted to connect them, I have been getting knocked off WhatsApp saying, \"this number can't use WhatsApp\" and then it goes under review. To make matters worse, there is no one to contact since all their customer service is AI generated and no live person can help.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "ad1e7e0f-1cfd-45e4-ad84-dfafb7d51c23",
+   "expected": {
+    "rating": 1,
+    "date": "2026-09-18",
+    "text": "Forces android users to sync all contacts no option to add who you want via messaging.Read that you can still call someone then that number can be in the app (I think). More data for them to sell I suppose. Hard for ppl to trust this forceful behavior. I can't imagine business people wanting their clients and private numbers forcefully synced. there's a \"whatsapp business\" app that may or may not have this issue but still doesn't justify. anyway, 1 is what I feel is right",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "18f79504-e09f-4529-82a4-0b75d6aebd59",
+   "expected": {
+    "rating": 1,
+    "date": "2026-07-26",
+    "text": "Side-by-side view on Z Fold phones not working anymore after update even though the setting is still on. Tried a bunch of stupid Android setting workarounds that didn't work. Please fix!!! Now the backup isn't working. I've been trying for 3 freaking days! It takes 10 hours just go get to the uploading part, which takes another 8 hours, and by then it's used up too much of the phone's memory, it has to restart, and it's not even done backing up yet! Videos not included!!! ZERO STARS!!!!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "39c8e86a-3b41-4999-b182-3feeae691d1b",
+   "expected": {
+    "rating": 1,
+    "date": "2026-07-24",
+    "text": "WhatsApp has completely failed us. The verification code is not being delivered by SMS or phone call, making it impossible to access the account. We've spent countless hours troubleshooting, worked with our carrier, switched providers and back again, and verified that the phone number is working normally. Despite all of this, there is no effective customer support available. Users are left stuck with automated responses and no real solution. For an app used by billions of people",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "5164053f-93a1-4377-bb62-4f052aef0062",
+   "expected": {
+    "rating": 3,
+    "date": "2026-07-27",
+    "text": "I've used WhatsApp for years and it has been very good. However, as of the last update the app is unable to do the daily backup. The backup is stuck in a loop \"In progress,\" I tried deleting large files, stopping the app, looking for updates, etc. and still it won't finishing backing up. This process is causing my battery to overheat and deplete the battery.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "ea408e0c-697a-4ecd-b991-026ec7ff0e58",
+   "expected": {
+    "rating": 5,
+    "date": "2026-07-23",
+    "text": "I had my WhatsApp installed on my phone, my Kindle, and my PC and working in exact sync. Then the app said I needed to update on my Kindle, which I did. But, when it opened, all I got was a rapidly flashing screen. I tried multiple times, only to find that it is no longer available on my Amazon Kindle after 16 months of using it. My phone is also an Android, so I'm wondering if it's going to go as well. This sucks big time!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "da1c2d72-5619-42d6-b0ee-a7501e8eafb1",
+   "expected": {
+    "rating": 3,
+    "date": "2026-08-17",
+    "text": "Works great on both Android and PC, however I do wish that there was a way to disable/remove the \"Archive\" button that pops up when you open the App Info in Android (at the bottom of the phone screen it pops up \"Open\", \"Archive\", \"Uninstall\", and \"Force Stop\"). Every time I try to click on \"Open\", the buttons suddenly move and I accidentally click \"Archive\" and then it takes forever to \"Restore\" - arrggghhh!!!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "8fffa264-8e00-4757-91db-c417e70fc8c5",
+   "expected": {
+    "rating": 1,
+    "date": "2026-08-19",
+    "text": "​I am extreme frustrated with WhatsApp’s customer service. Trying to get support is nearly impossible—they have no phone number to call, and you are forced to interact with automated AI bots that offer zero help. Only after multiple attempts do you finally get a ticket number, only to be informed that a response can take 2 to 3 business days. ​I have been completely locked out of my account since August 15th. I’ve sent numerous emails requesting assistance and nothing.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "com.whatsapp",
+   "country": "us",
+   "reviewId": "81e48729-b9c3-41ba-8c0f-653b9125e9bb",
+   "expected": {
+    "rating": 1,
+    "date": "2026-08-07",
+    "text": "I'd have given 0 stars if that were possible. Meta's new AI bot and scam scanning has caused my account to be blocked for 24 hours at a time almost a dozen times in the last month. Nearly every time I make a new message, my account is blocked. If that weren't bad enough, there is no customer service to prevent future issues. Their chat bot won't pass my issue on to a human and ends the ticket when I try to get it escalated to a human. This is not a reliable communication service.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:59:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "gb",
+   "reviewId": "e83c1c81-5f69-4169-8ca4-65008897cec2",
+   "expected": {
+    "rating": 5,
+    "date": "2026-01-28",
+    "text": "Please add the sound of rewarding when I click complete",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=gb",
+   "capturedAt": "2026-10-11T06:58:14Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "dda93718-c3b4-4b8c-be80-ed898e4c9f75",
+   "expected": {
+    "rating": 2,
+    "date": "2026-05-13",
+    "text": "a good concept but without one glance tap widget, within days, I'll stop opening the app all together even when I am doing my tasks. so basically it will become useless.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "c6f8b024-6fa5-4666-932c-1f44cadd510f",
+   "expected": {
+    "rating": 5,
+    "date": "2026-05-12",
+    "text": "So far so good. The visual data helps very much in what I want to track. Simple interface and easy to use. Perfect for what I need it for. Thank you",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "ef39b999-ace4-466f-a60e-2adebafd3244",
+   "expected": {
+    "rating": 5,
+    "date": "2026-06-10",
+    "text": "A great, minimalist habit tracking app. Doesn't overload you with things and keeps it simple.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "267b703c-1964-4618-a75b-ba3784f8d7ab",
+   "expected": {
+    "rating": 5,
+    "date": "2025-11-11",
+    "text": "After downloading more than twenty habit trackers, each of which had a problem, such as not having a yearly chart, or having to pay for useful features, or not having a nice user interface, or not having a widget, I finally found this app, which is so great.👍 but The user interface and widgets could be better.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "95c70667-5bfe-41f9-aef1-80614aaad3d0",
+   "expected": {
+    "rating": 5,
+    "date": "2026-06-16",
+    "text": "Simple, Detailed and Cool App. with just enough customisations.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "90b605ae-576c-47fb-a429-b1f2e4c6ede2",
+   "expected": {
+    "rating": 5,
+    "date": "2026-04-03",
+    "text": "Great app, free simple, useful, statistics, only complaint is the widgets dont match theme or have settings to change color, and there isnt a widget 'button' to complete a specific task. Besides that, amazing app!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "f3385821-6460-4cd4-87b1-c622b9e033a3",
+   "expected": {
+    "rating": 5,
+    "date": "2025-09-07",
+    "text": "I just downloaded habitgrid, and so far: it seems like it's literally everything I wanted in a habit/routine app. I love how simple yet conventionally costumizable it is. and a BIG (but not the only) reason why I think I'm sticking to this app is that it's free. that's a big issue that me, and others, have with habit apps. this app seems authentic and I really value that. I'm excited to see upgrades since this seems like a relatively new (and already amazing) app! :)",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "6701d7b0-36b2-438b-a5f3-1dd153156948",
+   "expected": {
+    "rating": 5,
+    "date": "2026-06-30",
+    "text": "provided premium features in free great 👍🏻",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "198e76db-4cf0-4f60-b4ea-3c7ba880c197",
+   "expected": {
+    "rating": 5,
+    "date": "2026-07-06",
+    "text": "Extremely good app but I want you to add the feature of making a habit repeat on particular days of the week. Until I get this feature, I have to just be using habatica.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "in",
+   "reviewId": "6a6c9b78-9079-4e6f-ba2f-5949d958ddd1",
+   "expected": {
+    "rating": 4,
+    "date": "2025-08-04",
+    "text": "simple, clean ui, and does exactly what i want it to do. my only complaint is that you can only set one time for a notification reminder per habit, which isn't helpful for tasks that you want to repeat multiple times in one day. otherwise its great",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+   "capturedAt": "2026-10-11T06:58:04Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "bb9526ad-32ce-41bb-a805-bc8b94200610",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-21",
+    "text": "This is a free Habit Tracker app that's already Great 🙌 Feature Request: Please add the feature to also log time for each habit so the hours and minutes show up in the calendar view for each day. This way users can track their progress even further.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "d85919bd-c550-4ad2-b624-4e3ab9f31279",
+   "expected": {
+    "rating": 5,
+    "date": "2026-09-10",
+    "text": "free, clean and easy to use. easy back import and export, no signing up. just lovely. we should do these kinda apps more",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "f37e8205-104f-4de9-9a56-5377de69a14e",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-28",
+    "text": "It's very convenient! And I'm glad it's free! It's the best habit tracker app I've ever seen. I just couldn't figure out how to delete unnecessary categories ♡",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "6c90f421-9700-4292-83d9-8303d990ff15",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-12",
+    "text": "This is legit the best habit tracker app I've tried. It's completely free even. And the UI and UX is better than those paid apps and other habit tracker apps.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "20f37fc9-97be-4ffb-ab17-29bfc886bc42",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-03",
+    "text": "Good Visual Interface and easy to use this app. It is very simple and easy and the best thing is that it is free of cost.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "702f5292-2c5f-4a47-95cf-eacac8d6279e",
+   "expected": {
+    "rating": 5,
+    "date": "2026-07-09",
+    "text": "it's really great, it is my first time to rate app in the play store, it is help me and with infinit habits to add, thanks 👍",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "e180fb5a-69da-44a3-9368-2497d1ef2dea",
+   "expected": {
+    "rating": 5,
+    "date": "2026-05-25",
+    "text": "A great app, it has all the necessary stuff that a habit tracker needs, and it's such a minimal ui with unlimited habits for free to track, I recommend it, I have also requested a feature to the developer to add daily tasks feature for the best experience",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "b7f15060-8912-431c-b05f-c09e4e769308",
+   "expected": {
+    "rating": 4,
+    "date": "2026-08-28",
+    "text": "great app Require to add (am , pm )option in time baar , will be helpful for the remainder through notification",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "0fd6a637-3051-414e-9d91-d6ad87ac66e4",
+   "expected": {
+    "rating": 5,
+    "date": "2026-08-11",
+    "text": "perfect app! free with unlimited habits to add.",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  },
+  {
+   "store": "googlePlay",
+   "appId": "edvarderos.habitgrid",
+   "country": "us",
+   "reviewId": "ad58fd24-09ca-45d8-9fac-19fd645fbf67",
+   "expected": {
+    "rating": 5,
+    "date": "2026-07-28",
+    "text": "premium app for free of charge. Just amazing!",
+    "title": null
+   },
+   "dateBasis": "date as displayed by Google Play, which is the UTC date",
+   "sourceUrl": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=us",
+   "capturedAt": "2026-10-11T06:57:54Z"
+  }
+ ]
+}

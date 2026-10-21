@@ -1,0 +1,38 @@
+{
+ "store": "appStore",
+ "appId": "6478388488",
+ "country": "gb",
+ "method": "Playwright Chromium, apps.apple.com Ratings & Reviews page (DOM); oldest 10 of the reviews shown",
+ "capturedAt": "2026-10-11T06:57:33Z",
+ "url": "https://apps.apple.com/gb/app/habit-tracker-loop/id6478388488?see-all=reviews",
+ "items": [
+  {
+   "reviewId": "13063139941",
+   "rating": 5,
+   "dateTime": "2025-08-26T15:19:10.000Z",
+   "title": "Waa inan waxa is baraa 👏💋",
+   "text": "Is dhiiir qlpi💋👏❤️"
+  },
+  {
+   "reviewId": "13974058418",
+   "rating": 3,
+   "dateTime": "2026-04-19T09:14:38.000Z",
+   "title": "It’s ok",
+   "text": "So I asked ChatGPT to get me an app that could get me into healthy habits. first of all you have to pay,second of all you couldn’t put your age in so it was saying don’t smoke don’t drink and I’m not old enough yet anyway I couldn’t work out how to do that stuff so idk. But if I do change my mind I will 100%💯 update you on that.bye Besties xx"
+  },
+  {
+   "reviewId": "14498488828",
+   "rating": 2,
+   "dateTime": "2026-09-01T16:36:22.000Z",
+   "title": "Could be great",
+   "text": "But it’s not yet, it’s simply ‘ok’ the biggest let down is the absence of any sound when you complete a habit, some sort of animation or joyful sound would elevate this app a lot more. It’s a bit awkward to set up how you want it, and not many options to customise in any meaningful way, however it looks good, but that’s it."
+  },
+  {
+   "reviewId": "14525868901",
+   "rating": 5,
+   "dateTime": "2026-09-08T16:21:44.000Z",
+   "title": "Really enjoying the app so far! 👍",
+   "text": "Great app idea. Easy to use, clean user-interface. Looking forward to further exploring the app’s features. Thank you for developing the app!"
+  }
+ ]
+}

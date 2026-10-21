@@ -1,0 +1,12 @@
+{
+    "hotel": {
+        "eventTitle": "Hotel price",
+        "eventDescription": "One hotel with its price for one check-in date, delivered to the dataset. Charged only after the row is saved, never for errors, blocked pages or duplicates.",
+        "eventPriceUsd": 0.00199
+    },
+    "offer": {
+        "eventTitle": "Booking-site offer",
+        "eventDescription": "One per-site offer (for example Booking.com or the hotel's own site) for a hotel and date. Only when Include per-site offers is on.",
+        "eventPriceUsd": 0.001
+    }
+}

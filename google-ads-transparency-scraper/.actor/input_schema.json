@@ -1,0 +1,208 @@
+{
+    "title": "Google Ads Transparency Center Scraper input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "domains": {
+            "title": "Website domains",
+            "type": "array",
+            "description": "Look up every advertiser running ads for these domains, in bulk (for example nike.com).",
+            "editor": "stringList",
+            "prefill": [
+                "nike.com"
+            ],
+            "default": [],
+            "example": [
+                "nike.com"
+            ]
+        },
+        "advertiserIds": {
+            "title": "Advertiser IDs",
+            "type": "array",
+            "description": "Transparency Center advertiser IDs, for example AR16735076323512287233 (shown in the advertiser's page URL).",
+            "editor": "stringList",
+            "default": [],
+            "example": [
+                "AR16735076323512287233"
+            ]
+        },
+        "searchTerms": {
+            "title": "Advertiser names",
+            "type": "array",
+            "description": "Advertiser names to search, for example nike. Google suggests several advertisers per name; every candidate is scored (1 means the name matches exactly once legal forms such as Inc. or GmbH are ignored) and saved in the SEARCH_MATCHES record. Only candidates scoring at least Minimum match score are scraped, and each row says which term and score found it.",
+            "editor": "stringList",
+            "default": [],
+            "example": [
+                "nike"
+            ]
+        },
+        "minMatchScore": {
+            "title": "Minimum match score",
+            "type": "number",
+            "description": "Advertiser names need at least this score to be scraped: 1 means exact name matches only, 0.8 also accepts close spellings. Use advertiserIds when you know the exact advertiser.",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 1,
+            "example": 1
+        },
+        "maxAdvertisersPerTerm": {
+            "title": "Max advertisers per name",
+            "type": "integer",
+            "description": "At most this many matching advertisers are scraped per name, best score first, then the one with the most ads.",
+            "minimum": 1,
+            "maximum": 10,
+            "default": 3,
+            "example": 3
+        },
+        "region": {
+            "title": "Region",
+            "type": "string",
+            "description": "Two-letter ISO 3166 country code where the ads were shown, for example US or DE, or \"anywhere\". firstShown, lastShown and daysShown come back for every region.",
+            "editor": "textfield",
+            "prefill": "US",
+            "default": "anywhere",
+            "example": "US"
+        },
+        "dateFrom": {
+            "title": "Shown from",
+            "type": "string",
+            "description": "Only ads shown on or after this date. Defaults to 30 days before Shown until.",
+            "editor": "datepicker",
+            "example": "2026-09-01"
+        },
+        "dateTo": {
+            "title": "Shown until",
+            "type": "string",
+            "description": "Only ads shown on or before this date. Defaults to today.",
+            "editor": "datepicker",
+            "example": "2026-09-30"
+        },
+        "formats": {
+            "title": "Formats",
+            "type": "array",
+            "description": "Ad formats to include. Each row carries the format the Transparency Center reports.",
+            "editor": "select",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "text",
+                    "image",
+                    "video"
+                ],
+                "enumTitles": [
+                    "Text",
+                    "Image",
+                    "Video"
+                ]
+            },
+            "default": [
+                "text",
+                "image",
+                "video"
+            ],
+            "example": [
+                "text",
+                "image"
+            ]
+        },
+        "platforms": {
+            "title": "Platforms",
+            "type": "array",
+            "description": "Where the ads were shown, using the Transparency Center's own platform filter. Leave all selected for every platform. When some are selected, each row says which platform filter found it.",
+            "editor": "select",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "search",
+                    "youtube",
+                    "shopping",
+                    "maps",
+                    "play"
+                ],
+                "enumTitles": [
+                    "Google Search",
+                    "YouTube",
+                    "Google Shopping",
+                    "Google Maps",
+                    "Google Play"
+                ]
+            },
+            "default": [
+                "search",
+                "youtube",
+                "shopping",
+                "maps",
+                "play"
+            ],
+            "example": [
+                "search",
+                "youtube"
+            ]
+        },
+        "includeCreativeContent": {
+            "title": "Include creative content",
+            "type": "boolean",
+            "description": "Headline, text, image and video URLs and display URL for each ad. Most text ads are published as a single rendered image, which is returned as imageUrls. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/text-ads-come-back-as-images.html\" target=\"_blank\">Read an example</a>.",
+            "default": true,
+            "example": true
+        },
+        "downloadAssets": {
+            "title": "Download images",
+            "type": "boolean",
+            "description": "Saves up to 3 images per ad to the run's key-value store. Each saved image is a separate paid event. Videos are YouTube links and are not downloaded.",
+            "default": false,
+            "example": false
+        },
+        "maxAdsPerAdvertiser": {
+            "title": "Max ads per advertiser",
+            "type": "integer",
+            "description": "Enforced exactly per advertiser. Set 0 for no limit.",
+            "minimum": 0,
+            "prefill": 5,
+            "default": 100,
+            "example": 50
+        },
+        "maxAdsPerDomain": {
+            "title": "Max ads per domain",
+            "type": "integer",
+            "description": "Enforced exactly per domain in Website domains, across all its advertisers. Big brands have hundreds of resellers advertising their domain, so this keeps cost predictable. Set 0 for no limit.",
+            "minimum": 0,
+            "prefill": 20,
+            "default": 200,
+            "example": 200
+        },
+        "onlyNewSince": {
+            "title": "Only ads first shown since",
+            "type": "string",
+            "description": "Monitoring mode: ISO date or date-time. Returns only ads first shown after it, so a scheduled run gives you just the new creatives. <a href=\"https://garje-data-notes.laude--pify.workers.dev/articles/new-google-ads-in-one-week.html\" target=\"_blank\">Read an example</a>.",
+            "editor": "textfield",
+            "example": "2026-10-01T00:00:00Z"
+        },
+        "canary": {
+            "title": "Drift canary (advanced)",
+            "type": "object",
+            "description": "For scheduled monitoring runs. Example: {\"baselineStore\": \"canary-baseline\", \"thresholdPoints\": 5}. The first run saves the null rate of key fields (and the mix of a status field) to that named key-value store; later runs compare and fail with an alert if any value moves by more than thresholdPoints percentage points. Leave empty for normal runs.",
+            "editor": "json",
+            "sectionCaption": "Advanced",
+            "example": {
+                "baselineStore": "canary-baseline",
+                "thresholdPoints": 5
+            }
+        },
+        "proxyConfiguration": {
+            "title": "Proxy",
+            "type": "object",
+            "description": "Apify Proxy. Google throttles repeated requests from one IP, so a rotating proxy is needed.",
+            "editor": "proxy",
+            "prefill": {
+                "useApifyProxy": true
+            },
+            "default": {
+                "useApifyProxy": true
+            },
+            "example": {
+                "useApifyProxy": true
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+ "store": "appStore",
+ "appId": "1228128916",
+ "country": "au",
+ "method": "Playwright Chromium, apps.apple.com Ratings & Reviews page (DOM); oldest 10 of the reviews shown",
+ "capturedAt": "2026-10-11T06:57:29Z",
+ "url": "https://apps.apple.com/au/app/habitty-habit-tracker/id1228128916?see-all=reviews",
+ "items": [
+  {
+   "reviewId": "8306115208",
+   "rating": 5,
+   "dateTime": "2022-02-01T07:47:59.000Z",
+   "title": "Gorgeous interface",
+   "text": "A simple habit tracking app with a gorgeous interface. I have tried much fancier ones but this is much better."
+  },
+  {
+   "reviewId": "8317856614",
+   "rating": 5,
+   "dateTime": "2022-02-04T13:27:36.000Z",
+   "title": "Apple watch app?",
+   "text": "Love this app so much because of the weekly overview and the simplicity! Would love if the developer could extend compatibility to apple watch!"
+  },
+  {
+   "reviewId": "8431567413",
+   "rating": 4,
+   "dateTime": "2022-03-07T22:41:11.000Z",
+   "title": "Simple but notifications won’t turn off",
+   "text": "I like the simplicity of this tracker however of the notifications which I have turned off in the app continue to notify me I may need to delete it!"
+  },
+  {
+   "reviewId": "9222312073",
+   "rating": 5,
+   "dateTime": "2022-10-26T02:27:42.000Z",
+   "title": "Good, simple, effective",
+   "text": "Does exactly what you’d want, no more, no less. There is no “premium” version, you get full access without paying, unlimited (as fas as I can tell) habits, useful analysis, basic customisation, simple or complex repetitions. 100% what I was looking for, without any compromises."
+  },
+  {
+   "reviewId": "9490063782",
+   "rating": 5,
+   "dateTime": "2023-01-09T22:59:14.000Z",
+   "title": "Simple and Perfect",
+   "text": "This app is perfect, simple, and completely free. There’s no pro, no subscription, no annoying ads. This is what apps should be. It does what it says and does it perfectly."
+  },
+  {
+   "reviewId": "9735882992",
+   "rating": 5,
+   "dateTime": "2023-03-21T08:21:58.000Z",
+   "title": "Great free app",
+   "text": "Does exact what it says it will, cute colours, simple and easy to use. Only thing that would make it better would be that the completion circle change according to whether it’s once a week or every day etc. it would visually track better for progress. Overall would recommend"
+  },
+  {
+   "reviewId": "9806743565",
+   "rating": 5,
+   "dateTime": "2023-04-10T12:32:00.000Z",
+   "title": "Great",
+   "text": "I appreciate this app, I’ve been keeping track of my habits manually by printing out tables on paper and sticking to my wall and thought there has got to be an app for this and I’m glad I found Habitty. Does the job"
+  },
+  {
+   "reviewId": "13760289158",
+   "rating": 1,
+   "dateTime": "2026-02-17T21:06:50.000Z",
+   "title": "Update cancelled all my data",
+   "text": "I have using Habitty for 1.5years storing data. I woke up this morning to find the has been updated and all my data from the past 1.5years deleted.  Everything deleted . Disappointed.Update : support is through ‘X’ which I don’t have and can’t reach out. I don’t know if I’m subscribed or not - I don’t want to pay $1.99 a week and I don’t know if I click ‘restore purchase’ it will subscribe me if I’m not subscribed. Confused. Poor management design"
+  },
+  {
+   "reviewId": "13763854868",
+   "rating": 1,
+   "dateTime": "2026-02-18T21:03:50.000Z",
+   "title": "Extremely disappointing DO NOT GET",
+   "text": "I have used this app religiously for 4 years and it was great. Suddenly I open it this morning to find that the developers have accidentally erased every single person’s data, so the daily logging I had done every day for 4 years is now gone. Disappointed is an understatement. Truely do not understand how that can happen and I will no longer be using this app."
+  },
+  {
+   "reviewId": "13773045873",
+   "rating": 1,
+   "dateTime": "2026-02-21T12:34:56.000Z",
+   "title": "Lost all data",
+   "text": "Have been using Habitty for a while as it is a free option. It’s alright, but I’ve just opened it and I suddenly have no habits and no data. I can only assume it’s updated for something but I’ve lost everything. And their support just takes me to their twitter account? What’s the point if you loose all my data?"
+  }
+ ]
+}

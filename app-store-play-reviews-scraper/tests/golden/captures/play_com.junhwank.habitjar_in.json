@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "com.junhwank.habitjar",
+ "country": "in",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 20 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:58:44Z",
+ "url": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=in",
+ "items": [
+  {
+   "reviewId": "a954e2e7-d618-49d3-9dad-d7922008362d",
+   "rating": 5,
+   "dateText": "September 8, 2026",
+   "text": "it's so good and feel so friendly and sweet I like it"
+  },
+  {
+   "reviewId": "4537b30d-8254-46be-98db-b890f67025f8",
+   "rating": 5,
+   "dateText": "July 18, 2026",
+   "text": "a very useful app for developing habits. i like it. pls dont add ads."
+  },
+  {
+   "reviewId": "a12c9635-2768-4d8e-82ae-533adb7eb4e4",
+   "rating": 5,
+   "dateText": "August 3, 2026",
+   "text": "You can get infinite stars if you just keep selecting and unselecting..."
+  },
+  {
+   "reviewId": "626497eb-24a9-4f45-9817-8fc6365e474d",
+   "rating": 5,
+   "dateText": "February 14, 2026",
+   "text": "I don't give reviews that easily but this is exactly what I was finding almost desperately and even tried to invent one myself Will pray for your growth as there are very few app devs that actually care .suggestion not demands)-make it 3D,colour combination is still bit dull in comparison of jar themes,add shake and see memory feture,statics. Edit4 eg-grat jar,Menfestation jar,swear jar 3D,Happiness jar,Gratitude jar(searched so you don't have to:)BTW can u make same concept garden theme app?."
+  },
+  {
+   "reviewId": "90871422-6149-4ade-bdf5-05ae76f31592",
+   "rating": 4,
+   "dateText": "June 13, 2026",
+   "text": "love it! wish there were some more free features but I do enjoy this app <3"
+  },
+  {
+   "reviewId": "eb184e5a-60e7-41df-bfe7-a7f715070b58",
+   "rating": 5,
+   "dateText": "August 3, 2026",
+   "text": "Amazing easy and practical 👌"
+  },
+  {
+   "reviewId": "3f98c355-e914-43fb-8901-575cb5f0fb66",
+   "rating": 3,
+   "dateText": "April 10, 2026",
+   "text": "actually it is great app but how pity you can only create one jar. It would be better if we could create a lot of jars. But it is really great overall"
+  },
+  {
+   "reviewId": "91373a38-3215-440b-94a1-83de95ce9dd8",
+   "rating": 5,
+   "dateText": "July 20, 2026",
+   "text": "i love it!"
+  },
+  {
+   "reviewId": "8fc39ffc-5fd1-43bb-ab78-cfcaf6116b6c",
+   "rating": 5,
+   "dateText": "February 10, 2026",
+   "text": "fun and cute app"
+  },
+  {
+   "reviewId": "00787f3e-4f30-4daa-9aa9-77aba466dfe4",
+   "rating": 5,
+   "dateText": "September 23, 2026",
+   "text": "such a simple good app. I have only used it for a few days so imagine it needs to be visible to avoid dropping off. it has a really nice widget though to help with that."
+  }
+ ]
+}

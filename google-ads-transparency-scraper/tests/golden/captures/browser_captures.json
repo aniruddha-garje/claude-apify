@@ -1,0 +1,978 @@
+{
+  "method": "Playwright Chromium, adstransparency.google.com advertiser pages (first ad links) and each Ad details page, rendered page (DOM): Last shown and Format as displayed, region Shown anywhere.",
+  "timezone": "Asia/Kolkata",
+  "advertisers": [
+    {
+      "advertiserId": "AR03840027764254048257",
+      "advertiserName": "Skillspire LLC",
+      "adsShown": 5,
+      "url": "https://adstransparency.google.com/advertiser/AR03840027764254048257?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR05368705701206032385",
+          "lastShownText": "16 Sept 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:51:53Z"
+        },
+        {
+          "creativeId": "CR06946885378217345025",
+          "lastShownText": "12 Sept 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:52:04Z"
+        },
+        {
+          "creativeId": "CR14802325518300479489",
+          "lastShownText": "31 Mar 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:52:14Z"
+        },
+        {
+          "creativeId": "CR05373703247842246657",
+          "lastShownText": "31 Mar 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T16:52:23Z"
+        },
+        {
+          "creativeId": "CR10478726527196332033",
+          "lastShownText": "4 Feb 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:52:33Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR14055623489428127745",
+      "advertiserName": "Priswing Software LLC",
+      "adsShown": 12,
+      "url": "https://adstransparency.google.com/advertiser/AR14055623489428127745?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR11595459565080018945",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T16:52:52Z"
+        },
+        {
+          "creativeId": "CR12179946752266207233",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T16:53:03Z"
+        },
+        {
+          "creativeId": "CR05636808091082162177",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:53:13Z"
+        },
+        {
+          "creativeId": "CR03064100355538157569",
+          "lastShownText": "6 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T16:53:22Z"
+        },
+        {
+          "creativeId": "CR04086881086901059585",
+          "lastShownText": "24 Sept 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:53:31Z"
+        },
+        {
+          "creativeId": "CR09231991211584126977",
+          "lastShownText": "24 Sept 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:53:41Z"
+        },
+        {
+          "creativeId": "CR04515524939075289089",
+          "lastShownText": "24 Sept 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:53:50Z"
+        },
+        {
+          "creativeId": "CR16626305228769067009",
+          "lastShownText": "24 Sept 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:54:00Z"
+        },
+        {
+          "creativeId": "CR03782636916596277249",
+          "lastShownText": "23 Sept 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:54:09Z"
+        },
+        {
+          "creativeId": "CR14976978860153765889",
+          "lastShownText": "6 Mar 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:54:18Z"
+        },
+        {
+          "creativeId": "CR07009177548064030721",
+          "lastShownText": "27 Feb 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:54:28Z"
+        },
+        {
+          "creativeId": "CR06739627049834512385",
+          "lastShownText": "26 Feb 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:54:37Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR13203228903881048065",
+      "advertiserName": "SiteRecon, Inc",
+      "adsShown": 12,
+      "url": "https://adstransparency.google.com/advertiser/AR13203228903881048065?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR18321708856939380737",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:54:57Z"
+        },
+        {
+          "creativeId": "CR00429531647684116481",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:55:08Z"
+        },
+        {
+          "creativeId": "CR03713948801711472641",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:55:17Z"
+        },
+        {
+          "creativeId": "CR09255715313847107585",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:55:27Z"
+        },
+        {
+          "creativeId": "CR10939661043013517313",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:55:37Z"
+        },
+        {
+          "creativeId": "CR00179020876916719617",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:55:46Z"
+        },
+        {
+          "creativeId": "CR02077405046043049985",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:55:55Z"
+        },
+        {
+          "creativeId": "CR03882790606136672257",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:56:05Z"
+        },
+        {
+          "creativeId": "CR15209177917595582465",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:56:15Z"
+        },
+        {
+          "creativeId": "CR12870106902486319105",
+          "lastShownText": "7 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:56:25Z"
+        },
+        {
+          "creativeId": "CR12233355194577977345",
+          "lastShownText": "14 Jan 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:56:35Z"
+        },
+        {
+          "creativeId": "CR06529144669891198977",
+          "lastShownText": "14 Jan 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:56:45Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR12166817904825729025",
+      "advertiserName": "Dark Star Engineering, LLC",
+      "adsShown": 53,
+      "url": "https://adstransparency.google.com/advertiser/AR12166817904825729025?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR01815675855058239489",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:57:11Z"
+        },
+        {
+          "creativeId": "CR12112171240622391297",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:57:20Z"
+        },
+        {
+          "creativeId": "CR09307739711537676289",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:57:31Z"
+        },
+        {
+          "creativeId": "CR00774639923549437953",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:57:40Z"
+        },
+        {
+          "creativeId": "CR09450894441846931457",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:57:49Z"
+        },
+        {
+          "creativeId": "CR06957143503876915201",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:58:00Z"
+        },
+        {
+          "creativeId": "CR00516454570210099201",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:58:09Z"
+        },
+        {
+          "creativeId": "CR03269732523403378689",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T16:58:19Z"
+        },
+        {
+          "creativeId": "CR07843260446055333889",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:58:28Z"
+        },
+        {
+          "creativeId": "CR10404670502055444481",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:58:38Z"
+        },
+        {
+          "creativeId": "CR15047110822784401409",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:58:47Z"
+        },
+        {
+          "creativeId": "CR03717708100686315521",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:58:57Z"
+        },
+        {
+          "creativeId": "CR17888873666440069121",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:59:07Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR12462675644678930433",
+      "advertiserName": "Individual advertiser A",
+      "adsShown": 42,
+      "url": "https://adstransparency.google.com/advertiser/AR12462675644678930433?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR17210417954936586241",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:59:44Z"
+        },
+        {
+          "creativeId": "CR09320017949295116289",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T16:59:54Z"
+        },
+        {
+          "creativeId": "CR00609305303518806017",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:00:04Z"
+        },
+        {
+          "creativeId": "CR08764026908045213697",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:00:14Z"
+        },
+        {
+          "creativeId": "CR05550330891672223745",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:00:23Z"
+        },
+        {
+          "creativeId": "CR06567414778413711361",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:00:32Z"
+        },
+        {
+          "creativeId": "CR05874817010914820097",
+          "lastShownText": "26 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:00:42Z"
+        },
+        {
+          "creativeId": "CR15719685796346724353",
+          "lastShownText": "26 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:00:52Z"
+        },
+        {
+          "creativeId": "CR09012740733215440897",
+          "lastShownText": "26 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:01:01Z"
+        },
+        {
+          "creativeId": "CR00291005483370676225",
+          "lastShownText": "26 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:01:11Z"
+        },
+        {
+          "creativeId": "CR01477937081647890433",
+          "lastShownText": "19 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:01:20Z"
+        },
+        {
+          "creativeId": "CR08315081913693896705",
+          "lastShownText": "16 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:02:37Z"
+        },
+        {
+          "creativeId": "CR07903379680277823489",
+          "lastShownText": "16 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:02:48Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR16735076323512287233",
+      "advertiserName": "Nike, Inc.",
+      "adsShown": null,
+      "url": "https://adstransparency.google.com/advertiser/AR16735076323512287233?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR00485485175946346497",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:03:14Z"
+        },
+        {
+          "creativeId": "CR06913011581039149057",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:03:24Z"
+        },
+        {
+          "creativeId": "CR06699326169105301505",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:03:34Z"
+        },
+        {
+          "creativeId": "CR07556988394601971713",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:03:44Z"
+        },
+        {
+          "creativeId": "CR00700542941600415745",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:03:53Z"
+        },
+        {
+          "creativeId": "CR17431635665765793793",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:04:04Z"
+        },
+        {
+          "creativeId": "CR09478963857012555777",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:04:14Z"
+        },
+        {
+          "creativeId": "CR05515116343143170049",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:04:24Z"
+        },
+        {
+          "creativeId": "CR06289851821125009409",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:04:34Z"
+        },
+        {
+          "creativeId": "CR04658695440504455169",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:04:43Z"
+        },
+        {
+          "creativeId": "CR11068300665057968129",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:04:53Z"
+        },
+        {
+          "creativeId": "CR10204359506612191233",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:05:02Z"
+        },
+        {
+          "creativeId": "CR13166501152474267649",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:05:12Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR10072600183532683265",
+      "advertiserName": "Hubspot, Inc.",
+      "adsShown": null,
+      "url": "https://adstransparency.google.com/advertiser/AR10072600183532683265?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR12867316719932145665",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:05:37Z"
+        },
+        {
+          "creativeId": "CR05649694882755772417",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:05:47Z"
+        },
+        {
+          "creativeId": "CR17502238030394556417",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:05:56Z"
+        },
+        {
+          "creativeId": "CR07220040290311077889",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:06:06Z"
+        },
+        {
+          "creativeId": "CR15153175005799383041",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:06:16Z"
+        },
+        {
+          "creativeId": "CR17653568651858542593",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:06:25Z"
+        },
+        {
+          "creativeId": "CR11699190988147785729",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:06:35Z"
+        },
+        {
+          "creativeId": "CR04510583768179802113",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:06:44Z"
+        },
+        {
+          "creativeId": "CR12065625331415908353",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:06:54Z"
+        },
+        {
+          "creativeId": "CR15134456017904992257",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:07:04Z"
+        },
+        {
+          "creativeId": "CR00201237806436057089",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:07:14Z"
+        },
+        {
+          "creativeId": "CR03968795805820649473",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:07:24Z"
+        },
+        {
+          "creativeId": "CR14397395383158308865",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:07:33Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR08008732350420615169",
+      "advertiserName": "IKEA Deutschland GmbH & Co. KG",
+      "adsShown": null,
+      "url": "https://adstransparency.google.com/advertiser/AR08008732350420615169?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR10072160456190984193",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:08:02Z"
+        },
+        {
+          "creativeId": "CR13594731691355668481",
+          "lastShownText": "8 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:08:13Z"
+        },
+        {
+          "creativeId": "CR09285909028427268097",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:08:24Z"
+        },
+        {
+          "creativeId": "CR14459806128462102529",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:08:33Z"
+        },
+        {
+          "creativeId": "CR04852502223373991937",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:08:43Z"
+        },
+        {
+          "creativeId": "CR03715932174659092481",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:08:53Z"
+        },
+        {
+          "creativeId": "CR08334910635238227969",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:09:03Z"
+        },
+        {
+          "creativeId": "CR08382147836610871297",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:09:12Z"
+        },
+        {
+          "creativeId": "CR14066554121066905601",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:09:23Z"
+        },
+        {
+          "creativeId": "CR14690617791208226817",
+          "lastShownText": "8 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:09:33Z"
+        },
+        {
+          "creativeId": "CR15843185270250799105",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:09:42Z"
+        },
+        {
+          "creativeId": "CR12218913470124392449",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:09:52Z"
+        },
+        {
+          "creativeId": "CR05804821473625374721",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:10:01Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR05107678471086145537",
+      "advertiserName": "Commerce.com, Inc.",
+      "adsShown": 45,
+      "url": "https://adstransparency.google.com/advertiser/AR05107678471086145537?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR02670580780270354433",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:10:25Z"
+        },
+        {
+          "creativeId": "CR13910667604453752833",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:10:36Z"
+        },
+        {
+          "creativeId": "CR11175434518267953153",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:10:45Z"
+        },
+        {
+          "creativeId": "CR02885433504185712641",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:10:55Z"
+        },
+        {
+          "creativeId": "CR09082808803912581121",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:11:05Z"
+        },
+        {
+          "creativeId": "CR05050046443834834945",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:11:15Z"
+        },
+        {
+          "creativeId": "CR14770124877172047873",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:11:26Z"
+        },
+        {
+          "creativeId": "CR01741062446241546241",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:11:36Z"
+        },
+        {
+          "creativeId": "CR02988312608173457409",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:11:45Z"
+        },
+        {
+          "creativeId": "CR09023839796291698689",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:11:54Z"
+        },
+        {
+          "creativeId": "CR09250963533829505025",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:12:04Z"
+        },
+        {
+          "creativeId": "CR00725500730269499393",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:12:13Z"
+        },
+        {
+          "creativeId": "CR01657765094588678145",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:12:24Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR05288677867637440513",
+      "advertiserName": "Superhuman Platform Inc.",
+      "adsShown": null,
+      "url": "https://adstransparency.google.com/advertiser/AR05288677867637440513?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR12095085860718903297",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:12:53Z"
+        },
+        {
+          "creativeId": "CR11827642232926633985",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:13:02Z"
+        },
+        {
+          "creativeId": "CR13211706739826622465",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:13:12Z"
+        },
+        {
+          "creativeId": "CR05487699857495818241",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:13:21Z"
+        },
+        {
+          "creativeId": "CR10690995149678313473",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:13:31Z"
+        },
+        {
+          "creativeId": "CR06195955795855671297",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:13:40Z"
+        },
+        {
+          "creativeId": "CR10796993018398244865",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:14:57Z"
+        },
+        {
+          "creativeId": "CR04941465367034724353",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:15:08Z"
+        },
+        {
+          "creativeId": "CR12973272326173884417",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:15:18Z"
+        },
+        {
+          "creativeId": "CR04837112642587852801",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:15:27Z"
+        },
+        {
+          "creativeId": "CR03598620133720850433",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:15:37Z"
+        },
+        {
+          "creativeId": "CR06375355488887898113",
+          "lastShownText": "8 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:15:46Z"
+        },
+        {
+          "creativeId": "CR08893916382752669697",
+          "lastShownText": "8 Oct 2026",
+          "format": "Text",
+          "capturedAt": "2026-10-08T17:15:55Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR11720784202516398081",
+      "advertiserName": "(주)하이브",
+      "adsShown": null,
+      "url": "https://adstransparency.google.com/advertiser/AR11720784202516398081?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR07993790425485803521",
+          "lastShownText": "29 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:16:25Z"
+        },
+        {
+          "creativeId": "CR06023676694743744513",
+          "lastShownText": "29 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:16:34Z"
+        },
+        {
+          "creativeId": "CR03460996565374599169",
+          "lastShownText": "29 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:16:44Z"
+        },
+        {
+          "creativeId": "CR15771304671815139329",
+          "lastShownText": "29 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:16:53Z"
+        },
+        {
+          "creativeId": "CR09433253456384098305",
+          "lastShownText": "29 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:17:03Z"
+        },
+        {
+          "creativeId": "CR02914935110555926529",
+          "lastShownText": "29 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:17:12Z"
+        },
+        {
+          "creativeId": "CR09160011622742228993",
+          "lastShownText": "28 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:17:22Z"
+        },
+        {
+          "creativeId": "CR18252722095798616065",
+          "lastShownText": "28 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:17:31Z"
+        },
+        {
+          "creativeId": "CR03967845037500268545",
+          "lastShownText": "28 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:17:41Z"
+        },
+        {
+          "creativeId": "CR03401095171893362689",
+          "lastShownText": "28 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:17:51Z"
+        },
+        {
+          "creativeId": "CR12954355881453027329",
+          "lastShownText": "28 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:18:00Z"
+        },
+        {
+          "creativeId": "CR16266753407384027137",
+          "lastShownText": "28 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:18:10Z"
+        },
+        {
+          "creativeId": "CR17174100089438732289",
+          "lastShownText": "28 Sept 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:18:20Z"
+        }
+      ]
+    },
+    {
+      "advertiserId": "AR13303717429071839233",
+      "advertiserName": "Runikon Retail OÜ",
+      "adsShown": 300,
+      "url": "https://adstransparency.google.com/advertiser/AR13303717429071839233?region=anywhere",
+      "ads": [
+        {
+          "creativeId": "CR16472143725640810497",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:18:49Z"
+        },
+        {
+          "creativeId": "CR16279823748779999233",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:18:59Z"
+        },
+        {
+          "creativeId": "CR12652855946142285825",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:19:08Z"
+        },
+        {
+          "creativeId": "CR12653150615258529793",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:19:18Z"
+        },
+        {
+          "creativeId": "CR07810914600672559105",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:19:29Z"
+        },
+        {
+          "creativeId": "CR04137947629575208961",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:19:40Z"
+        },
+        {
+          "creativeId": "CR07907460517684314113",
+          "lastShownText": "7 Oct 2026",
+          "format": "Video",
+          "capturedAt": "2026-10-08T17:19:51Z"
+        },
+        {
+          "creativeId": "CR11305426436535353345",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:20:02Z"
+        },
+        {
+          "creativeId": "CR07273319385387761665",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:20:11Z"
+        },
+        {
+          "creativeId": "CR00663007100686827521",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:20:21Z"
+        },
+        {
+          "creativeId": "CR03494786103884382209",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:20:31Z"
+        },
+        {
+          "creativeId": "CR11226998272126091265",
+          "lastShownText": "7 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:20:41Z"
+        },
+        {
+          "creativeId": "CR05799441090784264193",
+          "lastShownText": "3 Oct 2026",
+          "format": "Image",
+          "capturedAt": "2026-10-08T17:20:51Z"
+        }
+      ]
+    }
+  ]
+}

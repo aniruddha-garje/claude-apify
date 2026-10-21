@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "com.junhwank.habitjar",
+ "country": "us",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 20 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:58:34Z",
+ "url": "https://play.google.com/store/apps/details?id=com.junhwank.habitjar&hl=en&gl=us",
+ "items": [
+  {
+   "reviewId": "b85398e8-d3c4-480c-afae-a359124f25b2",
+   "rating": 5,
+   "dateText": "August 14, 2026",
+   "text": "This app is phenomenal. Definitely worth the lifetime subscription. I got this app for habit tracking; I didn't really think I would be using the habit jar. But that has been an excellent addition to keeping me motivated. I like that I can switch between the daily, monthly, and yearly views of my habits. I love that there's so much that you can customize."
+  },
+  {
+   "reviewId": "74790082-df44-45d0-b277-49048d397e90",
+   "rating": 5,
+   "dateText": "July 23, 2026",
+   "text": "Good app! And its free features are also good enough. But I believe adding some features would make it better, the most important one is an option to set a habit to do for example 3 times a week without setting a certain day for it, so I could do it at any day and when I did it for 3 random days in a week, it would be considered as finished for that week. Or an option to set measurements for a habit like reading. so I could add how many pages I read and see in the charts. but it's fine anyway 👍"
+  },
+  {
+   "reviewId": "c2c1d51a-d11a-429c-ad78-fe89d503ec2c",
+   "rating": 5,
+   "dateText": "June 8, 2026",
+   "text": "I love this app! It is a simple but effective way to keep up with your habits and track them over time, and I love all the jar customisation. No flashy ads or distracting mini-games, just does what it says on the tin. And the paid version is only £5. Really recommended! P.S please can we have a little tinkly sound effect when we put the marble in the jar 😆😆😆"
+  },
+  {
+   "reviewId": "bc86314d-e6fa-4e08-9437-e3a78c8710b4",
+   "rating": 4,
+   "dateText": "May 12, 2026",
+   "text": "I absolutely love this app. it's a quick and easy way to keep track of habits and small task that you need to do throughout the week ! I just wished there was a little bit more feature on the app, like adding sound when you interact with the marbles, writing more motivatal messages in the jar , etc. besides that , the app is amazing 🥰"
+  },
+  {
+   "reviewId": "2de9bf5e-d974-41a3-bce5-e01dcf289f95",
+   "rating": 4,
+   "dateText": "April 14, 2026",
+   "text": "awesome app, simple to use. was already doing something similar with origami stars, but having it on the phone is much more organized and easier to keep track of habits. one feature that wouldve made it perfect was if color of the marble correlated with the habit that was completed, that would make the visual aspect more motivating to see what habits I'm staying on top of. Other than that, I love the app and does what I need. Tried a lot of habit trackers and this is the only one I actually use"
+  },
+  {
+   "reviewId": "ebf94956-ffbd-4d26-a21f-3fc955369cec",
+   "rating": 5,
+   "dateText": "September 10, 2026",
+   "text": "Such a great value for a habit tracking app 🩷 finally something that works for me after years of trying."
+  },
+  {
+   "reviewId": "9fb6f8d5-7b9b-42a3-9911-67ca4efb310b",
+   "rating": 4,
+   "dateText": "August 21, 2026",
+   "text": "is it simple yeah, do i love it YES! It helps me so much to stay on track and keeps me motivated to keep going. The only thing, I think it would be cool to have a mini reward for every 50 marbles or something! Still love it"
+  },
+  {
+   "reviewId": "d9b124bc-34db-4f60-9ab1-df7897096ab2",
+   "rating": 4,
+   "dateText": "July 1, 2026",
+   "text": "Super cute and simple. Keeps me motivated! I wish there was a way to organize tasks into subgroups, but otherwise it's great!"
+  },
+  {
+   "reviewId": "8b706486-0032-4b69-b6d0-8c991124d4e3",
+   "rating": 5,
+   "dateText": "September 15, 2026",
+   "text": "super great mechanics really cute idea I love it a lot"
+  },
+  {
+   "reviewId": "4bd3199b-50bd-4da9-8b77-51aa06331ccf",
+   "rating": 5,
+   "dateText": "June 6, 2026",
+   "text": "Firstly it's a really intuitive and great app for building habits, there's one suggestion to customise the jar quantity instead of a fixed 100 pebbles."
+  }
+ ]
+}

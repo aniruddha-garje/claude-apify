@@ -1,0 +1,71 @@
+{
+ "store": "googlePlay",
+ "appId": "edvarderos.habitgrid",
+ "country": "in",
+ "language": "en",
+ "method": "Playwright Chromium, Google Play See all reviews dialog (DOM), default Most relevant order; first 10 of 20 loaded, not already captured for another country",
+ "capturedAt": "2026-10-11T06:58:04Z",
+ "url": "https://play.google.com/store/apps/details?id=edvarderos.habitgrid&hl=en&gl=in",
+ "items": [
+  {
+   "reviewId": "dda93718-c3b4-4b8c-be80-ed898e4c9f75",
+   "rating": 2,
+   "dateText": "May 13, 2026",
+   "text": "a good concept but without one glance tap widget, within days, I'll stop opening the app all together even when I am doing my tasks. so basically it will become useless."
+  },
+  {
+   "reviewId": "c6f8b024-6fa5-4666-932c-1f44cadd510f",
+   "rating": 5,
+   "dateText": "May 12, 2026",
+   "text": "So far so good. The visual data helps very much in what I want to track. Simple interface and easy to use. Perfect for what I need it for. Thank you"
+  },
+  {
+   "reviewId": "ef39b999-ace4-466f-a60e-2adebafd3244",
+   "rating": 5,
+   "dateText": "June 10, 2026",
+   "text": "A great, minimalist habit tracking app. Doesn't overload you with things and keeps it simple."
+  },
+  {
+   "reviewId": "267b703c-1964-4618-a75b-ba3784f8d7ab",
+   "rating": 5,
+   "dateText": "November 11, 2025",
+   "text": "After downloading more than twenty habit trackers, each of which had a problem, such as not having a yearly chart, or having to pay for useful features, or not having a nice user interface, or not having a widget, I finally found this app, which is so great.👍 but The user interface and widgets could be better."
+  },
+  {
+   "reviewId": "95c70667-5bfe-41f9-aef1-80614aaad3d0",
+   "rating": 5,
+   "dateText": "June 16, 2026",
+   "text": "Simple, Detailed and Cool App. with just enough customisations."
+  },
+  {
+   "reviewId": "90b605ae-576c-47fb-a429-b1f2e4c6ede2",
+   "rating": 5,
+   "dateText": "April 3, 2026",
+   "text": "Great app, free simple, useful, statistics, only complaint is the widgets dont match theme or have settings to change color, and there isnt a widget 'button' to complete a specific task. Besides that, amazing app!"
+  },
+  {
+   "reviewId": "f3385821-6460-4cd4-87b1-c622b9e033a3",
+   "rating": 5,
+   "dateText": "September 7, 2025",
+   "text": "I just downloaded habitgrid, and so far: it seems like it's literally everything I wanted in a habit/routine app. I love how simple yet conventionally costumizable it is. and a BIG (but not the only) reason why I think I'm sticking to this app is that it's free. that's a big issue that me, and others, have with habit apps. this app seems authentic and I really value that. I'm excited to see upgrades since this seems like a relatively new (and already amazing) app! :)"
+  },
+  {
+   "reviewId": "6701d7b0-36b2-438b-a5f3-1dd153156948",
+   "rating": 5,
+   "dateText": "June 30, 2026",
+   "text": "provided premium features in free great 👍🏻"
+  },
+  {
+   "reviewId": "198e76db-4cf0-4f60-b4ea-3c7ba880c197",
+   "rating": 5,
+   "dateText": "July 6, 2026",
+   "text": "Extremely good app but I want you to add the feature of making a habit repeat on particular days of the week. Until I get this feature, I have to just be using habatica."
+  },
+  {
+   "reviewId": "6a6c9b78-9079-4e6f-ba2f-5949d958ddd1",
+   "rating": 4,
+   "dateText": "August 4, 2025",
+   "text": "simple, clean ui, and does exactly what i want it to do. my only complaint is that you can only set one time for a notification reminder per habit, which isn't helpful for tasks that you want to repeat multiple times in one day. otherwise its great"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+    "actorSpecification": 1,
+    "name": "google-ads-transparency-scraper",
+    "title": "Google Ads Transparency Center Scraper & Ads Library API",
+    "description": "Use to export ads from the Google Ads Transparency Center. Input: website domains, advertiser IDs or advertiser names, plus region and date window. Returns one row per ad: advertiser, format, first and last shown dates, image and video links. Most text ads come back as images. $1.50 per 1,000 ads.",
+    "version": "0.1",
+    "buildTag": "latest",
+    "input": "./input_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile",
+    "defaultMemoryMbytes": 1024
+}

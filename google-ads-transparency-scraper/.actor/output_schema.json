@@ -1,0 +1,16 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Google Ads Transparency Center Scraper output",
+    "properties": {
+        "ads": {
+            "type": "string",
+            "title": "Ads",
+            "template": "{{links.apiDefaultDatasetUrl}}/items?view=overview"
+        },
+        "stats": {
+            "type": "string",
+            "title": "Run statistics (requests, blocked responses, ads per advertiser, errors)",
+            "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/RUN_STATS"
+        }
+    }
+}

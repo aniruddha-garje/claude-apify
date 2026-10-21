@@ -1,0 +1,2 @@
+apify==4.0.2
+crawlee[httpx]==1.10.4

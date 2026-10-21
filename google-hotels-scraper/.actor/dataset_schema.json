@@ -1,0 +1,193 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "type": "object",
+        "properties": {
+            "schemaVersion": {
+                "type": "integer"
+            },
+            "type": {
+                "type": "string",
+                "enum": [
+                    "hotel",
+                    "offer"
+                ]
+            },
+            "hotelId": {
+                "type": "string"
+            },
+            "name": {
+                "type": "string"
+            },
+            "hotelName": {
+                "type": "string"
+            },
+            "provider": {
+                "type": "string"
+            },
+            "url": {
+                "type": "string"
+            },
+            "query": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "checkInDate": {
+                "type": "string"
+            },
+            "checkOutDate": {
+                "type": "string"
+            },
+            "nights": {
+                "type": "integer"
+            },
+            "adults": {
+                "type": "integer"
+            },
+            "children": {
+                "type": "integer"
+            },
+            "childAges": {
+                "type": "array"
+            },
+            "currency": {
+                "type": "string"
+            },
+            "pricePerNight": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            },
+            "totalPrice": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            },
+            "pricePerNightText": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "totalPriceText": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "available": {
+                "type": "boolean"
+            },
+            "hotelClass": {
+                "type": [
+                    "integer",
+                    "null"
+                ]
+            },
+            "rating": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            },
+            "reviewCount": {
+                "type": [
+                    "integer",
+                    "null"
+                ]
+            },
+            "latitude": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            },
+            "longitude": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            },
+            "country": {
+                "type": "string"
+            },
+            "resolvedPlace": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            }
+        },
+        "required": [
+            "schemaVersion",
+            "type",
+            "hotelId",
+            "url",
+            "checkInDate",
+            "checkOutDate",
+            "nights",
+            "adults",
+            "currency"
+        ]
+    },
+    "views": {
+        "hotels": {
+            "title": "Hotel prices",
+            "transformation": {
+                "fields": [
+                    "type",
+                    "name",
+                    "checkInDate",
+                    "nights",
+                    "adults",
+                    "children",
+                    "currency",
+                    "pricePerNight",
+                    "totalPriceText",
+                    "hotelClass",
+                    "rating",
+                    "reviewCount",
+                    "url"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "url": {
+                        "label": "Hotel",
+                        "format": "link"
+                    }
+                }
+            }
+        },
+        "offers": {
+            "title": "Offers by site",
+            "transformation": {
+                "fields": [
+                    "type",
+                    "hotelName",
+                    "provider",
+                    "checkInDate",
+                    "nights",
+                    "currency",
+                    "pricePerNight",
+                    "totalPrice",
+                    "url"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "url": {
+                        "label": "Hotel",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,3317 @@
+{
+  "description": "Hotels and nightly prices read from the live Google Hotels page by Playwright in India.",
+  "captureMethod": "Playwright Chromium on this computer (India), Google Hotels results page: dates picked in the date picker, first organic results per city, nightly price shown on each card or none (DOM). Prices are in Indian rupees because the browser is in India, so the stated country is IN and currency INR.",
+  "auditInputs": [
+    {
+      "queries": [
+        "hotels in Tokyo",
+        "hotels in Osaka",
+        "hotels in Kyoto",
+        "hotels in Rome",
+        "hotels in Milan",
+        "hotels in Florence",
+        "hotels in Jakarta",
+        "hotels in Bali"
+      ],
+      "checkInFrom": "2026-10-19",
+      "checkInTo": "2026-10-19",
+      "nights": 2,
+      "adults": 2,
+      "children": 0,
+      "currency": "INR",
+      "country": "IN",
+      "maxHotelsPerQuery": 300,
+      "includeUnavailable": true,
+      "proxyConfiguration": {
+        "useApifyProxy": true,
+        "apifyProxyGroups": [
+          "RESIDENTIAL"
+        ]
+      }
+    }
+  ],
+  "compare": {
+    "name": "exact",
+    "stay fields": "exact",
+    "available": "exact (a price shown or not)",
+    "pricePerNight": "within 10 percent, for hotels that showed a price"
+  },
+  "items": [
+    {
+      "hotelId": "ChoIsqW1-6nNn6OAARoNL2cvMTFyZmNxMDU4dBAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Cocts Akihabara",
+        "pricePerNight": 3971,
+        "priceText": "₹3,971",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChoI84KEy5HjiaeGARoNL2cvMTFkeGp4MnEyXxAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "ONE@Tokyo by insomnia",
+        "pricePerNight": 11498,
+        "priceText": "₹11,498",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChoI1-6Rgu_W_53CARoNL2cvMTFmMDhuOHk3MBAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "TOKYO-W-inn Asakusa",
+        "pricePerNight": 4872,
+        "priceText": "₹4,872",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkI1MrD_uqdm5ZmGg0vZy8xMWZqdzNna3Q0EAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "plat hostel keikyu asakusa karin",
+        "pricePerNight": 3152,
+        "priceText": "₹3,152",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkI7e7Rg_ubgpBXGg0vZy8xMWMxdm1fZHpoEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "KOKO HOTEL Asakusa Komagata",
+        "pricePerNight": 9831,
+        "priceText": "₹9,831",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkIsPyZ2sSMq9xJGg0vZy8xMWM3c3I0MnpiEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "APA Hotel Asakusa Tawaramachi-Ekimae",
+        "pricePerNight": 9605,
+        "priceText": "₹9,605",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChgI4MyEhJ_t7sJgGgwvZy8xMnFnanR5aG4QAQ",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "HOTEL GRAPHY NEZU",
+        "pricePerNight": 7320,
+        "priceText": "₹7,320",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkIhcbevZuW2_AgGg0vZy8xMWZkMGN5ODNqEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "APA Hotel Hachioji Eki Nishi",
+        "pricePerNight": 4103,
+        "priceText": "₹4,103",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChoI1pqoneep-_7MARoNL2cvMTFkeWx6aGwzchAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel LiveMax Saitama Asaka Ekimae",
+        "pricePerNight": 3289,
+        "priceText": "₹3,289",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChoI9PDQju-A_LiwARoNL2cvMTFncmMzOTh0ZxAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "FOCUS KURAMAE",
+        "pricePerNight": 4457,
+        "priceText": "₹4,457",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkIqMLQ1pXO1cj_ARoML2cvMXB0eGp6bTRyEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "the b hachioji",
+        "pricePerNight": 5370,
+        "priceText": "₹5,370",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChcIvoyWhOKHjcEhGgsvZy8xMjJydjdzZxAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "HOTEL THE CELESTINE TOKYO SHIBA",
+        "pricePerNight": 18061,
+        "priceText": "₹18,061",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkI15aDuY3LxJlUGg0vZy8xMWY0d3NzejJxEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Tokyo Guest House Ouji Music Lounge",
+        "pricePerNight": 3239,
+        "priceText": "₹3,239",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkI1rvynNyh3fBiGg0vZy8xMXZtNXE2cTlzEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Plus Hostel Tokyo Asakusa 1",
+        "pricePerNight": 3029,
+        "priceText": "₹3,029",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkIq_atzbv20-8ZGg0vZy8xMXFoMzRoa3pfEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Koko Hotel Tsukiji Ginza",
+        "pricePerNight": 13071,
+        "priceText": "₹13,071",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChcI8ta4zuSZ9qxyGgsvZy8xdnk3Z21mchAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Sun Hotel",
+        "pricePerNight": 3941,
+        "priceText": "₹3,941",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChoI04b89aaz-p7SARoNL2cvMTFqMWY0NWtudhAB",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Ohana Tokyo House",
+        "pricePerNight": 2711,
+        "priceText": "₹2,711",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChkIj6OPu_yktclVGg0vZy8xMWd5ZDN4bXEzEAE",
+      "city": "Tokyo",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Manga Art Hotel",
+        "pricePerNight": 5944,
+        "priceText": "₹5,944",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Tokyo&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:23Z"
+    },
+    {
+      "hotelId": "ChoIx4K-w-7khIuvARoNL2cvMTFwNXhoeHNrMhAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "KOKO HOTEL Osaka Namba",
+        "pricePerNight": 4688,
+        "priceText": "₹4,688",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoIhKT0o7HW-b_EARoNL2cvMTFmanR2bW5qaBAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "DOYANEN HOTELS YAMATO",
+        "pricePerNight": 2506,
+        "priceText": "₹2,506",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChkIrLzTmv7_kK1NGg0vZy8xMWZsdDA5cTFjEAE",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "The Royal Park Hotel Iconic Osaka-Midosuji",
+        "pricePerNight": 15457,
+        "priceText": "₹15,457",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChcIkJvp3PXAyr9zGgsvZy8xdGY3bWZ3MRAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Plaza Osaka",
+        "pricePerNight": 4136,
+        "priceText": "₹4,136",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChkIjLPwnuuQxaBKGg0vZy8xMWYzenRybV8zEAE",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Sotetsu Fresa Inn Kitahama",
+        "pricePerNight": 4285,
+        "priceText": "₹4,285",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoIucKpiI327arpARoNL2cvMTFqZmdyOWRtaBAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "HOPETREE OSAKA GRAND",
+        "pricePerNight": 3510,
+        "priceText": "₹3,510",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChkIxrDskIPl6PYmGg0vZy8xMXJod3JwNDRzEAE",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "CHISUN STANDARD Osaka Shin-Imamiya",
+        "pricePerNight": 4307,
+        "priceText": "₹4,307",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoIndu9jeyViYPDARoNL2cvMTFjbV9od2R3ehAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Trad",
+        "pricePerNight": 3085,
+        "priceText": "₹3,085",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoI6MTOtYvs9a3DARoNL2cvMTF5c2tjMzkzaBAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "2Z - DOYANEN HOTELS",
+        "pricePerNight": 2440,
+        "priceText": "₹2,440",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoI-OfY3M3FjviNARoNL2cvMTFoNW44Y3dtXxAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "& AND HOSTEL SHINSAIBASHI EAST",
+        "pricePerNight": 3518,
+        "priceText": "₹3,518",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChkIvoW4tNn3xYMGGg0vZy8xMWc3ejZjcjM5EAE",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Noku Osaka",
+        "pricePerNight": 4023,
+        "priceText": "₹4,023",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChkI-pKJyI6f18BAGg0vZy8xMWY4aDM0bWQ5EAE",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "GRAND HOSTEL LDK OSAKA SHINSAIBASHI",
+        "pricePerNight": 2919,
+        "priceText": "₹2,919",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoIi8_7moPd7abNARoNL2cvMTFsbGI3ZGZ6ZhAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Smile Hotel Shin-Osaka",
+        "pricePerNight": 4404,
+        "priceText": "₹4,404",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoI8qjViMLU5InjARoNL2cvMTF0N2NicTRjNxAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Travelodge Honmachi Osaka",
+        "pricePerNight": 3856,
+        "priceText": "₹3,856",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoI3Lul8ZS1hNOEARoNL2cvMTF3X3R6dmN0aBAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Bande Hotel in Namba",
+        "pricePerNight": 2879,
+        "priceText": "₹2,879",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChgIj-mUpOGr0oSPARoLL2cvMXRmNjA1NHEQAQ",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Ark Hotel Osaka Shinsaibashi",
+        "pricePerNight": 4095,
+        "priceText": "₹4,095",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChoI-eSnzvmPh7G2ARoNL2cvMTFnajB5cWRmbhAB",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Lantana Osaka",
+        "pricePerNight": 3517,
+        "priceText": "₹3,517",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChkIq8yVn66UqcU_Gg0vZy8xMW53d3hta3k1EAE",
+      "city": "Osaka",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "ESLEAD HOTEL Osaka Tsuruhashi",
+        "pricePerNight": 4632,
+        "priceText": "₹4,632",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Osaka&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:51:45Z"
+    },
+    {
+      "hotelId": "ChgI4vfH6fLZ9c6zARoLL2cvMTIxcDZzN3QQAQ",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Granvia Kyoto",
+        "pricePerNight": 17806,
+        "priceText": "₹17,806",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChgI4_XTlbXb1oPHARoLL2cvMXRmN21nN2cQAQ",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Chronos Kyoto",
+        "pricePerNight": 3607,
+        "priceText": "₹3,607",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkI2tTK-oiogsKxARoML2cvMTFjZnYxZDIxEAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Miyako Hotel Kyoto Hachijo",
+        "pricePerNight": 10576,
+        "priceText": "₹10,576",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChoIvvKs15z0rIe4ARoNL2cvMTFnMDF2dHlwbhAB",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Resol Kyoto Kawaramachi Sanjo",
+        "pricePerNight": 12500,
+        "priceText": "₹12,500",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkIpdOBruLww9hgGg0vZy8xMWNzMHE5cG4wEAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Sakura Terrace The Atelier",
+        "pricePerNight": 6554,
+        "priceText": "₹6,554",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChgI9IXwzOqflr-sARoLL2cvMXRkZzdwdjEQAQ",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Resol Kyoto Shijo Muromachi",
+        "pricePerNight": 15476,
+        "priceText": "₹15,476",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkIkL36i4Sj77Q1Gg0vZy8xMWo0dDQ3bXpwEAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "KéFU stay & lounge",
+        "pricePerNight": 4216,
+        "priceText": "₹4,216",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkIgrrnm8Col5R_Gg0vZy8xMWxuajl4eHd5EAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Kyoto Pleasant Hotel",
+        "pricePerNight": 9560,
+        "priceText": "₹9,560",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkIh46ls6ORhMkNGg0vZy8xMWZsZ3c1MnByEAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "ORIENTAL HOTEL KYOTO ROKUJO",
+        "pricePerNight": 13916,
+        "priceText": "₹13,916",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChgI9t6Rwbi9jfklGgwvZy8xaGh2eHhrcGYQAQ",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Santiago Guesthouse Kyoto",
+        "pricePerNight": 3952,
+        "priceText": "₹3,952",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkI_uyYpsTA_sUCGg0vZy8xMXJjdjVnMTluEAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Nohga Hotel Kiyomizu Kyoto",
+        "pricePerNight": 23792,
+        "priceText": "₹23,792",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkIv7a6qeLnlYtyGg0vZy8xMXFuMHhzaF8zEAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "The Royal Park Canvas Kyoto Nijo",
+        "pricePerNight": 14583,
+        "priceText": "₹14,583",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChoIh_jnv9Ke1p_GARoNL2cvMTFidHY2NzJoOBAB",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "VESSEL HOTEL CAMPANA KYOTO GOJO",
+        "pricePerNight": 12969,
+        "priceText": "₹12,969",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChgI-YbIieXDlYWYARoLL2cvMTIxbjQ4dHEQAQ",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Utano Youth Hostel",
+        "pricePerNight": 4835,
+        "priceText": "₹4,835",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkI3uOhg6rb2apRGg0vZy8xMWg1NmJtZmJ3EAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Kuretakeso, Kyoto Kiyomizu Gojo",
+        "pricePerNight": 9915,
+        "priceText": "₹9,915",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChoIwdjzxPzmoL3TARoNL2cvMTFid255NzE2cRAB",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Len Kyoto Kawaramachi",
+        "pricePerNight": 7851,
+        "priceText": "₹7,851",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChcI9dfdsNSy-PNmGgsvZy8xdzN3MnlndxAB",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Moshi Moshi Pierrot Neo",
+        "pricePerNight": 5502,
+        "priceText": "₹5,502",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkIo8vtrqnuh6oXGg0vZy8xMWZodjdwM3k2EAE",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "KAGANHOTEL - 河岸ホテル -",
+        "pricePerNight": 6426,
+        "priceText": "₹6,426",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChkQx9700dXK4YJpGg0vZy8xMXo0c2IweGxuEAI",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Stay Inn KOTO - Japanese-Style Room",
+        "pricePerNight": 7139,
+        "priceText": "₹7,139",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChoQ6drG3OqKu7e2ARoNL2cvMTF6Mmc0dnk5MBAC",
+      "city": "Kyoto",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Free bike & free WIFI Take it easy 203",
+        "pricePerNight": 7355,
+        "priceText": "₹7,355",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Kyoto&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:06Z"
+    },
+    {
+      "hotelId": "ChgIs_jKh7ne9Y7QARoLL2cvMXdmNHFwZzAQAQ",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Domidea",
+        "pricePerNight": 15089,
+        "priceText": "₹15,089",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChoQwN-Fo9_L1pqKARoNL2cvMTF6NmI0bHdibhAC",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "La casa di Giulietta",
+        "pricePerNight": 14551,
+        "priceText": "₹14,551",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChoIhNi7__7L7OHPARoNL2cvMTFyeXNxcW1fNxAB",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Suite Blue Style",
+        "pricePerNight": 12205,
+        "priceText": "₹12,205",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChkIu7j-s--5psYZGg0vZy8xMWI2MzJsbHpoEAE",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Ibis Styles Vintage Hotel Rome",
+        "pricePerNight": 11919,
+        "priceText": "₹11,919",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChgIz5iys9Wrp931ARoLL2cvMXRtZzhwYm0QAQ",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Roma Tor Vergata",
+        "pricePerNight": 9673,
+        "priceText": "₹9,673",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChkQ3OLvrKCK27kKGg0vZy8xMXl5YnQwcnluEAI",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Anagnina Apartment - Apartment with Terrace",
+        "pricePerNight": 8886,
+        "priceText": "₹8,886",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChoQy6eepMG9iuf6ARoNL2cvMTF6NGNwZzViYxAC",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Virtus Prestige - Rooms Apartments - Family Room",
+        "pricePerNight": 9002,
+        "priceText": "₹9,002",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChoI6bPb8tbmm-68ARoNL2cvMTFoMWczaGMyNRAB",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Roma Talenti Fucini",
+        "pricePerNight": 14765,
+        "priceText": "₹14,765",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChoQws_Vldib35uVARoNL2cvMTF6eHd5MDZmZhAC",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Piccolo Appartamento Pdrone",
+        "pricePerNight": 10275,
+        "priceText": "₹10,275",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChkQhv6Y_uucgKlwGg0vZy8xMW5ienpka2JfEAI",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Piccolo Appartamento Pdrone - One-Bedroom Apartment",
+        "pricePerNight": 11359,
+        "priceText": "₹11,359",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChcIkpzKrq3btK8mGgsvZy8xd2NqX3BrNBAB",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Appia Park Hotel",
+        "pricePerNight": 14071,
+        "priceText": "₹14,071",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChgIv8zmv8P22ti_ARoLL2cvMXRmZGd4NjQQAQ",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Roma Aurelia Antica",
+        "pricePerNight": 10588,
+        "priceText": "₹10,588",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChkIo72O2cLfmO0dGg0vZy8xMXlieTRkdnhiEAE",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Tiber Suite",
+        "pricePerNight": 10097,
+        "priceText": "₹10,097",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChkInIKS6cay9JKcARoML2cvMTEzZjNjZnBoEAE",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Eco B & B Marela",
+        "pricePerNight": 9990,
+        "priceText": "₹9,990",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChgI7uKFsvLJneEGGgwvZy8xeWc1N3ZwenEQAQ",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Grand Hotel Fleming",
+        "pricePerNight": 13445,
+        "priceText": "₹13,445",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChcIrOvjmrCm5b0KGgsvZy8xdmNta3Z5ZhAB",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Roma Scout Center",
+        "pricePerNight": 10464,
+        "priceText": "₹10,464",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChkIoYuNncDYwKIJGg0vZy8xMWI2MmpxXzIzEAE",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Monteverde Roma",
+        "pricePerNight": 11472,
+        "priceText": "₹11,472",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChgImeby7dyzi6QXGgwvZy8xaG0zNXQzNjUQAQ",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Star of Rome",
+        "pricePerNight": 10889,
+        "priceText": "₹10,889",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChgI1p_3mZf6yYXQARoLL2cvMXZxdDI4bHQQAQ",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Black Hotel Rome",
+        "pricePerNight": 13542,
+        "priceText": "₹13,542",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChgI9p6yyvyxmLHWARoLL2cvMXRjd2J5aHkQAQ",
+      "city": "Rome",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Boomerang",
+        "pricePerNight": 8753,
+        "priceText": "₹8,753",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Rome&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:27Z"
+    },
+    {
+      "hotelId": "ChgInu3Dz7bByqnYARoLL2cvMXRnNmpmNXQQAQ",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Da Vinci Milano",
+        "pricePerNight": 8535,
+        "priceText": "₹8,535",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChkIlfugpPjnj5wgGg0vZy8xMWI2ZDVsMHF2EAE",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Novotel Milano Nord Ca Granda",
+        "pricePerNight": 7336,
+        "priceText": "₹7,336",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChcIxJPn5p_ThtUIGgsvZy8xdjlsOW5reBAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "iH Hotels Milano Regency",
+        "pricePerNight": 9508,
+        "priceText": "₹9,508",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChoI6IyP7pjrhuuoARoNL2cvMTFkZnI1bXNidxAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Babila Hostel & Bistrot",
+        "pricePerNight": 6668,
+        "priceText": "₹6,668",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChkI_82kjMXz_r8IGg0vZy8xMWJjN3JzZF8wEAE",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "B&B HOTEL Milano San Siro",
+        "pricePerNight": 8523,
+        "priceText": "₹8,523",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChoItPPT596gq5i0ARoNL2cvMTFiNjNjbGpyXxAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hyatt Centric Milan Centrale",
+        "pricePerNight": 34942,
+        "priceText": "₹34,942",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChkIlJOy4-6E-YJXGg0vZy8xMWhkdnZoMHR5EAE",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Combo",
+        "pricePerNight": 6667,
+        "priceText": "₹6,667",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChoQ1MahkL72qeboARoNL2cvMTF6Mzl0N3d5XxAC",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Xenia Milano - Quiet and bright studio apt with a balcony and A/C",
+        "pricePerNight": 7496,
+        "priceText": "₹7,496",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChoI8vjIwabG2NmTARoNL2cvMTFmMW1neTh0axAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "MEININGER Milano Garibaldi",
+        "pricePerNight": 6733,
+        "priceText": "₹6,733",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChoI-_3Pk5TJrPLCARoNL2cvMTFmazhkcXltahAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "2 Navigli B&B",
+        "pricePerNight": 9773,
+        "priceText": "₹9,773",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChkIsJO57duNtsNUGg0vZy8xMWoyY2hjdHhxEAE",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "YellowSquare Milan",
+        "pricePerNight": 8050,
+        "priceText": "₹8,050",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChcInIPLrOaHscpnGgsvZy8xdGYwMWJsYhAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Milan Suite Hotel",
+        "pricePerNight": 19829,
+        "priceText": "₹19,829",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChkQstukwJbfz_Q_Gg0vZy8xMXZkMzF2NjFtEAI",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Premier Apartment Milano",
+        "pricePerNight": 9946,
+        "priceText": "₹9,946",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChgI5Pvbq8-p7vZtGgwvZy8xcHlkNG0xMnkQAQ",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Idea Hotel Milano San Siro",
+        "pricePerNight": 7254,
+        "priceText": "₹7,254",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChkIkJeVocPD1ew4Gg0vZy8xMWJjNnk2dmw0EAE",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Ostello Bello Grande",
+        "pricePerNight": 9400,
+        "priceText": "₹9,400",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChgIj6GlrqvssuLuARoLL2cvMXR2ZGhwMmYQAQ",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Crowne Plaza Milan City, an IHG Hotel",
+        "pricePerNight": 29677,
+        "priceText": "₹29,677",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChoIw6G7nMClkqbhARoNL2cvMTFjNTdrZzhfOBAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Forum",
+        "pricePerNight": 10488,
+        "priceText": "₹10,488",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChYIh_rE17eU2YQVGgovbS8wYzAxbDN4EAE",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "The Westin Palace, Milan",
+        "pricePerNight": 42181,
+        "priceText": "₹42,181",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChoQ9vz7zdPI-5KUARoNL2cvMTF6ZmI1cTY0ahAC",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Studio Modern Industrial - Porta Romana Milano",
+        "pricePerNight": 10086,
+        "priceText": "₹10,086",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChcIsvHZjMy_nYslGgsvZy8xdGR4dHgzdhAB",
+      "city": "Milan",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "OstellOlinda Milano",
+        "pricePerNight": 4488,
+        "priceText": "₹4,488",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Milan&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:52:49Z"
+    },
+    {
+      "hotelId": "ChcI5oO7s-GL6r9PGgsvZy8xdGQ0NHhkOBAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "DoubleTree by Hilton Florence Metropole",
+        "pricePerNight": 24845,
+        "priceText": "₹24,845",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChcI9I2K8Me-_YYLGgsvZy8xdGtfcmRqOBAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Mulino di Firenze, member of WorldHotels Crafted",
+        "pricePerNight": 15647,
+        "priceText": "₹15,647",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChcIvMeE5ajspP4NGgsvZy8xdGY4ajcwehAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Together Florence Inn",
+        "pricePerNight": 10113,
+        "priceText": "₹10,113",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChkI7ubxnIuM8JhSGg0vZy8xMWhfdzQxY21fEAE",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "New Generation Hostel Florence",
+        "pricePerNight": 4981,
+        "priceText": "₹4,981",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChgI7dqgxPShl_rkARoLL2cvMXRrX3Jkam4QAQ",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "PLUS Florence",
+        "pricePerNight": 7872,
+        "priceText": "₹7,872",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChgIyZOvm4qRj9c9GgwvZy8xaGMxeHlnYzUQAQ",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Villa Olmi Firenze",
+        "pricePerNight": 22001,
+        "priceText": "₹22,001",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChoImvn5rvPLu5ulARoNL2cvMTFxMnQyM3JrbRAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Ostello Bello Firenze - Hostel and Bar",
+        "pricePerNight": 8999,
+        "priceText": "₹8,999",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChkIq_DBw_zatuLyARoML2cvMXE1Ym1tbmJ4EAE",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Ferrucci",
+        "pricePerNight": 11907,
+        "priceText": "₹11,907",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChoIiJ_0_J-Vx8uLARoNL2cvMTFkZmo1d3pjbhAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Best Western Plus CHC Florence",
+        "pricePerNight": 15621,
+        "priceText": "₹15,621",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChkI9qSu3-es4sWLARoML2cvMWpreWNrcnNjEAE",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Ambasciatori Hotel Florence",
+        "pricePerNight": 22247,
+        "priceText": "₹22,247",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChkIw-fRiYr0oqIRGg0vZy8xMXNxazY2a3o5EAE",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "YellowSquare Florence",
+        "pricePerNight": 12447,
+        "priceText": "₹12,447",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChoIsqSC_rWc1behARoNL2cvMTFmankzeTkwMBAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "B&B Palazzi",
+        "pricePerNight": 13021,
+        "priceText": "₹13,021",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChgIo4HojbyZ3IjPARoLL2cvMXRkNDU2MnAQAQ",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Santa Monaca Hostel",
+        "pricePerNight": 5355,
+        "priceText": "₹5,355",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChoI1bCY9u3lwfeLARoNL2cvMTF4Z2RtNm5yZhAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Opera House Florence",
+        "pricePerNight": 14855,
+        "priceText": "₹14,855",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChcI44Kvy_e8mfheGgsvZy8xdnJ0eDIwdBAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hotel Grifone Firenze",
+        "pricePerNight": 14040,
+        "priceText": "₹14,040",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChcIz8zP9Pfik_wIGgsvZy8xdG1taGxoZxAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hostel 7 Santi",
+        "pricePerNight": 6089,
+        "priceText": "₹6,089",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChkI14v66N_u9c9NGg0vZy8xMXZ5cDRrNTN6EAE",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "a&o Hostel Firenze Campo Di Marte",
+        "pricePerNight": 5281,
+        "priceText": "₹5,281",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChoIkrGonKqO4fzZARoNL2cvMTFueDF4ajB5ZhAB",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Dimora Palanca Boutique & SPA",
+        "pricePerNight": 24224,
+        "priceText": "₹24,224",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChoQ2eTlzISTl-LfARoNL2cvMTFuYzRwbjlxMRAC",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Tuscany Dream - Appartamento Firenze aria condizionata e giardino",
+        "pricePerNight": 11114,
+        "priceText": "₹11,114",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChkQs9rWnKKnnZttGg0vZy8xMXZ4emR4andnEAI",
+      "city": "Florence",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Boboli Apartment by Mamo Florence",
+        "pricePerNight": 13389,
+        "priceText": "₹13,389",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Florence&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:11Z"
+    },
+    {
+      "hotelId": "ChkIksmtl_iOk8QyGg0vZy8xMWsxMWQ1Yzd2EAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hilton Garden Inn Jakarta Taman Palem",
+        "pricePerNight": 6727,
+        "priceText": "₹6,727",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkIubqh69XM6tO4ARoML2cvMTFydzJjMTJ5EAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Novotel Jakarta Mangga Dua Square",
+        "pricePerNight": 4827,
+        "priceText": "₹4,827",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChgIprrx4J-AwN4tGgwvZy8xcHR6ZjJmcDQQAQ",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "DoubleTree by Hilton Hotel Jakarta - Diponegoro",
+        "pricePerNight": 7475,
+        "priceText": "₹7,475",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkI1PSpyeGg1o3DARoML2cvMXE2ajZmc3dmEAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Best Western Premier The Hive",
+        "pricePerNight": 2939,
+        "priceText": "₹2,939",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkI_Nqf0b75u8QoGg0vZy8xMWo4aG0wZG5nEAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Aston Kemayoran City Hotel",
+        "pricePerNight": 3106,
+        "priceText": "₹3,106",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChgIofX3-qLXqeQSGgwvZy8xcHR5OXczanIQAQ",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Hariston Hotel & Suites",
+        "pricePerNight": 2233,
+        "priceText": "₹2,233",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChgIirzSlv2GyrkIGgwvZy8xcHpwa3dnNDQQAQ",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "World Hotel Jakarta Bandengan",
+        "pricePerNight": 627,
+        "priceText": "₹627",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChoIlom12Ye9oPvtARoNL2cvMTFjMHJwYzA2MxAB",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Putri Duyung Cottage",
+        "pricePerNight": 3458,
+        "priceText": "₹3,458",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChgI_b_WrsTAic09GgwvZy8xMm1sMnd5MTAQAQ",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "éL Hotel Jakarta",
+        "pricePerNight": 2778,
+        "priceText": "₹2,778",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkIwbXzqv_B6_JwGg0vZy8xMWgwODFtOWZ6EAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Wyndham Casablanca Jakarta",
+        "pricePerNight": 5722,
+        "priceText": "₹5,722",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChoI9Nj735C56r6yARoNL2cvMTF0NzdtbTJocRAB",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "ARTOTEL Casa Kuningan",
+        "pricePerNight": 5903,
+        "priceText": "₹5,903",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChoQhYOvtZTTpNqJARoNL2cvMTFtY3NrOHgwYxAC",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Dparagon Kebon Jeruk",
+        "pricePerNight": 2165,
+        "priceText": "₹2,165",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChoIsM7Zz7fQz_OpARoNL2cvMTFnMDNyM2x4dxAB",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Swiss-Belresidences Rasuna Epicentrum",
+        "pricePerNight": 3839,
+        "priceText": "₹3,839",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChoI84Sl5rf5revLARoNL2cvMTFjNDc2NmtoMxAB",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Four Points by Sheraton Jakarta, Thamrin",
+        "pricePerNight": 7075,
+        "priceText": "₹7,075",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChoQ0M-bwsH3w8nhARoNL2cvMTFtc192aF9oMhAC",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Studio, \"West Jakarta Oasis\" Netflix, Pool, Mall",
+        "pricePerNight": 2306,
+        "priceText": "₹2,306",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChcIl5rJ9MCc7vlqGgsvZy8xdmJiY3pxNBAB",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Mandarin Oriental, Jakarta",
+        "pricePerNight": 12540,
+        "priceText": "₹12,540",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkI1KHz6bq3t6heGg0vZy8xMWM1cm1zbjRiEAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "ARYADUTA Menteng",
+        "pricePerNight": 4614,
+        "priceText": "₹4,614",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkIncGV1t73wbpIGg0vZy8xMWY3dDUxeDR3EAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Holiday Inn Express Jakarta Menteng by IHG",
+        "pricePerNight": 2889,
+        "priceText": "₹2,889",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkI2auW-IH56bIlGg0vZy8xMXYweHp5ZmYzEAE",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Fairfield by Marriott Jakarta Soekarno-Hatta Airport",
+        "pricePerNight": 6598,
+        "priceText": "₹6,598",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChoImc_576WEu7joARoNL2cvMTFrcTE2cDZrZBAB",
+      "city": "Jakarta",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "HABITARE Rasuna Jakarta",
+        "pricePerNight": 4222,
+        "priceText": "₹4,222",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Jakarta&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:33Z"
+    },
+    {
+      "hotelId": "ChkQ9bShi9unqb8vGg0vZy8xMXYzZmZmcG01EAI",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Sekar Ayu Spa Salon Bungalow - Deluxe Room (2 Adults + 1 Child)",
+        "pricePerNight": 1474,
+        "priceText": "₹1,474",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChoIr97n8-f4wPm8ARoNL2cvMTFid3A2aGJzNhAB",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Wyndham Tamansari Jivva Resort Bali",
+        "pricePerNight": 3950,
+        "priceText": "₹3,950",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChkQ1qGxwN3z6YUfGg0vZy8xMXZ3c3d6MGp3EAI",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "The Sandat Bungalow - Deluxe Bungalow",
+        "pricePerNight": 1892,
+        "priceText": "₹1,892",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChgIuvDRitnckeRlGgwvZy8xcHR6NnR5ZG0QAQ",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "The Kuta Beach Heritage Hotel Bali - Dikelola oleh Accor",
+        "pricePerNight": 6573,
+        "priceText": "₹6,573",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChkItZK74ND0_rPAARoML2cvMXE2MmdrejMyEAE",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Eden Hotel Kuta Bali",
+        "pricePerNight": 1387,
+        "priceText": "₹1,387",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChoIkpbz25u63oKAARoNL2cvMTFiNmQyMjlzMxAB",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Grand Zuri Hotels Kuta - Bali",
+        "pricePerNight": 1774,
+        "priceText": "₹1,774",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChoQuo6bze3rifDjARoNL2cvMTF6NXF0OGtxZBAC",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Cemara Beachfront Nusa Penida - Deluxe Double Room with Balcony and Sea View",
+        "pricePerNight": 892,
+        "priceText": "₹892",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChgI8--wpNnPuYWdARoLL2cvMXRrM3c3Z2MQAQ",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Courtyard by Marriott Bali Nusa Dua Resort",
+        "pricePerNight": 11516,
+        "priceText": "₹11,516",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChcIyo2FjenOuZ8xGgsvZy8xdGYyMTV2aBAB",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "AYANA Resort Bali",
+        "pricePerNight": 19976,
+        "priceText": "₹19,976",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChoQxJaakviXiNqEARoNL2cvMTFrajVwaGRrdxAC",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "The Pandawa Hills Ceningan - Twin Room with Balcony",
+        "pricePerNight": 1622,
+        "priceText": "₹1,622",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChoI1-Hr08HjrcemARoNL2cvMTFjM2s2ZHFsahAB",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Ramada Encore by Wyndham Seminyak Bali",
+        "pricePerNight": 3041,
+        "priceText": "₹3,041",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChkIsInI0ujjjbXtARoML2cvMWhkenZnZ2Q2EAE",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "The Patra Bali Resort & Villas",
+        "pricePerNight": 6690,
+        "priceText": "₹6,690",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChgI3arF9KSYlpxiGgwvZy8xMmh0dm1uX3gQAQ",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Padmasari Resort Hotel",
+        "pricePerNight": 4037,
+        "priceText": "₹4,037",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChgI_Jyq__OlwIYdGgwvZy8xcHR6M3J6bnMQAQ",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "THE HAVEN Bali Seminyak",
+        "pricePerNight": 6111,
+        "priceText": "₹6,111",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChoIuMu_-4XWz4mtARoNL2cvMTFmNzY2eWJmchAB",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Nusa Veranda Sunset Villas & Restaurant",
+        "pricePerNight": 3746,
+        "priceText": "₹3,746",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChkIydec2cLd95ZPGg0vZy8xMWM1c3gwMHAyEAE",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Aston Canggu Beach Resort",
+        "pricePerNight": 5140,
+        "priceText": "₹5,140",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChkQ25v2-teWtN5xGg0vZy8xMW50aHF5bmNuEAI",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Gama's Villa",
+        "pricePerNight": 2432,
+        "priceText": "₹2,432",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChcI_Kes757r1t8eGgsvZy8xdGRxa3JfeBAB",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Royal Regantris Kuta",
+        "pricePerNight": 1951,
+        "priceText": "₹1,951",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChoIhonWnqvir7i4ARoNL2cvMTFoc3NkOXkyMRAB",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Bali Beach Glamping",
+        "pricePerNight": 5256,
+        "priceText": "₹5,256",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    },
+    {
+      "hotelId": "ChgI56eV4d_e8_G0ARoLL2cvMXRraGZmOTUQAQ",
+      "city": "Bali",
+      "stay": {
+        "checkInDate": "2026-10-19",
+        "checkOutDate": "2026-10-21",
+        "nights": 2,
+        "adults": 2,
+        "children": 0,
+        "country": "IN",
+        "currency": "INR"
+      },
+      "expected": {
+        "name": "Bali Breezz Hotel",
+        "pricePerNight": 1822,
+        "priceText": "₹1,822",
+        "available": true
+      },
+      "sourceUrl": "https://www.google.com/travel/search?q=hotels%20in%20Bali&hl=en&gl=in",
+      "capturedAt": "2026-10-09T04:53:55Z"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "method": "Built-in browser on this computer, adstransparency.google.com advertiser page (first 5 ad links) and each ad's 'Ad details' page, read from the rendered page (DOM): 'Last shown' date and 'Format' exactly as displayed, region 'Shown anywhere'. The page shows no first-shown date, so none is captured. Browser time zone: Asia/Calcutta.",
+  "advertisers": [
+    {"advertiserId": "AR03840027764254048257", "advertiserName": "Skillspire LLC", "adsShown": 5, "url": "https://adstransparency.google.com/advertiser/AR03840027764254048257?region=anywhere",
+     "ads": [
+       {"creativeId": "CR05368705701206032385", "lastShownText": "16 Sept 2026", "format": "Text", "capturedAt": "2026-10-07T19:04:40Z"},
+       {"creativeId": "CR06946885378217345025", "lastShownText": "12 Sept 2026", "format": "Text", "capturedAt": "2026-10-07T19:05:10Z"},
+       {"creativeId": "CR14802325518300479489", "lastShownText": "31 Mar 2026", "format": "Text", "capturedAt": "2026-10-07T19:05:15Z"},
+       {"creativeId": "CR05373703247842246657", "lastShownText": "31 Mar 2026", "format": "Image", "capturedAt": "2026-10-07T19:05:20Z"},
+       {"creativeId": "CR10478726527196332033", "lastShownText": "4 Feb 2026", "format": "Text", "capturedAt": "2026-10-07T19:05:25Z"}
+     ]},
+    {"advertiserId": "AR14055623489428127745", "advertiserName": "Priswing Software LLC", "adsShown": 12, "url": "https://adstransparency.google.com/advertiser/AR14055623489428127745?region=anywhere",
+     "ads": [
+       {"creativeId": "CR11595459565080018945", "lastShownText": "6 Oct 2026", "format": "Image", "capturedAt": "2026-10-07T19:06:06.576Z"},
+       {"creativeId": "CR12179946752266207233", "lastShownText": "6 Oct 2026", "format": "Image", "capturedAt": "2026-10-07T19:06:14.012Z"},
+       {"creativeId": "CR05636808091082162177", "lastShownText": "6 Oct 2026", "format": "Text", "capturedAt": "2026-10-07T19:06:20.975Z"},
+       {"creativeId": "CR03064100355538157569", "lastShownText": "6 Oct 2026", "format": "Image", "capturedAt": "2026-10-07T19:06:27.872Z"},
+       {"creativeId": "CR04086881086901059585", "lastShownText": "24 Sept 2026", "format": "Text", "capturedAt": "2026-10-07T19:06:34.865Z"}
+     ]},
+    {"advertiserId": "AR13203228903881048065", "advertiserName": "SiteRecon, Inc", "adsShown": 11, "url": "https://adstransparency.google.com/advertiser/AR13203228903881048065?region=anywhere",
+     "ads": [
+       {"creativeId": "CR15209177917595582465", "lastShownText": "7 Oct 2026", "format": "Text", "capturedAt": "2026-10-07T19:08:04.642Z"},
+       {"creativeId": "CR12870106902486319105", "lastShownText": "7 Oct 2026", "format": "Text", "capturedAt": "2026-10-07T19:08:10.479Z"},
+       {"creativeId": "CR18321708856939380737", "lastShownText": "7 Oct 2026", "format": "Text", "capturedAt": "2026-10-07T19:08:17.361Z"},
+       {"creativeId": "CR03713948801711472641", "lastShownText": "7 Oct 2026", "format": "Text", "capturedAt": "2026-10-07T19:08:24.171Z"},
+       {"creativeId": "CR00429531647684116481", "lastShownText": "7 Oct 2026", "format": "Text", "capturedAt": "2026-10-07T19:08:30.920Z"}
+     ]},
+    {"advertiserId": "AR12166817904825729025", "advertiserName": "Dark Star Engineering, LLC", "adsShown": 53, "url": "https://adstransparency.google.com/advertiser/AR12166817904825729025?region=anywhere",
+     "ads": [
+       {"creativeId": "CR07540922236207628289", "lastShownText": "7 Oct 2026", "format": "Image", "capturedAt": "2026-10-07T19:08:37.800Z"},
+       {"creativeId": "CR02968383092336623617", "lastShownText": "7 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:08:48.039Z"},
+       {"creativeId": "CR01815675855058239489", "lastShownText": "7 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:08:55.370Z"},
+       {"creativeId": "CR12112171240622391297", "lastShownText": "7 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:09:05.695Z"},
+       {"creativeId": "CR00774639923549437953", "lastShownText": "7 Oct 2026", "format": "Text", "capturedAt": "2026-10-07T19:09:11.395Z"}
+     ]},
+    {"advertiserId": "AR12462675644678930433", "advertiserName": "Individual advertiser A", "adsShown": 41, "url": "https://adstransparency.google.com/advertiser/AR12462675644678930433?region=anywhere",
+     "ads": [
+       {"creativeId": "CR17210417954936586241", "lastShownText": "7 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:09:30.983Z"},
+       {"creativeId": "CR09320017949295116289", "lastShownText": "6 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:09:38.047Z"},
+       {"creativeId": "CR08764026908045213697", "lastShownText": "6 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:09:45.034Z"},
+       {"creativeId": "CR00609305303518806017", "lastShownText": "6 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:09:52.589Z"},
+       {"creativeId": "CR06567414778413711361", "lastShownText": "6 Oct 2026", "format": "Video", "capturedAt": "2026-10-07T19:09:59.793Z"}
+     ]}
+  ]
+}

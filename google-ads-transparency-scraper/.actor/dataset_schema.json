@@ -1,0 +1,211 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "type": "object",
+        "properties": {
+            "schemaVersion": {
+                "type": "integer"
+            },
+            "advertiserId": {
+                "type": "string"
+            },
+            "advertiserName": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "creativeId": {
+                "type": "string"
+            },
+            "format": {
+                "type": "string",
+                "enum": [
+                    "text",
+                    "image",
+                    "video",
+                    "unknown"
+                ]
+            },
+            "firstShown": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "lastShown": {
+                "type": "string"
+            },
+            "firstShownDate": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "lastShownDate": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "daysShown": {
+                "type": [
+                    "integer",
+                    "null"
+                ]
+            },
+            "targetDomain": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "region": {
+                "type": "string"
+            },
+            "adUrl": {
+                "type": "string"
+            },
+            "source": {
+                "type": "string"
+            },
+            "platform": {
+                "type": [
+                    "string",
+                    "null"
+                ],
+                "enum": [
+                    "search",
+                    "youtube",
+                    "shopping",
+                    "maps",
+                    "play",
+                    null
+                ]
+            },
+            "contentStatus": {
+                "type": "string",
+                "enum": [
+                    "ok",
+                    "imageOnly",
+                    "externallyHosted",
+                    "notAvailable",
+                    "previewFailed",
+                    "none"
+                ]
+            },
+            "previewType": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "headline": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "description": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "texts": {
+                "type": "array"
+            },
+            "displayUrl": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "imageUrl": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "imageUrls": {
+                "type": "array"
+            },
+            "videoIds": {
+                "type": "array"
+            },
+            "videoUrls": {
+                "type": "array"
+            },
+            "previewUrl": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "externalContentUrl": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "assetKeys": {
+                "type": "array"
+            },
+            "searchTerm": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "matchScore": {
+                "type": [
+                    "number",
+                    "null"
+                ]
+            }
+        },
+        "required": [
+            "schemaVersion",
+            "advertiserId",
+            "creativeId",
+            "format",
+            "lastShown",
+            "region",
+            "adUrl",
+            "contentStatus"
+        ]
+    },
+    "views": {
+        "overview": {
+            "title": "Ads",
+            "transformation": {
+                "fields": [
+                    "advertiserName",
+                    "format",
+                    "headline",
+                    "description",
+                    "displayUrl",
+                    "imageUrl",
+                    "firstShown",
+                    "lastShown",
+                    "daysShown",
+                    "region",
+                    "adUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "imageUrl": {
+                        "label": "Image",
+                        "format": "image"
+                    },
+                    "adUrl": {
+                        "label": "Ad",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
